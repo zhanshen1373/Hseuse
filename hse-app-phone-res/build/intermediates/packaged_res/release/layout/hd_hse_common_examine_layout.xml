@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:items="http://schemas.android.com/apk/com.hd.hse.common.module.phone"
+    android:id="@+id/hd_hse_examine_ll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    android:layout_marginBottom="@dimen/margin_medium"
+    android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/hd_hse_examine_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/hd_hse_common_upcircle_style"
+            android:gravity="center"
+            android:padding="@dimen/padding_medium"
+            android:text="审 核"
+            android:textColor="@color/hd_hse_common_white"
+            android:textSize="@dimen/text_size_large" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+    		android:background="@drawable/hd_hse_common_button_circle_bg_style"
+    		android:paddingBottom="@dimen/padding_medium"
+            android:scrollbars="vertical" >
+
+            <com.hd.hse.common.module.phone.custom.ExamineListView
+    			
+                android:id="@+id/hd_hse_examine_elv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:listSelector="@android:color/transparent"
+                android:padding="@dimen/padding_large" 
+                items:itemDescWidth="200dp"
+                items:itemTextWidth="200dp"/>
+        </ScrollView>
+</LinearLayout>

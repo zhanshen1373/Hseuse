@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tvSk"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/person_check_bt_bg_selector"
+        android:gravity="center"
+        android:padding="@dimen/padding_xlarge"
+        android:text="刷卡"
+
+        android:textSize="@dimen/text_size_large" />
+
+    <TextView
+        android:id="@+id/tvQR"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/person_check_bt_bg_selector"
+        android:gravity="center"
+        android:text="二维码"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/text_size_large" />
+
+</LinearLayout>

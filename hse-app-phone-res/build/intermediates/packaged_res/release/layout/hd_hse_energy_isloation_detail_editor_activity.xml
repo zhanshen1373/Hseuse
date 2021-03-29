@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal" >
+
+            <TextView
+                android:id="@+id/wlnl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:text="物料/能量"
+                android:textColor="#999999"
+                android:textSize="@dimen/text_size_small" />
+
+            <TextView
+                android:id="@+id/ssgpd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/wlnl"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:text="上锁挂牌点"
+                android:textColor="#999999"
+                android:textSize="@dimen/text_size_small" />
+
+            <TextView
+                android:id="@+id/gpd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ssgpd"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:text="挂牌点"
+                android:textColor="#999999"
+                android:textSize="@dimen/text_size_small" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/gpd"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:text="隔离方法"
+                android:textColor="#999999"
+                android:textSize="@dimen/text_size_small" />
+
+            <EditText
+                android:id="@+id/nlwl_edit"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_toRightOf="@id/ssgpd"
+                android:background="@drawable/hd_hse_common_edit_style"
+                android:padding="10dp"
+                android:textColor="#333333"
+                android:textSize="@dimen/text_size_small" />
+
+            <EditText
+                android:id="@+id/ssgpd_edit"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nlwl_edit"
+                android:layout_margin="10dp"
+                android:layout_toRightOf="@id/ssgpd"
+                android:background="@drawable/hd_hse_common_edit_style"
+                android:padding="10dp"
+                android:textColor="#333333"
+                android:textSize="@dimen/text_size_small" />
+
+            <EditText
+                android:id="@+id/gpd_edit"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ssgpd_edit"
+                android:layout_margin="10dp"
+                android:layout_toRightOf="@id/ssgpd"
+                android:background="@drawable/hd_hse_common_edit_style"
+                android:padding="10dp"
+                android:textColor="#333333"
+                android:textSize="@dimen/text_size_small" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#dddddd" />
+
+        <ListView
+            android:id="@+id/glff_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:descendantFocusability="beforeDescendants" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/save_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#296cd5"
+        android:text="保    存"
+        android:textColor="@color/hd_hse_common_white" />
+
+</RelativeLayout>

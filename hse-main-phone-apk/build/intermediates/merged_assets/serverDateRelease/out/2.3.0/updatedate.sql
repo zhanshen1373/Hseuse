@@ -1,0 +1,1 @@
+update hse_sys_appmodule set code = 'hse-tjfx-phone-app' where name = '统计分析';

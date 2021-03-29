@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/welcomebg">
+
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/hd_hse_main_app_main_title"
+        android:textSize="@dimen/text_size_xxlarge"
+        android:textColor="@color/hd_hse_common_white"
+        android:gravity="center"/>
+
+</LinearLayout>

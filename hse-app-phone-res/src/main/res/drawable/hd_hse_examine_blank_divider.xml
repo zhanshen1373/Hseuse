@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="line">
+
+    <size android:height="@dimen/padding_large" />
+
+    <solid android:color="@color/hd_hse_common_btn_bg" />
+
+    <stroke
+        android:dashGap="5dp"
+        android:dashWidth="5dp" />
+
+</shape>

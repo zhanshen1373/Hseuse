@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/hd_hse_scene_phone_hoisting_fragment_tv_save"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/hd_common_component_phone_actionbar_heigh"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:background="@color/hd_hse_common_title_back"
+        android:gravity="center"
+        android:text="保  存"
+        android:textSize="@dimen/text_size_large"
+        android:textColor="@android:color/white" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:layout_above="@+id/hd_hse_scene_phone_hoisting_fragment_tv_save">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <!-- 吊装货物名称 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_large"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:paddingRight="@dimen/padding_medium"
+                    android:text="吊装货物名称 :"
+                    android:textSize="@dimen/text_size_large" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal" >
+
+                    <EditText
+                        android:id="@+id/hd_hse_scene_phone_hoisting_fragment_ed_name"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/hse_pc_phone_app_layout_person_check_img_out_record_height"
+                        android:layout_weight="3"
+                        android:background="@drawable/hd_hse_common_edit_corner_style"
+                        android:textSize="@dimen/text_size_large" 
+                        android:paddingLeft="@dimen/padding_small"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="left" />
+                </LinearLayout>
+            </LinearLayout>
+            <!-- 货物规格(长*宽*高) -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_large"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:paddingRight="@dimen/padding_medium"
+                    android:text="货物规格(长*宽*高) :"
+                    android:textSize="@dimen/text_size_large" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal" >
+
+                    <EditText
+                        android:id="@+id/hd_hse_scene_phone_hoisting_fragment_ed_gg"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/hse_pc_phone_app_layout_person_check_img_out_record_height"
+                        android:layout_weight="3"
+                        android:background="@drawable/hd_hse_common_edit_corner_style"
+                        android:textSize="@dimen/text_size_large" 
+                        android:paddingLeft="@dimen/padding_small"
+                        android:inputType="number"
+                        android:digits="1234567890.*"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:paddingLeft="@dimen/padding_large"
+                        android:text="m"
+                        android:textSize="@dimen/text_size_large" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- 货物质量(最大单件质量) -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_large"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:paddingRight="@dimen/padding_medium"
+                    android:text="货物质量(最大单件质量) :"
+                    android:textSize="@dimen/text_size_large" 
+                     android:inputType="numberDecimal"/>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal" >
+
+                    <EditText
+                        android:id="@+id/hd_hse_scene_phone_hoisting_fragment_ed_hwzl"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/hse_pc_phone_app_layout_person_check_img_out_record_height"
+                        android:layout_weight="3"
+                        android:background="@drawable/hd_hse_common_edit_corner_style"
+                        android:textSize="@dimen/text_size_large"
+                        android:paddingLeft="@dimen/padding_small" 
+                         android:inputType="numberDecimal"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:paddingLeft="@dimen/padding_large"
+                        android:text="kg"
+                        android:textSize="@dimen/text_size_large" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- 吊装质量 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_large"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:paddingRight="@dimen/padding_medium"
+                    android:text="吊装质量 :"
+                    android:textSize="@dimen/text_size_large"
+                     />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal" >
+
+                    <EditText
+                        android:id="@+id/hd_hse_scene_phone_hoisting_fragment_ed_dzzl"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/hse_pc_phone_app_layout_person_check_img_out_record_height"
+                        android:layout_weight="3"
+                        android:background="@drawable/hd_hse_common_edit_corner_style"
+                        android:textSize="@dimen/text_size_large" 
+                        android:paddingLeft="@dimen/padding_small"
+                         android:inputType="numberDecimal"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:paddingLeft="@dimen/padding_large"
+                        android:text="kg"
+                        android:textSize="@dimen/text_size_large" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- 吊装半径 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_large"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:paddingRight="@dimen/padding_medium"
+                    android:text="吊装半径 :"
+                    android:textSize="@dimen/text_size_large" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal" >
+
+                    <EditText
+                        android:id="@+id/hd_hse_scene_phone_hoisting_fragment_ed_dzbj"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/hse_pc_phone_app_layout_person_check_img_out_record_height"
+                        android:layout_weight="3"
+                        android:background="@drawable/hd_hse_common_edit_corner_style"
+                        android:textSize="@dimen/text_size_large"
+                        android:paddingLeft="@dimen/padding_small" 
+                         android:inputType="numberDecimal"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:paddingLeft="@dimen/padding_large"
+                        android:text="m"
+                        android:textSize="@dimen/text_size_large" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- 吊装角度 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_large"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:paddingRight="@dimen/padding_medium"
+                    android:text="吊装角度 :"
+                    android:textSize="@dimen/text_size_large" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal" >
+
+                    <EditText
+                        android:id="@+id/hd_hse_scene_phone_hoisting_fragment_ed_dzjd"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/hse_pc_phone_app_layout_person_check_img_out_record_height"
+                        android:layout_weight="3"
+                        android:background="@drawable/hd_hse_common_edit_corner_style"
+                        android:textSize="@dimen/text_size_large" 
+                        android:paddingLeft="@dimen/padding_small"
+                         android:inputType="numberDecimal"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:paddingLeft="@dimen/padding_large"
+                        android:text="°"
+                        android:textSize="@dimen/text_size_large" />
+                </LinearLayout>
+            </LinearLayout>
+            <!-- 起重机额定载荷 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_large"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:paddingRight="@dimen/padding_medium"
+                        android:text="起重机额定载荷 :"
+                        android:textSize="@dimen/text_size_large" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:paddingRight="@dimen/padding_medium"
+                        android:text="(在以上吊装半径和吊装角度的情况下)"
+                        android:textSize="@dimen/text_size_small" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal" >
+
+                    <EditText
+                        android:id="@+id/hd_hse_scene_phone_hoisting_fragment_ed_edzh"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/hse_pc_phone_app_layout_person_check_img_out_record_height"
+                        android:layout_weight="3"
+                        android:background="@drawable/hd_hse_common_edit_corner_style"
+                        android:textSize="@dimen/text_size_large" 
+                        android:paddingLeft="@dimen/padding_small"
+                         android:inputType="numberDecimal"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:paddingLeft="@dimen/padding_large"
+                        android:text="kg"
+                        android:textSize="@dimen/text_size_large" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

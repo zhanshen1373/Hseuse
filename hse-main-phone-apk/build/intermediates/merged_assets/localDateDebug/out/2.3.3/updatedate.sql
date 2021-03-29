@@ -1,0 +1,1 @@
+update checkactioncfg set px = px + 1 where actiontype = 'SIGN' and px >= 9;

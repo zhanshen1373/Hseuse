@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/hd_hse_phone_base_frame_layout_drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal" >
+
+    <FrameLayout
+        android:id="@+id/hd_hse_base_frame_layout_content_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        
+    </FrameLayout>
+
+    <ListView
+        android:id="@+id/hd_hse_base_frame_layout_navigation_container"
+        android:layout_width="@dimen/hd_common_component_phone_menubar_listview_left_width"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@color/hd_hse_common_component_phone_actionbar_background"
+        android:choiceMode="singleChoice"
+        android:divider="@color/hd_hse_common_component_phone_actionbar_item_divider_line"
+        android:scrollbars="none"
+        android:dividerHeight="1dp" />
+
+</androidx.drawerlayout.widget.DrawerLayout>

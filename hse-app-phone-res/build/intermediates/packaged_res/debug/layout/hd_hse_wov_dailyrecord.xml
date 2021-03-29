@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_medium"
+            android:layout_marginRight="@dimen/margin_medium"
+            android:layout_marginTop="@dimen/margin_xxlarge"
+            android:gravity="center"
+            android:weightSum="4" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="问题描述："
+                android:textSize="@dimen/text_size_medium" />
+
+            <EditText
+                android:id="@+id/edittext_problem_description"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="3"
+                android:background="@drawable/hd_hse_common_edit_corner_style"
+                android:maxLines="4" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_medium"
+            android:layout_marginRight="@dimen/margin_medium"
+            android:layout_marginTop="@dimen/margin_xlarge"
+            android:gravity="center"
+            android:weightSum="4" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="问题类型："
+                android:textSize="@dimen/text_size_medium" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <!--
+                    <CheckBox
+                        android:id="@+id/checkbox_problemtype_zyf"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:minHeight="0dp"
+                        android:textSize="@dimen/text_size_medium" />
+
+                    <CheckBox
+                        android:id="@+id/checkbox_problemtype_cbs"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:minHeight="0dp"                     
+                        android:textSize="@dimen/text_size_medium" />
+
+                    <CheckBox
+                        android:id="@+id/checkbox_problemtype_zypz"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:minHeight="0dp"
+                     
+                        android:textSize="@dimen/text_size_medium" />
+                    -->
+
+                    <GridView
+                        android:id="@+id/gridview_checkbox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:descendantFocusability="beforeDescendants"
+                        android:horizontalSpacing="5dp"
+                        android:numColumns="3"
+                        android:verticalSpacing="5dp" >
+                    </GridView>
+                </RelativeLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/button_problem_type"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:background="@drawable/hd_hse_common_edit_corner_style"
+                android:drawableRight="@drawable/column_opened"
+                android:maxLines="4"
+                android:paddingRight="@dimen/padding_large"
+                android:textSize="@dimen/text_size_medium"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_medium"
+            android:layout_marginRight="@dimen/margin_medium"
+            android:layout_marginTop="@dimen/margin_xlarge"
+            android:gravity="center"
+            android:weightSum="4" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="登记人："
+                android:textSize="@dimen/text_size_medium" />
+
+            <TextView
+                android:id="@+id/edittext_record_person"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="3"
+                android:background="@drawable/hd_hse_common_edit_corner_style"
+                android:gravity="center"
+                android:maxLines="4"
+                android:textSize="@dimen/text_size_medium" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_medium"
+            android:layout_marginRight="@dimen/margin_medium"
+            android:layout_marginTop="@dimen/margin_xlarge"
+            android:gravity="center"
+            android:weightSum="4" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="登记时间："
+                android:textSize="@dimen/text_size_medium" />
+
+            <TextView
+                android:id="@+id/textview_recordtime"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="3"
+                android:background="@drawable/hd_hse_common_edit_corner_style"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="@dimen/margin_medium"
+            android:layout_marginRight="@dimen/margin_medium"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:layout_weight="1"
+            android:background="@drawable/hd_hse_common_edit_corner_style"
+            android:gravity="center_horizontal"
+            android:weightSum="4" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="拍照："
+                android:textSize="@dimen/text_size_medium" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="3"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/linearlayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:orientation="horizontal"
+                    android:visibility="gone" >
+
+                    <Button
+                        android:id="@+id/button_cancle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/hd_cbs_control_back_active"
+                        android:text="取消" />
+
+                    <Button
+                        android:id="@+id/button_sure"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/hd_cbs_back_control"
+                        android:text="确定" />
+                </LinearLayout>
+
+                <GridView
+                    android:id="@+id/gridview_pic"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:descendantFocusability="beforeDescendants"
+                    android:horizontalSpacing="5dp"
+                    android:numColumns="3"
+                    android:verticalSpacing="5dp" >
+                </GridView>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/hd_hse_common_btn_bg"
+        android:text="上  传"
+        android:textColor="@color/hd_hse_common_white" />
+
+</LinearLayout>

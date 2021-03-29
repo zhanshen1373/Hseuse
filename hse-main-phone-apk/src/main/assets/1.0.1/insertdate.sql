@@ -1,0 +1,2 @@
+﻿insert into hse_sys_appmodule(code,name,resimg,resimgfocus,resimgpress,clickdealclass,layoutorder,enabled,tag,dr,type,modelnum,isswcard )
+values ('hse-ud-phone-app','作业票上传','hd_hse_nav_model_ud','','','com.hd.hse.dc.phone.ui.event.homepage.WorkOrderUpdate','8','1','','0','SJ','','0');

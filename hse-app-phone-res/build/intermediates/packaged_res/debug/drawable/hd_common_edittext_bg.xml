@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+    <solid android:color="@android:color/white"/>
+    <corners android:radius="@dimen/hse_pc_phone_app_layout_surveillance_edittextbg_radius"/>
+    <stroke android:width="@dimen/hse_pc_phone_app_layout_surveillance_edittextbg_stroke_width"
+        android:color="@color/hd_hse_common_btn_bg_gray"/>
+
+</shape>

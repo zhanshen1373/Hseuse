@@ -1,0 +1,1 @@
+update hse_sys_record_ts set sys_tableid = 'ud_zyxk_gwglid' where sys_tablename='ud_zyxk_gwgl';

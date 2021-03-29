@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#286cb4"
+    android:paddingTop="@dimen/hd_hse_common_component_phone_bottommenu_frame_paddingTop"
+    android:paddingBottom="@dimen/hd_hse_common_component_phone_bottommenu_frame_paddingBottom"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/hd_hse_common_component_upward"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:scaleType="center"
+        android:layout_marginLeft="@dimen/hd_hse_common_component_phone_bottommenu_directionView_marginLeft"
+        android:layout_marginRight="@dimen/hd_hse_common_component_phone_bottommenu_directionView_marginRight"
+        android:src="@drawable/hd_hse_common_component_bottom_menu_upward" 
+        />
+
+    <LinearLayout
+        android:id="@+id/hd_hse_common_component_radiogroup"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+        
+        <ImageView
+            android:id="@+id/hd_hse_common_component_selected"
+            android:layout_width="0dp"
+             android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:scaleType="center"
+            android:padding="3dp"
+            android:src="@drawable/hd_hse_common_component_bottom_menu_selected_selector"
+            android:layout_marginRight="@dimen/hd_hse_common_component_phone_bottommenu_centerButton_margin"
+            />
+        
+        <ImageView
+            android:id="@+id/hd_hse_common_component_unselected"
+            android:layout_width="0dp"
+             android:layout_weight="1"
+            android:layout_height="wrap_content"
+             android:scaleType="center"
+             android:padding="3dp"
+             android:layout_marginRight="@dimen/hd_hse_common_component_phone_bottommenu_centerButton_margin"
+            android:src="@drawable/hd_hse_common_component_bottom_menu_unselected_selector" />
+        
+        <ImageView
+            android:id="@+id/hd_hse_common_component_circle"
+           android:layout_width="0dp"
+             android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:scaleType="center"
+            android:padding="3dp"
+            android:src="@drawable/hd_hse_common_component_bottom_menu_circle_selector" />
+        
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/hd_hse_common_component_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="确定"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/hd_hse_common_component_phone_bottommenu_RightButton_marginLeft"
+        android:textSize="@dimen/text_size_medium"
+        android:textColor="@color/hd_hse_common_white"
+        
+        android:gravity="center"
+        android:paddingLeft="@dimen/hd_hse_common_component_phone_bottommenu_RightButton_paddingLeft"
+        android:paddingRight="@dimen/hd_hse_common_component_phone_bottommenu_RightButton_paddingRight"
+        android:paddingTop="@dimen/hd_hse_common_component_phone_bottommenu_RightButton_paddingTop"
+        android:paddingBottom="@dimen/hd_hse_common_component_phone_bottommenu_RightButton_paddingBottom"
+        android:background="@drawable/hd_hse_common_component_bottom_btn_selector"
+         />
+
+    <ImageView
+        android:id="@+id/hd_hse_common_component_downward"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:scaleType="center"
+        android:layout_marginLeft="@dimen/hd_hse_common_component_phone_bottommenu_directionView_marginLeft"
+        android:layout_marginRight="@dimen/hd_hse_common_component_phone_bottommenu_directionView_marginRight"
+        android:src="@drawable/hd_hse_common_component_bottom_menu_downward" />
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <!-- 左边图标 -->
+
+    <ImageView
+        android:id="@+id/hse_common_module_phone_group_title_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:gravity="center"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:scaleType="center"
+        android:src="@drawable/hd_hse_common_module_zyplist_group_icon_selector" />
+
+    <!-- 中间文字 -->
+
+    <TextView
+        android:id="@+id/hse_common_module_phone_group_title_tv"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:textColor="@drawable/hd_common_text_selector"
+        android:textSize="@dimen/text_size_small" />
+
+
+    <!-- 指示器 -->
+
+    <TextView
+        android:id="@+id/hse_common_module_phone_group_indictor_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/hd_hse_common_module_zyplist_group_indicator_up"
+        android:padding="0dp" />
+
+</LinearLayout>

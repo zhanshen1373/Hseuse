@@ -1,0 +1,1 @@
+insert into hse_sys_record_ts values(26,'ud_sy_licence','ud_sy_licenceid','imei表',1,1,0,null,0,1,0);

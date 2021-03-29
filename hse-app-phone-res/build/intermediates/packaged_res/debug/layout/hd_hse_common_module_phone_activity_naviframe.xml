@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/hd_hse_common_white"
+    android:paddingTop="5dp"
+    android:orientation="vertical" >
+    
+	<com.hd.hse.common.module.phone.custom.PageSlidingTabView
+	    android:id="@+id/hd_hse_common_module_phone_navigation_bar"
+	    android:layout_height="wrap_content"
+	    android:layout_width="match_parent"
+	    />
+	
+	<FrameLayout
+	    android:id="@+id/hd_hse_common_module_phone_container"
+	    android:layout_height="match_parent"
+	    android:layout_width="match_parent" 
+	    android:layout_marginTop="10dp"
+	    />
+</LinearLayout>

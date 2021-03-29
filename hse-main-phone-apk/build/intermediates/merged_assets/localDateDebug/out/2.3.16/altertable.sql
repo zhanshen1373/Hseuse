@@ -1,0 +1,17 @@
+alter table ud_zyxk_zysq add needupload int;
+alter table ud_zyxk_qtjc add needupload int;
+alter table ud_zyxk_qtjcline add needupload int;
+alter table ud_zyxk_zysq2precaution add needupload int;
+alter table ud_zyxk_zysq2ud_zyxk_grfhzb add needupload int;
+alter table ud_zyxk_zysq2hazard add needupload int;
+alter table ud_zyxk_ycssqk add needupload int;
+alter table ud_zyxk_dzzy add needupload int;
+alter table ud_zyxk_zycsfcline add needupload int;
+alter table ud_zyxk_zycsfc add needupload int;
+alter table ud_zyxk_zyyq add needupload int;
+alter table ud_onemeasure_person add needupload int;
+alter table ud_zyxk_zyspryjl add needupload int;
+alter table ud_zyxk_nlgld add needupload int;
+alter table ud_zyxk_nlgldline add needupload int;
+alter table ud_zyxk_lsydzy add needupload int;
+alter table ud_zyxk_ydasset add needupload int;

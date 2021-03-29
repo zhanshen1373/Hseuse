@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/hd_cbs_layout_config_linerlayout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:weightSum="1" >
+
+    <RelativeLayout
+        android:id="@+id/hd_cbs_login_config_child_linerl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/margin_xlarge"
+        android:layout_marginRight="@dimen/margin_xlarge"
+        android:background="@drawable/hd_hse_config_bg_style" >
+
+        <TextView
+            android:id="@+id/hd_hse_config_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="@dimen/padding_large"
+            android:text="连接设置"
+            android:textColor="@color/hd_hse_common_bule"
+            android:textSize="@dimen/text_size_large" />
+
+        <View
+            android:id="@+id/hd_hse_config_line_tv"
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:layout_below="@+id/hd_hse_config_title"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:background="@color/hd_hse_common_bule" />
+
+        <RadioButton
+            android:id="@+id/hd_cbs_config_innersite_rb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/hd_hse_config_line_tv"
+            android:layout_marginLeft="@dimen/margin_large"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:button="@drawable/hd_hse_main_app_login_config_radios"
+            android:paddingLeft="@dimen/padding_large"
+            android:text="内网地址："
+            android:textColor="@color/hd_hse_common_alerttext_black"
+            android:textSize="@dimen/text_size_small" />
+
+        <LinearLayout
+            android:id="@+id/hd_hse_config_innersite_ll"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hd_cbs_config_innersite_rb"
+            android:layout_marginLeft="@dimen/hd_hse_config_margin"
+            android:layout_marginTop="@dimen/margin_small"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/hd_cbs_config_innersite_et01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/margin_medium"
+                android:layout_weight="3"
+                android:background="@drawable/hd_hse_common_edit_nocorners_style"
+                android:completionThreshold="1"
+                android:inputType="textUri"
+                android:maxLength="15"
+                android:padding="@dimen/padding_medium"
+                android:textColor="@color/hd_hse_common_alerttext_black"
+                android:textSize="@dimen/text_size_small" />
+
+            <EditText
+                android:id="@+id/hd_cbs_config_innersite_et02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/margin_large"
+                android:layout_weight="1"
+                android:background="@drawable/hd_hse_common_edit_nocorners_style"
+                android:completionThreshold="1"
+                android:inputType="number"
+                android:maxLength="5"
+                android:padding="@dimen/padding_medium"
+                android:textColor="@color/hd_hse_common_alerttext_black"
+                android:textSize="@dimen/text_size_small" />
+        </LinearLayout>
+
+        <RadioButton
+            android:id="@+id/hd_cbs_config_outsite_rb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/hd_hse_config_innersite_ll"
+            android:layout_marginLeft="@dimen/margin_large"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:button="@drawable/hd_hse_main_app_login_config_radios"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/padding_large"
+            android:text="外网地址："
+            android:textColor="@color/hd_hse_common_alerttext_black"
+            android:textSize="@dimen/text_size_small" />
+
+        <LinearLayout
+            android:id="@+id/hd_hse_config_outsite_ll"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hd_cbs_config_outsite_rb"
+            android:layout_marginLeft="@dimen/hd_hse_config_margin"
+            android:layout_marginTop="@dimen/margin_small"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/hd_cbs_config_outsite_et01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/margin_medium"
+                android:layout_weight="3"
+                android:background="@drawable/hd_hse_common_edit_nocorners_style"
+                android:completionThreshold="1"
+                android:inputType="textUri"
+                android:maxLength="15"
+                android:padding="@dimen/padding_medium"
+                android:textColor="@color/hd_hse_common_alerttext_black"
+                android:textSize="@dimen/text_size_small" />
+
+            <EditText
+                android:id="@+id/hd_cbs_config_outsite_et02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/margin_large"
+                android:layout_weight="1"
+                android:background="@drawable/hd_hse_common_edit_nocorners_style"
+                android:completionThreshold="1"
+                android:inputType="number"
+                android:maxLength="5"
+                android:padding="@dimen/padding_medium"
+                android:textColor="@color/hd_hse_common_alerttext_black"
+                android:textSize="@dimen/text_size_small" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/hd_hse_config_test_ll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hd_hse_config_outsite_ll"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/hd_hse_config_test_bt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/hd_common_btn_test_style"
+                android:paddingBottom="@dimen/padding_small"
+                android:paddingLeft="@dimen/padding_large"
+                android:paddingRight="@dimen/padding_large"
+                android:paddingTop="@dimen/padding_small"
+                android:text="测试连接"
+                android:textColor="@color/hd_hse_common_white"
+                android:textSize="@dimen/text_size_large" />
+
+            <TextView
+                android:id="@+id/hd_hse_config_suc_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:drawableLeft="@drawable/hd_hse_common_msg_right"
+                android:drawablePadding="@dimen/padding_medium"
+                android:gravity="center_vertical"
+                android:padding="@dimen/padding_small"
+                android:text="连接成功"
+                android:textColor="@color/hd_hse_common_green"
+                android:textSize="@dimen/text_size_small"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/hd_hse_config_loding_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_vertical"
+                android:padding="@dimen/padding_small"
+                android:text="正在连接，请稍等..."
+                android:textColor="@color/hd_hse_common_cancel_gray"
+                android:textSize="@dimen/text_size_small"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/hd_hse_config_fail_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:drawableLeft="@drawable/hd_hse_common_msg_wrong"
+                android:drawablePadding="@dimen/padding_medium"
+                android:gravity="center_vertical"
+                android:padding="@dimen/padding_small"
+                android:text="连接失败"
+                android:textColor="@color/hd_hse_common_red"
+                android:textSize="@dimen/text_size_small"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/hd_hse_config_test_ll"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/hd_cbs_config_cancel_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/hd_hse_config_btn_no_style"
+                android:gravity="center"
+                android:padding="@dimen/padding_large"
+                android:text="取消"
+                android:textColor="@color/hd_hse_common_cancel_gray"
+                android:textSize="@dimen/text_size_large" />
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="fill_parent"
+                android:background="#CBCBCB" />
+
+            <TextView
+                android:id="@+id/hd_cbs_config_sure_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/hd_hse_config_btn_yes_style"
+                android:gravity="center"
+                android:padding="@dimen/padding_large"
+                android:text="确定"
+                android:textColor="@color/hd_hse_common_sure_yellow"
+                android:textSize="@dimen/text_size_large" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

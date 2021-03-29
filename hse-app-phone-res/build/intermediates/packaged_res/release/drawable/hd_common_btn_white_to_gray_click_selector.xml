@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:state_pressed="true"><shape>
+            <solid android:color="@color/hd_hse_common_module_phone_countersign_gray" />
+            <corners android:radius="@dimen/hse_pc_phone_app_layout_surveillance_edittextbg_radius"/>
+        </shape></item>
+    <item android:state_enabled="true" android:state_focused="true"><shape>
+            <solid android:color="@color/hd_hse_common_module_phone_countersign_gray" />
+            <corners android:radius="@dimen/hse_pc_phone_app_layout_surveillance_edittextbg_radius"/>
+        </shape></item>
+    <item android:state_enabled="true"><shape>
+            <solid android:color="@android:color/white" />
+            <corners android:radius="@dimen/hse_pc_phone_app_layout_surveillance_edittextbg_radius"/>
+            <stroke android:width="@dimen/hse_pc_phone_app_layout_surveillance_edittextbg_stroke_width"
+                android:color="@color/hd_hse_common_module_phone_countersign_gray"/>
+        </shape></item>
+
+</selector>

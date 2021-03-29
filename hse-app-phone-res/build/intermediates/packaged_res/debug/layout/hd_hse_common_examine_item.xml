@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/hd_hse_common_examine_rl"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <EditText
+        android:id="@+id/hd_hse_common_examine_per_et"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/hd_hse_common_edit_nocorners_style"
+        android:ellipsize="end"
+        android:ems="8"
+        android:maxLines="2"
+        android:padding="@dimen/padding_medium"
+        android:textSize="@dimen/text_size_small" >
+    </EditText>
+
+    <TextView
+        android:id="@+id/hd_hse_common_examine_desc_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/margin_small"
+        android:layout_toLeftOf="@+id/hd_hse_common_examine_per_et"
+        android:textColor="@color/hd_hse_common_alerttext_black"
+        android:textSize="@dimen/text_size_small" />
+    <TextView
+        android:id="@+id/hd_hse_common_examine_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/margin_medium"
+        android:layout_toRightOf="@+id/hd_hse_common_examine_per_et"
+        android:background="@drawable/hd_hse_common_examine_btn_style" />
+
+</RelativeLayout>

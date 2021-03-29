@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="carxkz_description">
+        <item>车辆单位:</item>
+        <item>车辆驾驶员:</item>
+        <item>车辆牌号:</item>
+        <item>监护人:</item>
+        <item>进入部位:</item>
+        <item>进入原因:</item>
+
+
+
+    </string-array>
+
+    <string-array name="carxkz_key">
+        <item>carunit</item>
+        <item>driver</item>
+        <item>carnumber</item>
+        <item>jhr</item>
+        <item>enterposition</item>
+        <item>enterreason</item>
+    </string-array>
+</resources>

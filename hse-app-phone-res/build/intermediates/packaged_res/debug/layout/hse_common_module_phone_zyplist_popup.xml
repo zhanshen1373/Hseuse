@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#00000000"
+    android:orientation="vertical" >
+
+    <!-- PopWindow 上方的指针 -->
+
+    <ImageView
+        android:id="@+id/hse_common_module_phone_zyplist_pop_up_pointer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:scaleType="matrix"
+        android:visibility="gone"
+        android:src="@drawable/hd_hse_common_module_popwindow_header_pointer" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#a29ca3"
+        android:orientation="horizontal" >
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/hse_common_module_phone_zyplist_pop_close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/hd_hse_common_module_pop_btn"
+                android:padding="0dp"
+                android:layout_gravity="center"
+                android:textColor="#ffffff"
+                android:background="@null"
+                android:textSize="18sp"
+                android:text="关闭" />
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="#b2afb3" />
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/hse_common_module_phone_zyplist_pop_cancle"
+               	android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/hd_hse_common_module_pop_btn"
+                android:padding="0dp"
+                android:layout_gravity="center"
+                android:textSize="18sp"
+                android:textColor="#ffffff"
+                android:background="@null"
+                android:text="取消" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <!-- PopWindow 下方的指针 -->
+
+    <ImageView
+        android:id="@+id/hse_common_module_phone_zyplist_pop_pointer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:scaleType="matrix"
+        android:src="@drawable/hd_hse_common_module_popwindow_footer_pointer" />
+
+</LinearLayout>

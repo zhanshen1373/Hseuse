@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/hd_hse_common_module_phone_picturemanager_image_wh"
+    android:layout_height="wrap_content"
+    android:background="@drawable/hd_hse_common_component_phone_photo_manager_content_bg">
+
+    <ImageView
+        android:id="@+id/hd_hse_common_component_photo_wall_item_top_iv"
+        android:layout_width="@dimen/hd_hse_common_module_phone_picturemanager_image_wh"
+        android:layout_height="@dimen/hd_hse_common_module_phone_picturemanager_image_wh"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/hd_hse_common_component_photo_wall_item_bottom_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hd_hse_common_component_photo_wall_item_top_iv"
+        android:gravity="center"
+        android:padding="2dp"
+        android:maxLines="3"
+        android:ellipsize="end"
+        android:textSize="@dimen/text_size_small"
+        android:textStyle="normal" />
+
+    <RelativeLayout
+        android:id="@+id/hd_hse_common_component_photo_wall_item_overstory_rl"
+        android:layout_width="@dimen/hd_hse_common_module_phone_picturemanager_image_wh"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/hd_hse_common_component_photo_wall_item_bottom_tv"
+        android:layout_alignTop="@id/hd_hse_common_component_photo_wall_item_top_iv"
+        android:background="@color/hd_hse_common_module_phone_picturemanager_selected_backgroup"
+         >
+
+        <CheckBox
+            android:id="@+id/hd_hse_common_component_photo_wall_item_overstory_cb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:button="@drawable/hd_hse_common_component_phone_picture_choice_btn_bg_selector"
+            android:clickable="false"
+            android:focusable="false" 
+            />
+        <ImageView
+            android:id="@+id/hd_hse_common_component_photo_wall_item_overstory_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/hd_hse_common_component_picture_choice_uncheck"
+            android:visibility="invisible"
+             />
+    </RelativeLayout>
+
+</RelativeLayout>

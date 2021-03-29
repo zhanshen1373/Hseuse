@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/hd_hse_common_module_phone_remote_appr_layout_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/hd_hse_common_module_phone_remote_appr_layout_bt_cancle"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="取消" />
+
+        <Button
+            android:id="@+id/hd_hse_common_module_phone_remote_appr_layout_bt_ensure"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:text="确定" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/hd_hse_common_module_phone_remote_appr_layout_lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/hd_hse_common_module_phone_remote_appr_layout_bottom"
+        android:divider="@null"
+        android:listSelector="@null" >
+    </ListView>
+
+</RelativeLayout>

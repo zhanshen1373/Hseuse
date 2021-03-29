@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hd.hse.ss"
+    android:versionCode="1"
+    android:versionName="1.0.0" >
+
+    <uses-sdk android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <!-- 现场监督列表界面 -->
+        <activity
+            android:name="com.hd.hse.ss.activity.SupervisionListActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <!-- 现场监督详情界面 -->
+        <activity
+            android:name="com.hd.hse.ss.activity.SupervisionDetailActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <!-- 作业票选择界面 -->
+        <activity
+            android:name="com.hd.hse.ss.activity.TaskTabulationActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <!-- 刷卡界面 -->
+        <activity
+            android:name="com.hd.hse.ss.activity.ReadCardXcjdActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/TranslucentStyle"
+            android:windowSoftInputMode="adjustResize">
+        </activity>
+    </application>
+
+</manifest>

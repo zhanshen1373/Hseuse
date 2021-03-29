@@ -1,0 +1,10 @@
+alter table ud_cbsgl_rz add  cbszjzrr varchar(50);
+alter table ud_cbsgl_rz add  cbszjzrr_desc varchar(50);
+alter table ud_cbsgl_rz add  cbsjhr varchar(50);
+alter table ud_cbsgl_rz add  cbsjhr_desc varchar(50);
+alter table ud_cbsgl_rz add  cbsaqglry varchar(50);
+alter table ud_cbsgl_rz add  cbsaqglry_desc varchar(50);
+alter table ud_cbsgl_rz add  cbsxmfzr varchar(50);
+alter table ud_cbsgl_rz add  cbsxmfzr_desc varchar(50);
+alter table ud_cbsgl_rz add  isddh int;
+alter table ud_cbsgl_rz add  llbj varchar(50);

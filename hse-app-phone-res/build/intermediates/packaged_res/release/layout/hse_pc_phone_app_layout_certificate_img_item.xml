@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/hd_hse_common_module_phone_picturemanager_image_wh"
+    android:layout_height="wrap_content"
+    android:background="@drawable/hd_hse_common_component_phone_photo_manager_content_bg" >
+
+    <ImageView
+        android:id="@+id/hse_pc_phone_app_layout_certificate_img_item_top_iv"
+        android:layout_width="@dimen/hd_hse_common_module_phone_picturemanager_image_wh"
+        android:layout_height="@dimen/hd_hse_common_module_phone_picturemanager_image_wh"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/hse_pc_phone_app_layout_certificate_img_item_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hse_pc_phone_app_layout_certificate_img_item_top_iv"
+        android:gravity="center"
+        android:padding="2dp"
+        android:textSize="@dimen/text_size_small"
+        android:textStyle="normal" />
+
+</RelativeLayout>

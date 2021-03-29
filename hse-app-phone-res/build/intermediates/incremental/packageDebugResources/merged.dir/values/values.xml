@@ -1,0 +1,722 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="hd_hse_common_component_dytable_worktask_desc">
+        <item>属地部门：</item>
+        <item>作业名称：</item>
+        <item>属地单位：</item>
+        <item>作业单位：</item>
+        <item>作业区域：</item>
+        <item>作业地点：</item>
+        <item>开始时间：</item>
+        <item>作业内容：</item>
+        <item>结束时间：</item>
+    </string-array>
+    <string-array name="hd_hse_common_component_dytable_worktask_num">
+        <item>zyarea_desc</item>
+        <item>zyname</item>
+        <item>sddept_desc</item>
+        <item>zydept_desc</item>
+        <item>zylocation_desc</item>
+        <item>zysite</item>
+        <item>zystarttime</item>
+        <item>zycontent</item>
+        <item>zyendtime</item>
+    </string-array>
+    <string-array name="hd_hse_common_component_phone_app_item">
+        <item>照相机</item>
+        <item>照片管理</item>
+        <item>退回</item>
+        <item>作废</item>
+        <item>全部选取</item>
+        <item>全部取消</item>
+        <item>浏览</item>
+        <item>违章记录</item>
+        <item>上传</item>
+        <item>照片查看</item>
+        <item>作业符合</item>
+        <item>暂停</item>
+        <item>结束</item>
+        <item>远程审批</item>
+
+    </string-array>
+    <string-array name="hd_hse_common_component_phone_dytable_workorder_desc">
+        <item>作业类型：</item>
+        <item>作业等级：</item>
+        <item>属地部门：</item>
+        <item>作业名称：</item>
+        <item>属地单位：</item>
+        <item>作业单位：</item>
+        <item>作业区域：</item>
+        <item>作业地点：</item>
+        <item>计划开始时间：</item>
+        <item>计划结束时间：</item>
+        
+        <item>作业内容：</item>
+    </string-array>
+    <string-array name="hd_hse_common_component_phone_dytable_workorder_desc_for_ypz">
+        <item>作业名称：</item>
+        <item>作业类型：</item>
+        <item>属地部门：</item>
+        <item>属地单位：</item>
+        <item>作业区域：</item>
+        <item>作业地点：</item>
+        <item>作业单位：</item>
+        <item>作业内容：</item>
+        <item>计划开始时间：</item>
+        <item>计划结束时间：</item>
+        
+    </string-array>
+    <string-array name="hd_hse_common_component_phone_dytable_workorder_num">
+        <item>zypclassname</item>
+        <item>zylevel_desc</item>
+        <item>zyarea_desc</item>
+        <item>zyname</item>
+        <item>sddept_desc</item>
+        <item>zydept_desc</item>
+        <item>zylocation_desc</item>
+        <item>zysite</item>
+        <item>zystarttime</item>
+        <item>zyendtime</item>
+        
+        <item>zycontent</item>
+    </string-array>
+    <string-array name="hd_hse_common_component_phone_dytable_workorder_num_for_ypz">
+        <item>zyname</item>
+        <item>zyptypedesc</item>
+        <item>zyarea_desc</item>
+        <item>sddept_desc</item>
+        <item>zylocation_desc</item>
+        <item>zysite</item>
+        <item>zydept_desc</item>
+        <item>zycontent</item>
+        <item>zystarttime</item>
+        <item>zyendtime</item>
+        
+    </string-array>
+    <string-array name="hd_hse_common_component_phone_dytable_worktask_desc">
+        <item>分        厂：</item>
+        <item>作业名称：</item>
+        <item>作业所在单位：</item>
+        <item>作业单位：</item>
+        <item>作业区域：</item>
+        <item>作业地点：</item>
+        <item>开始时间：</item>
+        <item>结束时间：</item>
+        <item>作业内容：</item>
+    </string-array>
+    <string-array name="hd_hse_common_component_phone_dytable_worktask_desc_for_ypz">
+        <item>作业名称：</item>
+        <item>作业类型：</item>
+        <item>分        厂：</item>
+        <item>作业所在单位：</item>
+        <item>作业区域：</item>
+        <item>作业地点：</item>
+        <item>作业单位：</item>
+        <item>作业内容：</item>
+        <item>开始时间：</item>
+        <item>结束时间：</item>
+    </string-array>
+    <string-array name="hd_hse_common_component_phone_dytable_worktask_num">
+        <item>zyarea_desc</item>
+        <item>zyname</item>
+        <item>sddept_desc</item>
+        <item>zydept_desc</item>
+        <item>zylocation_desc</item>
+        <item>zysite</item>
+        <item>zystarttime</item>
+        <item>zyendtime</item>
+        <item>zycontent</item>
+    </string-array>
+    <string-array name="hd_hse_common_component_phone_dytable_worktask_num_for_ypz">
+        <item>zyname</item>
+        <item>zyptypedesc</item>
+        <item>zyarea_desc</item>
+        <item>sddept_desc</item>
+        <item>zylocation_desc</item>
+        <item>zysite</item>
+        <item>zydept_desc</item>
+        <item>zycontent</item>
+        <item>zystarttime</item>
+        <item>zyendtime</item>
+    </string-array>
+    <string-array name="hd_hse_common_component_phone_woe_app_item">
+        <item>照相机</item>
+        <item>照片查看</item>
+        <item>作业票退回</item>
+        <item>作业票作废</item>
+        <item>全部选取</item>
+        <item>全部取消</item>
+        <item>作业浏览</item>
+    </string-array>
+    <string-array name="hd_hse_main_app_workorder_order">
+
+        
+        <item>zylx99</item>
+        
+        <item>zylx01</item>
+        
+        <item>zylx02</item>
+        
+        <item>zylx04</item>
+        
+        <item>zylx03</item>
+        
+        <item>zylx05</item>
+        
+        <item>zylx06</item>
+        
+        <item>zylx07</item>
+        
+        <item>zylx08</item>
+        
+        <item>zylx09</item>
+        
+        <item>zylx10</item>
+        
+        <item>zylx11</item>
+        
+        <item>zylx12</item>
+        
+        <item>zylx13</item>
+        
+        <item>zylx14</item>
+    </string-array>
+    <string-array name="hd_hse_main_phone_app_item">
+        <item>作业票下载</item>
+        <item>作业票上传</item>
+        <item>权限更新</item>
+        <item>初始化</item>
+        <item>版本升级</item>
+        <item>安全退出</item>
+    </string-array>
+    <string-array name="hd_hse_osc_app_dytable_workorder_desc">
+        <item>属地部门：</item>
+        <item>作业名称：</item>
+        <item>属地单位：</item>
+        <item>作业单位：</item>
+        <item>作业区域：</item>
+        <item>作业地点：</item>
+        <item>开始时间：</item>
+        <item>作业等级：</item>
+        <item>结束时间：</item>
+        <item>作业内容：</item>
+        <item>作业类型：</item>
+    </string-array>
+    <string-array name="hd_hse_osc_app_dytable_workorder_num">
+        <item>zyarea_desc</item>
+        <item>zyname</item>
+        <item>sddept_desc</item>
+        <item>zydept_desc</item>
+        <item>zylocation_desc</item>
+        <item>zysite</item>
+        <item>zystarttime</item>
+        <item>zylevel_desc</item>
+        <item>zyendtime</item>
+        <item>zycontent</item>
+        <item>zypclassname</item>
+    </string-array>
+    <string-array name="hd_hse_version_list">
+        <item>1.0.1</item>
+        <item>1.0.2</item>
+        <item>1.0.3</item>
+        <item>1.0.4</item>
+        <item>1.0.5</item>
+        <item>1.0.6</item>
+        <item>1.0.7</item>
+        <item>1.0.8</item>
+        <item>2.1.0</item>
+        <item>2.2.0</item>
+        <item>2.2.1</item>
+        <item>2.3.0</item>
+        <item>2.3.1</item>
+        <item>2.3.2</item>
+        <item>2.3.3</item>
+        <item>2.3.4</item>
+        <item>2.3.5</item>
+        <item>2.3.6</item>
+        <item>2.3.7</item>
+        <item>2.3.8</item>
+        <item>2.3.9</item>
+        <item>2.3.10</item>
+        <item>2.3.11</item>
+        <item>2.3.12</item>
+        <item>2.3.13</item>
+        <item>2.3.14</item>
+        <item>2.3.15</item>
+        <item>2.3.16</item>
+        <item>2.3.17</item>
+        <item>2.5.0</item>
+        <item>2.5.1</item>
+        <item>2.5.2</item>
+        <item>2.5.3</item>
+        <item>2.5.4</item>
+        <item>2.5.5</item>
+        <item>2.5.6</item>
+        <item>2.5.7</item>
+        <item>2.5.8</item>
+        <item>2.5.9</item>
+        <item>2.5.10</item>
+        <item>2.5.11</item>
+        <item>2.5.12</item>
+        <item>2.5.13</item>
+        <item>2.5.14</item>
+        <item>2.5.15</item>
+        <item>2.5.16</item>
+        <item>2.5.17</item>
+        <item>2.5.18</item>
+        <item>2.5.19</item>
+        <item>2.5.20</item>
+        <item>2.5.21</item>
+        <item>2.5.22</item>
+        <item>2.5.23</item>
+        <item>2.5.24</item>
+        <item>2.5.25</item>
+        <item>2.5.26</item>
+        <item>2.5.27</item>
+        <item>2.5.28</item>
+        <item>2.5.29</item>
+        <item>2.6.1</item>
+        <item>2.6.2</item>
+        <item>2.6.3</item>
+        <item>2.6.4</item>
+        <item>2.6.5</item>
+        <item>2.6.6</item>
+        <item>2.6.7</item>
+        <item>2.6.8</item>
+        <item>2.6.9</item>
+        <item>2.7.1</item>
+        <item>2.7.2</item>
+        <item>2.7.3</item>
+        <item>2.7.4</item>
+        <item>2.7.5</item>
+        <item>2.7.6</item>
+        <item>2.7.7</item>
+        <item>2.7.8</item>
+        <item>2.7.9</item>
+        <item>2.8.0</item>
+        <item>2.8.1</item>
+        <item>2.8.2</item>
+        <item>2.8.3</item>
+        <item>2.8.4</item>
+        <item>2.8.5</item>
+        <item>2.8.6</item>
+        <item>2.8.7</item>
+        <item>2.8.8</item>
+        <item>2.8.9</item>
+
+    </string-array>
+    <string-array name="woa_main_app_item">
+        <item>版本升级</item>
+        <item>安全退出</item>
+    </string-array>
+    <bool name="config_qualcommZslCameraMode">true</bool>
+    <bool name="config_stopPreviewBetweenShots">false</bool>
+    <bool name="config_usePreviewForVideoSnapshot">false</bool>
+    <bool name="config_useSamsungHDR">false</bool>
+    <bool name="config_useSamsungZSL">false</bool>
+    <color name="blue">#296cd5</color>
+    <color name="gray">#D3D6DC</color>
+    <color name="hd_common_module_glff_listview">#cccccc</color>
+    <color name="hd_common_module_static_black">#000000</color>
+    <color name="hd_common_module_static_blue">#5CBDE7</color>
+    <color name="hd_hse_common_alerttext_black">#000000</color>
+    <color name="hd_hse_common_btn_bg">#2164ab</color>
+    <color name="hd_hse_common_btn_bg_down">#2470c1</color>
+    <color name="hd_hse_common_btn_bg_gray">#eaeaea</color>
+    <color name="hd_hse_common_btn_down_bg_gray">#69beff</color>
+    <color name="hd_hse_common_bule">#69beff</color>
+    <color name="hd_hse_common_bule_title_text_color">#286cb4</color>
+    <color name="hd_hse_common_cancel_gray">#666666</color>
+    <color name="hd_hse_common_clicktext_azury">#9dd4ff</color>
+    <color name="hd_hse_common_compeonent_phone_fontdesc">#C9C9C9</color>
+    <color name="hd_hse_common_component_phone_actionbar_background">#286cd4</color>
+    <color name="hd_hse_common_component_phone_actionbar_font_white">#FFFFFF</color>
+    <color name="hd_hse_common_component_phone_actionbar_item_divider_line">#6697CC</color>
+    <color name="hd_hse_common_component_phone_actionbar_item_touch">#ff8822</color>
+    <color name="hd_hse_common_component_phone_content_back">#F4F4F4</color>
+    <color name="hd_hse_common_component_phone_fontnum">#000000</color>
+    <color name="hd_hse_common_component_phone_search_hint_font">#a9a9a9</color>
+    <color name="hd_hse_common_component_phone_transparent">#00000000</color>
+    <color name="hd_hse_common_describetext_gray">#999999</color>
+    <color name="hd_hse_common_divider_bg_gray">#dddddd</color>
+    <color name="hd_hse_common_edit_roundcolor">#e1e1e1</color>
+    <color name="hd_hse_common_formtitle_white">#ffffff</color>
+    <color name="hd_hse_common_gray">#aaaaaa</color>
+    <color name="hd_hse_common_green">#96bd54</color>
+    <color name="hd_hse_common_grey">#eaeceb</color>
+    <color name="hd_hse_common_item_bg">#a8dcfa</color>
+    <color name="hd_hse_common_item_down_bg">#4ab6f4</color>
+    <color name="hd_hse_common_masking_black">#90000000</color>
+    <color name="hd_hse_common_module_phone_countersign_gray">#d4dee0</color>
+    <color name="hd_hse_common_module_phone_countersign_green">#82b224</color>
+    <color name="hd_hse_common_module_phone_picturemanager_selected_backgroup">#33000000</color>
+    <color name="hd_hse_common_module_pop_bg">#a29ca3</color>
+    <color name="hd_hse_common_module_pop_divider">#b2afb3</color>
+    <color name="hd_hse_common_notedit_roundcolor">#bebebe</color>
+    <color name="hd_hse_common_red">#de5d46</color>
+    <color name="hd_hse_common_sure_yellow">#ffae00</color>
+    <color name="hd_hse_common_test_down_bg_gray">#eaeaea</color>
+    <color name="hd_hse_common_title_back">#005FA8</color>
+    <color name="hd_hse_common_title_blue_bg">#79cdfe</color>
+    <color name="hd_hse_common_title_blue_underline">#286cb4</color>
+    <color name="hd_hse_common_translucent">#80000000</color>
+    <color name="hd_hse_common_white">#ffffff</color>
+    <color name="hd_hse_login_edite_back_color">#e7e8e9</color>
+    <color name="hd_hse_main_app_login_div_back">#93f7f3</color>
+    <color name="hd_hse_oea_check_bg">#0495e1</color>
+    <color name="hd_hse_oea_check_bg_down">#046da4</color>
+    <color name="light_blue">#73a2e8</color>
+    <color name="orange">#F6C564</color>
+    <color name="step_check_text_color_normal">#393939</color>
+    <color name="step_check_text_color_selected">#FFFFFF</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="hd_common_component_nav_one_gap">24dp</dimen>
+    <dimen name="hd_common_component_nav_two_gap">30dp</dimen>
+    <dimen name="hd_common_component_phone_actionbar_control_padding">15dp</dimen>
+    <dimen name="hd_common_component_phone_actionbar_control_width">60dp</dimen>
+    <dimen name="hd_common_component_phone_actionbar_editText_heigh">38dp</dimen>
+    <dimen name="hd_common_component_phone_actionbar_editText_marginleft">20dp</dimen>
+    <dimen name="hd_common_component_phone_actionbar_editText_width">520dp</dimen>
+    <dimen name="hd_common_component_phone_actionbar_textview_padding">10dp</dimen>
+    <dimen name="hd_common_component_phone_menubar_imageview_marginleft">30dp</dimen>
+    <dimen name="hd_common_component_phone_menubar_listview_left_width">150dp</dimen>
+    <dimen name="hd_common_component_phone_menubar_listview_width">240dp</dimen>
+    <dimen name="hd_common_component_phone_menubar_textview_heigh">50dp</dimen>
+    <dimen name="hd_common_component_phone_menubar_textview_marginleft">25dp</dimen>
+    <dimen name="hd_common_component_phone_menubar_textview_margintop">10dp</dimen>
+    <dimen name="hd_common_component_phone_menubar_textview_padding">5dp</dimen>
+    <dimen name="hd_common_component_phone_textheigh">80sp</dimen>
+    <dimen name="hd_common_component_phone_title_rangeleft">180dp</dimen>
+    <dimen name="hd_common_item_text_size">21sp</dimen>
+    <dimen name="hd_common_module_phone_leftmenu_width">160dp</dimen>
+    <dimen name="hd_common_phone_textsize">21sp</dimen>
+    <dimen name="hd_common_plate_gap_horizontal">13dp</dimen>
+    <dimen name="hd_common_plate_gap_vertical">13dp</dimen>
+    <dimen name="hd_common_textsize">24sp</dimen>
+    <dimen name="hd_common_title_textsize">30sp</dimen>
+    <dimen name="hd_hse_close_exp">30dp</dimen>
+    <dimen name="hd_hse_common_component_dytable_default_textsize">20sp</dimen>
+    <dimen name="hd_hse_common_component_phone_bottommenu_RightButton_marginLeft">20dp</dimen>
+    <dimen name="hd_hse_common_component_phone_bottommenu_RightButton_paddingBottom">10dp</dimen>
+    <dimen name="hd_hse_common_component_phone_bottommenu_RightButton_paddingLeft">30dp</dimen>
+    <dimen name="hd_hse_common_component_phone_bottommenu_RightButton_paddingRight">30dp</dimen>
+    <dimen name="hd_hse_common_component_phone_bottommenu_RightButton_paddingTop">10dp</dimen>
+    <dimen name="hd_hse_common_component_phone_bottommenu_centerButton_margin">10dp</dimen>
+    <dimen name="hd_hse_common_component_phone_bottommenu_directionView_marginLeft">20dp</dimen>
+    <dimen name="hd_hse_common_component_phone_bottommenu_directionView_marginRight">20dp</dimen>
+    <dimen name="hd_hse_common_component_phone_bottommenu_frame_paddingBottom">15dp</dimen>
+    <dimen name="hd_hse_common_component_phone_bottommenu_frame_paddingTop">15dp</dimen>
+    <dimen name="hd_hse_common_component_phone_list_frame_padding">4dp</dimen>
+    <dimen name="hd_hse_common_component_phone_list_item_padingVertical">10dp</dimen>
+    <dimen name="hd_hse_common_component_phone_message_button_height">50dp</dimen>
+    <dimen name="hd_hse_common_component_phone_message_margin">40dp</dimen>
+    <dimen name="hd_hse_common_component_phone_message_title_margintop">20dp</dimen>
+    <dimen name="hd_hse_common_module_phone_gases_check_bottom_col1_height">48dp</dimen>
+    <dimen name="hd_hse_common_module_phone_gases_check_bottom_col1_width">170dp</dimen>
+    <dimen name="hd_hse_common_module_phone_gases_check_bottom_col2_height">48dp</dimen>
+    <dimen name="hd_hse_common_module_phone_gases_check_bottom_col2_width">170dp</dimen>
+    <dimen name="hd_hse_common_module_phone_gases_check_top_col1_height">48dp</dimen>
+    <dimen name="hd_hse_common_module_phone_gases_check_top_col1_width">300dp</dimen>
+    <dimen name="hd_hse_common_module_phone_gases_topButton_paddingHorizontal">20dp</dimen>
+    <dimen name="hd_hse_common_module_phone_gases_topButton_paddingVertical">20dp</dimen>
+    <dimen name="hd_hse_common_module_phone_image_location_marginLeft">20dp</dimen>
+    <dimen name="hd_hse_common_module_phone_image_location_marginTop">25dp</dimen>
+    <dimen name="hd_hse_common_module_phone_image_phone_marginLeft">60dp</dimen>
+    <dimen name="hd_hse_common_module_phone_picturemanager_image_wh">184dp</dimen>
+    <dimen name="hd_hse_common_module_phone_tv_messagetip_padding">15dp</dimen>
+    <item name="hd_hse_common_module_pop_window_btn" type="dimen">24sp</item>
+    <dimen name="hd_hse_common_paintSign_height">400dp</dimen>
+    <dimen name="hd_hse_common_readcard_height">364dp</dimen>
+    <dimen name="hd_hse_common_readcard_top">110dp</dimen>
+    <dimen name="hd_hse_common_title_height">80dp</dimen>
+    <dimen name="hd_hse_config_margin">78dp</dimen>
+    <dimen name="hd_hse_login_edit_height">60dp</dimen>
+    <dimen name="hd_hse_login_left">75dp</dimen>
+    <dimen name="hd_hse_login_logo_top">80dp</dimen>
+    <dimen name="hd_hse_main_app_name_bottom_textsize">14sp</dimen>
+    <dimen name="hd_hse_main_app_name_imageview_margin">10dp</dimen>
+    <dimen name="hd_hse_main_app_name_margintop">60dp</dimen>
+    <dimen name="hd_hse_main_app_name_time_marginright">16dp</dimen>
+    <item format="float" name="hd_hse_main_app_name_weight1" type="dimen">2.5</item>
+    <item format="integer" name="hd_hse_main_app_name_weight2" type="dimen">7</item>
+    <item format="integer" name="hd_hse_main_app_name_weight3" type="dimen">1</item>
+    <dimen name="hd_hse_main_app_name_welcome_margintop">20dp</dimen>
+    <dimen name="hd_hse_main_app_name_zero">0dp</dimen>
+    <dimen name="hd_hse_main_app_photo_margin">14dp</dimen>
+    <dimen name="hd_hse_main_app_textsize">16sp</dimen>
+    <dimen name="hd_hse_main_login_parentleft">50dp</dimen>
+    <dimen name="hd_osc_phone_app_workorderobsoleteoctivity_edittext_icon_width">30dp</dimen>
+    <dimen name="hd_osc_phone_app_workorderobsoleteoctivity_edittext_reason_height">76dp</dimen>
+    <dimen name="hd_osc_phone_app_workorderobsoleteoctivity_linearlayout_height">80dp</dimen>
+    <dimen name="hd_osc_phone_app_workorderobsoleteoctivity_linearlayout_reason_height">108dp</dimen>
+    <dimen name="hd_osc_phone_app_workorderobsoleteoctivity_textview_width">150dp</dimen>
+    <dimen name="hse_pc_phone_app_person_rules_record_item_tv_paddingbottom">0dp</dimen>
+    <dimen name="margin_large">30dp</dimen>
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="margin_small">10dp</dimen>
+    <dimen name="margin_xlarge">48dp</dimen>
+    <dimen name="margin_xsmall">6dp</dimen>
+    <dimen name="margin_xxlarge">72dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+    <dimen name="padding_medium">10dp</dimen>
+    <dimen name="padding_small">6dp</dimen>
+    <dimen name="padding_xlarge">24dp</dimen>
+    <dimen name="padding_xsmall">4dp</dimen>
+    <dimen name="text_size_large">24sp</dimen>
+    <dimen name="text_size_medium">22sp</dimen>
+    <dimen name="text_size_small">20sp</dimen>
+    <dimen name="text_size_xlarge">30sp</dimen>
+    <dimen name="text_size_xsmall">18sp</dimen>
+    <dimen name="text_size_xxlarge">36sp</dimen>
+    <dimen name="text_size_xxsmall">17sp</dimen>
+    <dimen name="text_size_xxxsmall">16sp</dimen>
+    <integer name="config_maxTextureSize">4096</integer>
+    <integer name="config_panoramaDefaultHeight">720</integer>
+    <integer name="config_panoramaDefaultWidth">1280</integer>
+    <item format="integer" name="hd_common_component_phone_actionbar_drawer_icon_size" type="integer">1</item>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">作业许可</string>
+    <string name="hd_app_name">作业许可</string>
+    <string name="hd_hse_common_phone_button_search_tip">类型/名称</string>
+    <string name="hd_hse_component_list_item_attribute_child_position">childPosition</string>
+    <string name="hd_hse_component_list_item_attribute_groud_position">groupPosition</string>
+    <string name="hd_hse_component_list_item_attribute_order">order</string>
+    <string name="hd_hse_component_list_item_holder">holder</string>
+    <string name="hd_hse_main_app_Multipleclicks_title">正在执行，请勿多次点击</string>
+    <string name="hd_hse_main_app_login_explain_tv">©2014-2018 北京海顿中科技术有限公司</string>
+    <string name="hd_hse_main_app_login_password_et">请输入密码</string>
+    <string name="hd_hse_main_app_login_title_tv">企业安全作业许可管理平台</string>
+    <string name="hd_hse_main_app_login_title_tvTJ">中国石化天津分公司\n企业安全作业许可管理平台</string>
+    <string name="hd_hse_main_app_login_username_et">请输入用户名或刷卡</string>
+    <string name="hd_hse_main_app_main_title">企业安全作业许可管理平台</string>
+    <string name="hello">Hello hse-app-phone-res!</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hse_pc_phone_app_layout_certificate_num">证书编号</string>
+    <string name="hse_pc_phone_app_layout_certificate_type">证书类别</string>
+    <string name="hse_pc_phone_app_person_access_record_layout_location">出入地点</string>
+    <string name="hse_pc_phone_app_person_access_record_layout_time">出入时间</string>
+    <string name="hse_pc_phone_app_textview_hint">请把卡片贴近手机背面</string>
+    <style name="AllTranslucentStyle">
+        <item name="android:windowBackground">@color/hd_hse_common_component_phone_transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <style name="AppBaseTheme" parent="@android:style/Theme.Holo.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:windowEnableSplitTouch">false</item>
+        <item name="android:splitMotionEvents">false</item>
+        <item name="android:actionBarSize">@dimen/hd_common_component_phone_actionbar_heigh</item>
+    </style>
+    <style name="Dialog" parent="android:style/Theme.Dialog">
+        <item name="android:background">#00000000</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+    <style name="MyActivityDialogStyle" parent="android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <!-- 边框 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 背景透明 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 模糊 -->
+    </style>
+    <style name="PaintSignatureDialog" parent="android:style/Theme.Dialog">
+        <item name="android:background">#00000000</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+    <style name="ProgressDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/hd_hse_common_dilog_corner_back</item>
+        <item name="android:backgroundDimAmount">0</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="StatisticPopWindow">
+              <item name="android:windowEnterAnimation">@anim/hd_hse_statistic_pop_show</item>
+        <item name="android:windowExitAnimation">@anim/hd_hse_statistic_pop_dismiss</item>
+        
+    </style>
+    <style name="TranslucentStyle" parent="AppTheme">
+        <item name="android:windowBackground">@color/hd_hse_common_translucent</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <style mce_bogus="1" name="dialogWindowAnim" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/hd_hse_common_in_from_down</item>
+        <item name="android:windowExitAnimation">@anim/hd_hse_common_out_to_down</item>
+    </style>
+    <style name="hd_hse_common_examine_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFrame">@null</item> <!-- 边框 -->
+        <item name="android:windowIsFloating">true</item> <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsTranslucent">true</item> <!-- 半透明 -->
+        <item name="android:background">@android:color/transparent</item> <!-- 背景透明 -->
+        <item name="android:windowBackground">@android:color/transparent</item> <!-- 背景透明 -->
+        <item name="android:backgroundDimEnabled">true</item> <!-- 蒙版- 模糊 -->
+    </style>
+    <style name="hd_hse_common_module_gase_detect_divider">
+        <item name="android:layout_height">10dp</item>
+        <!-- <item name="android:layerType">software</item> -->
+    </style>
+    <style name="hd_hse_common_module_gase_detect_history">
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+
+        <!-- <item name="android:textStyle">bold</item> -->
+    </style>
+    <style name="hd_hse_common_module_phone_gases_check_col1">
+        <item name="android:layout_height">@dimen/hd_hse_common_module_phone_gases_check_top_col1_height</item>
+        <item name="android:layout_width">@dimen/hd_hse_common_module_phone_gases_check_bottom_col1_width</item>
+        <!-- <item name="android:textStyle">bold</item> -->
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:background">@drawable/hd_hse_common_module_gases_check_spinner_bg</item>
+        <item name="android:dropDownWidth">@dimen/hd_hse_common_module_phone_gases_dropdown_width</item>
+    </style>
+    <style name="hd_hse_common_module_phone_gases_check_col2">
+        <item name="android:layout_height">@dimen/hd_hse_common_module_phone_gases_check_top_col1_height</item>
+        <item name="android:layout_width">@dimen/hd_hse_common_module_phone_gases_check_bottom_col2_width</item>
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <!-- <item name="android:textStyle">bold</item> -->
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:background">@drawable/hd_hse_common_edit_nocorners_style</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+    </style>
+    <style name="hd_hse_common_module_phone_gases_check_left_title">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <!-- <item name="android:textStyle">bold</item> -->
+        <item name="android:layout_marginLeft">30dp</item>
+    </style>
+    <style name="hd_hse_common_module_phone_gases_check_right_content">
+        <item name="android:layout_height">@dimen/hd_hse_common_module_phone_gases_check_top_col1_height</item>
+        <item name="android:layout_width">@dimen/hd_hse_common_module_phone_gases_check_top_col1_width</item>
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <!-- <item name="android:textStyle">bold</item> -->
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:background">@drawable/hd_hse_common_edit_nocorners_style</item>
+        <item name="android:paddingLeft">10dp</item>
+    </style>
+    <style name="hd_hse_common_module_phone_gases_check_row">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+    </style>
+    <style name="hd_hse_common_module_phone_gases_check_spinner" parent="hd_hse_common_module_phone_gases_check_right_content">
+        <item name="android:paddingLeft">0dp</item>
+    </style>
+    <style name="hd_hse_common_module_pop_win_btn">
+        <item name="android:textSize">@dimen/hd_hse_common_module_pop_window_btn</item>
+        <item name="android:textColor">@color/hd_hse_common_white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="hd_hse_common_readcard_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:background">@color/hd_hse_common_formtitle_white</item>
+    </style>
+    <style name="sdw_79351b">
+        <item name="android:shadowColor">#ff79351b</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+    <style name="sdw_white">
+        <item name="android:shadowColor">#7fffffff</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">0.65</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+    <style name="text_message_contentStyle">
+        <item name="android:textSize">@dimen/hd_common_textsize</item>
+        <item name="android:textColor">@color/hd_hse_common_alerttext_black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">15.0dip</item>
+        <item name="android:lineSpacingMultiplier">1.5</item>
+    </style>
+    <style name="text_message_narrowtextsize_contentStyle" parent="@style/text_message_contentStyle">
+        <item name="android:textSize">@dimen/hd_common_textsize</item>
+    </style>
+    <style name="text_message_negativeButtonStyle" parent="@style/sdw_79351b">
+        <item name="android:textSize">15.0dip</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="text_message_positiveButtonStyle" parent="@style/sdw_white">
+        <item name="android:textSize">15.0dip</item>
+        <item name="android:textColor">#ff666666</item>
+    </style>
+    <style name="text_message_titleStyle">
+        <item name="android:textSize">@dimen/hd_common_title_textsize</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@color/hd_hse_common_title_back</item>
+        <item name="android:paddingLeft">20.0dip</item>
+    </style>
+    <style name="workorder_dialog" parent="android:style/Theme.Dialog">
+        <item name="android:background">#00FFFFFF</item> <!-- 设置自定义布局的背景透明 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <declare-styleable name="DyTable">
+        <attr format="integer" name="rowCout"/>
+        <attr format="reference" name="arrayNum"/>
+        <attr format="reference" name="arrayDesc"/>
+        <attr format="reference" name="textDescSize"/>
+        <attr format="reference" name="textValueSize"/>
+        <attr format="reference|color" name="textDescColor"/>
+        <attr format="reference|color" name="textValueColor"/>
+        <attr format="integer" name="itemHeight"/>
+        <attr format="boolean" name="isLines"/>
+        <attr format="reference" name="childInfoNum"/>
+        <attr format="reference" name="childInfoDesc"/>
+    </declare-styleable>
+    <declare-styleable name="HorizontalListView">
+        <attr format="dimension" name="dividerWidth"/>
+        <attr name="android:divider"/>
+        <attr name="android:requiresFadingEdge"/>
+        <attr name="android:fadingEdgeLength"/>
+    </declare-styleable>
+    <declare-styleable name="MaterialMenuView">
+        <attr format="color" name="mm_color"/>
+        <attr format="float" name="mm_scale"/>
+        <attr format="integer" name="mm_transformDuration"/>
+        <attr format="integer" name="mm_pressedDuration"/>
+        <attr format="integer" name="mm_strokeWidth"/>
+        <attr format="boolean" name="mm_rtlEnabled"/>
+    </declare-styleable>
+    <declare-styleable name="hse">
+        <attr format="color" name="lineColor"/>
+        <attr format="dimension" name="lineWidth"/>
+        <attr format="dimension" name="lineOnLength"/>
+        <attr format="dimension" name="lineOffLength"/>
+    </declare-styleable>
+</resources>

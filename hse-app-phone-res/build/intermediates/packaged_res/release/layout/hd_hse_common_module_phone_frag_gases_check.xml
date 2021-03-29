@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <!-- 頭部两个按钮 -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal"
+            android:paddingRight="20dp"
+            android:paddingTop="40dp" >
+
+            <TextView
+                android:id="@+id/hd_hse_common_module_gases_check_sync_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/hd_hse_common_module_phone_gases_topButton_margin"
+                android:background="@drawable/hd_hse_common_component_bottom_btn_bg"
+                android:paddingBottom="@dimen/hd_hse_common_module_phone_gases_topButton_paddingVertical"
+                android:paddingLeft="@dimen/hd_hse_common_module_phone_gases_topButton_paddingHorizontal"
+                android:paddingRight="@dimen/hd_hse_common_module_phone_gases_topButton_paddingHorizontal"
+                android:paddingTop="@dimen/hd_hse_common_module_phone_gases_topButton_paddingVertical"
+                android:text="同步数据"
+                android:textColor="@color/hd_hse_common_white"
+                android:textSize="@dimen/text_size_small"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/hd_hse_common_module_gases_check_reuse_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/hd_hse_common_module_phone_gases_topButton_margin"
+                android:background="@drawable/hd_hse_common_component_bottom_btn_bg"
+                android:paddingBottom="@dimen/hd_hse_common_module_phone_gases_topButton_paddingVertical"
+                android:paddingLeft="@dimen/hd_hse_common_module_phone_gases_topButton_paddingHorizontal"
+                android:paddingRight="@dimen/hd_hse_common_module_phone_gases_topButton_paddingHorizontal"
+                android:paddingTop="@dimen/hd_hse_common_module_phone_gases_topButton_paddingVertical"
+                android:text="复用数据"
+                android:textColor="@color/hd_hse_common_white"
+                android:textSize="@dimen/text_size_small"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/hd_hse_common_module_gases_check_add_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/hd_hse_common_component_bottom_btn_bg"
+                android:paddingBottom="@dimen/hd_hse_common_module_phone_gases_topButton_paddingVertical"
+                android:paddingLeft="@dimen/hd_hse_common_module_phone_gases_topButton_paddingHorizontal"
+                android:paddingRight="@dimen/hd_hse_common_module_phone_gases_topButton_paddingHorizontal"
+                android:paddingTop="@dimen/hd_hse_common_module_phone_gases_topButton_paddingVertical"
+                android:text="新增数据"
+                android:textColor="@color/hd_hse_common_white"
+                android:textSize="@dimen/text_size_small" />
+        </LinearLayout>
+
+        <!-- 点击添加才会显示的部分 -->
+
+        <LinearLayout
+            android:id="@+id/hd_hse_common_module_gases_check_typein_ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <!-- ******************** 填表部分，不变的表的部分，******************** -->
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <!-- 第一行， 检测位置 -->
+
+                <TableRow style="@style/hd_hse_common_module_phone_gases_check_row" >
+
+                    <TextView
+                        style="@style/hd_hse_common_module_phone_gases_check_left_title"
+                        android:layout_gravity="center_vertical"
+                        android:text="检测位置：" />
+
+                    <TextView
+                        android:id="@+id/hd_hse_common_module_gases_check_location_tv"
+                        style="@style/hd_hse_common_module_phone_gases_check_right_content"
+                        android:text="大港" />
+                </TableRow>
+
+                <!-- 第二行，检测时间 -->
+
+                <TableRow style="@style/hd_hse_common_module_phone_gases_check_row" >
+
+                    <TextView
+                        style="@style/hd_hse_common_module_phone_gases_check_left_title"
+                        android:layout_gravity="center_vertical"
+                        android:text="检测时间：" />
+
+                    <Button
+                        android:id="@+id/hd_hse_common_module_gases_check_time_btn"
+                        style="@style/hd_hse_common_module_phone_gases_check_right_content"
+                        android:text="2014-10-17 10:14:56" />
+                </TableRow>
+
+                <!-- 第三行，检测方式 -->
+
+                <TableRow style="@style/hd_hse_common_module_phone_gases_check_row" >
+
+                    <TextView
+                        style="@style/hd_hse_common_module_phone_gases_check_left_title"
+                        android:layout_gravity="center_vertical"
+                        android:text="检测方式：" />
+
+                    <Spinner
+                        android:id="@+id/hd_hse_common_module_gases_check_pattern_spinner"
+                        style="@style/hd_hse_common_module_phone_gases_check_spinner"
+                        android:background="@drawable/hd_hse_common_module_gases_check_spinner_bg"
+                        android:dropDownWidth="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="便携式" />
+                </TableRow>
+
+                <!-- 第四行，检测单位 -->
+
+                <TableRow style="@style/hd_hse_common_module_phone_gases_check_row" >
+
+                    <TextView
+                        style="@style/hd_hse_common_module_phone_gases_check_left_title"
+                        android:layout_gravity="center_vertical"
+                        android:text="检测单位：" />
+
+                    <Button
+                        android:id="@+id/hd_hse_common_module_gases_check_company_btn"
+                        style="@style/hd_hse_common_module_phone_gases_check_right_content"
+                        android:text="大港" />
+                </TableRow>
+            </TableLayout>
+
+            <!-- 动态变化的表的部分， -->
+
+            <TableLayout
+                android:id="@+id/hd_hse_common_module_gases_check_table_tl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <!-- 检测浓度列表，最少包含一个，为了定位，然后动态向里添加 -->
+
+                <TableRow style="@style/hd_hse_common_module_phone_gases_check_row" >
+
+                    <TextView
+                        style="@style/hd_hse_common_module_phone_gases_check_left_title"
+                        android:text="检测浓度：" />
+
+                    <Spinner
+                        android:id="@+id/hd_hse_common_module_gases_check_concentration_row1_spinner"
+                        style="@style/hd_hse_common_module_phone_gases_check_col1"
+                        android:ems="10" />
+
+                    <!-- android:dropDownWidth="250dp" -->
+
+                    <EditText
+                        android:id="@+id/hd_hse_common_module_gases_check_concentration_row1_value_et"
+                        style="@style/hd_hse_common_module_phone_gases_check_col2" />
+
+                    <TextView
+                        android:id="@+id/hd_hse_common_module_gases_check_concentration_row1_value_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:text="合格"
+                        android:textSize="@dimen/text_size_small" 
+                        android:visibility="gone"/>
+                </TableRow>
+
+                <TableRow
+                    style="@style/hd_hse_common_module_phone_gases_check_row"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginTop="3dp" >
+
+                    <TextView
+                        style="@style/hd_hse_common_module_phone_gases_check_left_title"
+                        android:layout_gravity="center_vertical"
+                        android:text="是否合格：" />
+
+                    <RelativeLayout
+                        style="@style/hd_hse_common_module_phone_gases_check_right_content"
+                        android:layout_width="wrap_content"
+                        android:background="@null" >
+
+                        <TextView
+                            android:id="@+id/hd_hse_common_module_gases_check_isok_tv"
+                            style="@style/hd_hse_common_module_phone_gases_check_right_content"
+                            android:layout_width="wrap_content"
+                            android:background="@null"
+                            android:text="是" />
+
+                        <RadioGroup
+                            android:id="@+id/hd_hse_module_gases_check_radio_group"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:orientation="horizontal" >
+
+                            <RadioButton
+                                android:id="@+id/rbtn_yes"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="12dp"
+                                android:button="@drawable/hd_hse_common_component_picture_choice_btn_bg_selector"
+                                android:checked="true"
+                                android:text="是"
+                                android:textSize="18sp" />
+
+                            <RadioButton
+                                android:id="@+id/rbtn_no"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:button="@drawable/hd_hse_common_component_picture_choice_btn_bg_selector"
+                                android:checked="false"
+                                android:text="否"
+                                android:textSize="18sp" />
+                        </RadioGroup>
+                    </RelativeLayout>
+                    <LinearLayout 
+                        android:id="@+id/hd_hse_common_module_phone_frag_gases_check_li_continue_work"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical"
+                        android:visibility="gone">
+                        <CheckBox 
+                            android:id="@+id/hd_hse_common_module_phone_frag_gases_check_checkbox_continue_work"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"/>
+                        <TextView 
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:text="是否继续作业"
+                            android:textSize="18sp"
+                            android:layout_marginLeft="15dp"/>
+                    </LinearLayout>
+                </TableRow>
+            </TableLayout>
+
+            <com.hd.hse.common.module.phone.custom.ExamineListView
+                android:id="@+id/hd_hse_common_module_gases_check_examine_examinelv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <!-- 历史记录布局 -->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp" >
+
+            <!-- 左边标题， -->
+
+            <com.hd.hse.common.component.phone.custom.ExpandListView
+                android:id="@+id/hd_hse_common_module_table_title"
+                android:layout_width="@dimen/hd_hse_common_module_phone_gases_check_history_title_width"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true" />
+
+            <!-- 右边内容部分 -->
+
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/hd_hse_common_module_table_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/hd_hse_common_module_table_title"
+                android:layout_alignTop="@id/hd_hse_common_module_table_title"
+                android:layout_toRightOf="@id/hd_hse_common_module_table_title" />
+
+            <!-- android:background="#e8f8ff" -->
+
+
+            <!-- Indictor -->
+
+            <RadioGroup
+                android:id="@+id/hd_hse_common_module_radio_group"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@id/hd_hse_common_module_table_content"
+                android:layout_alignStart="@id/hd_hse_common_module_table_content"
+                android:layout_below="@id/hd_hse_common_module_table_content"
+                android:gravity="center"
+                android:orientation="horizontal" >
+            </RadioGroup>
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

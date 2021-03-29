@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/hd_common_component_phone_menubar_textview_heigh"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/hse_pc_phone_app_person_access_record_layout_time"
+            android:textColor="@color/hd_hse_common_describetext_gray"
+            android:textSize="@dimen/hd_common_textsize" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/hse_pc_phone_app_person_access_record_layout_location"
+            android:textColor="@color/hd_hse_common_describetext_gray"
+            android:textSize="@dimen/hd_common_textsize" />
+    </LinearLayout>
+    <View 
+        android:layout_height="1dp"
+        android:layout_width="match_parent"
+        android:background="@color/hd_hse_common_btn_bg_gray"/>
+    <ListView 
+        android:id="@+id/hse_pc_phone_app_person_access_record_layout_lv"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        
+    </ListView>
+
+</LinearLayout>

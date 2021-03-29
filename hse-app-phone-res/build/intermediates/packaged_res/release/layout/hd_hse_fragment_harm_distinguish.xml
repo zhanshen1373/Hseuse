@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/hd_hse_fragment_harm_distinguish_save_btn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/hd_common_component_phone__bottom_button_heigh"
+        android:layout_alignParentBottom="true"
+        android:background="#286cb4"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/text_size_small"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/hd_hse_fragment_harm_distinguish_lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/hd_hse_fragment_harm_distinguish_save_btn" />
+
+</RelativeLayout>

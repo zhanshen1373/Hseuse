@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".ui.activity.VlcActivity"
+    >
+
+<SurfaceView
+android:id="@+id/camera_preview"
+android:layout_width="match_parent"
+android:layout_height="200dp" />
+
+
+<com.hd.hse.common.module.phone.ui.custom.ZdyRelativeLayout
+    android:id="@+id/sy_view"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:visibility="visible"><!-- 布局这里可以添加背景 -->
+
+    <LinearLayout
+        android:id="@+id/exitfullping_ll"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/surface_return">
+
+        <ImageView
+            android:id="@+id/exitfullping_iv"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_vertical"
+            app:srcCompat="@drawable/exitfullping"/>
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/enterfullping_rl"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/surface_return">
+
+
+
+        <ImageView
+            android:id="@+id/enterfullping_iv"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            app:srcCompat="@drawable/fullping"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/topleft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#1Affffff"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:rotation="-45"
+        android:text="水印"/>
+
+    <TextView
+        android:id="@+id/topright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentRight="true"
+        android:textColor="#1Affffff"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:rotation="-45"
+        android:text="bbb"/>
+
+    <TextView
+        android:id="@+id/bottomleft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="#1Affffff"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:rotation="-45"
+        android:text="水印"/>
+
+    <TextView
+        android:id="@+id/bottomright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="#1Affffff"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:rotation="-45"
+        android:text="水印"/>
+
+    <TextView
+        android:id="@+id/center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="#1Affffff"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:rotation="-45"
+        android:text="水印"/>
+</com.hd.hse.common.module.phone.ui.custom.ZdyRelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,1 @@
+alter table ud_zyxk_qtjcline add column qtsvalue varchar(50);

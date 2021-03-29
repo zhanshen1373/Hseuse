@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 作业票 关闭，取消，作废，公用 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:table="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/hd_hse_common_workorder_bt_save"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/hd_common_component_phone_textheigh"
+        android:background="@color/hd_hse_common_title_back" 
+        android:layout_alignParentBottom="true"
+        android:text="保  存"
+        android:textSize="@dimen/text_size_medium"
+        android:textColor="@android:color/white"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:id="@+id/hd_hse_common_workorder_ll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/hd_hse_common_white"
+        android:fadingEdge="vertical"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_medium"
+        android:scrollbars="vertical" 
+        android:layout_above="@+id/hd_hse_common_workorder_bt_save">
+
+        <TableLayout
+            android:id="@+id/hd_hse_common_workclose_tablelayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical" >
+
+            <TableRow
+                android:id="@+id/hd_hse_common_workclose_tr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:id="@+id/hd_hse_common_workordertype_reason_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center_vertical"
+                    android:layout_marginLeft="@dimen/hd_hse_close_exp"
+                    android:paddingRight="@dimen/margin_small"
+                    android:text="作废原因："
+                    android:textColor="@color/hd_hse_common_alerttext_black"
+                    android:textSize="@dimen/text_size_small"
+                    tools:ignore="HardcodedText" />
+
+                <Spinner
+                    android:id="@+id/hd_hd_hse_common_workordertype_reason_sp"
+                    style="@style/hd_hse_common_module_phone_gases_check_col1"
+                    android:dropDownWidth="250dp"
+                    android:ems="10"
+                    android:visibility="gone" />
+
+                <EditText
+                    android:id="@+id/hd_hse_common_workordertype_reason_et"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/hd_hse_common_edit_nocorners_style"
+                    android:ems="10"
+                    android:lines="3"
+                    android:padding="@dimen/padding_medium"
+                    android:textSize="@dimen/text_size_small" />
+
+                <TextView
+                    android:id="@+id/hd_hse_common_workordertype_more_b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_small"
+                    android:background="@drawable/hd_hse_common_btn_more_style" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/hd_hse_common_explain_tr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_medium"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/hd_hse_common_workordertype_explain_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center_vertical"
+                    android:layout_marginLeft="@dimen/hd_hse_close_exp"
+                    android:paddingRight="@dimen/margin_small"
+                    android:text="关闭说明："
+                    android:textColor="@color/hd_hse_common_alerttext_black"
+                    android:textSize="@dimen/text_size_small"
+                    tools:ignore="HardcodedText" />
+
+                <EditText
+                    android:id="@+id/hd_hse_common_workordertype_explain"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/hd_hse_common_edit_nocorners_style"
+                    android:ems="10"
+                    android:maxLines="5"
+                    android:padding="@dimen/padding_medium"
+                    android:textSize="@dimen/text_size_small" />
+            </TableRow>
+        </TableLayout>
+
+        <com.hd.hse.common.module.phone.custom.ExamineListView
+            android:id="@+id/hd_hse_common_workordertype_examinelistview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/margin_medium" />
+    </LinearLayout>
+
+</RelativeLayout>

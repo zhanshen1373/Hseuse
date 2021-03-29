@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:table="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@android:color/black" >
+    <ListView
+        android:id="@+id/hd_hse_oea_fragment_layout_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:dividerHeight="0.5dp"
+        android:padding="10dp"
+        android:scrollbarStyle="outsideOverlay"
+        android:layout_above="@+id/hd_hse_fragment_work_distinguish_save_btn"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:id="@+id/hd_hse_fragment_work_distinguish_save_btn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/hd_common_component_phone_actionbar_heigh"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/hd_hse_oea_check_bg_style"
+        android:gravity="center"
+        android:text="审  核"
+        android:clickable="true"
+        android:focusable="true"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/text_size_xlarge"
+        android:textStyle="bold" />
+
+</RelativeLayout>

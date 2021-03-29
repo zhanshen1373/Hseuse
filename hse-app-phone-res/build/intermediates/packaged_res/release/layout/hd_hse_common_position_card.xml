@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginLeft="@dimen/margin_xlarge"
+    android:layout_marginRight="@dimen/margin_xlarge"
+    android:background="@drawable/hd_hse_config_bg_style"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="@dimen/padding_large"
+        android:text="选取虚拟位置牌"
+        android:textColor="@color/hd_hse_common_bule"
+        android:textSize="@dimen/text_size_large" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="3dp"
+        android:layout_below="@+id/hd_hse_config_title"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:background="@color/hd_hse_common_bule" />
+
+    <ListView
+        android:id="@+id/hd_hse_common_position_lv"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="@dimen/margin_medium"
+        android:layout_marginRight="@dimen/margin_medium"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:choiceMode="singleChoice" >
+    </ListView>
+
+    <TextView
+        android:id="@+id/hd_hse_common_position_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/hd_hse_common_position_btn_style"
+        android:gravity="center"
+        android:padding="@dimen/padding_large"
+        android:text="取消"
+        android:layout_margin="1dp"
+        android:textColor="@color/hd_hse_common_cancel_gray"
+        android:textSize="@dimen/text_size_large" />
+
+</LinearLayout>

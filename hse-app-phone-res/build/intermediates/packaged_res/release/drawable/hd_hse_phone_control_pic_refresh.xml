@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 默认时的背景图片 -->
+    <item android:drawable="@drawable/hd_hse_phone_control_refresh" android:state_pressed="false"/>
+    <!-- 非触摸模式下获得焦点并单击时的背景图片 -->
+    <item android:drawable="@drawable/hd_hse_phone_control_refresh_down" android:state_pressed="true"/>
+    <!-- 获得焦点时的图片背景 -->
+
+    <item android:drawable="@drawable/hd_hse_phone_control_refresh_down" android:state_focused="true"/>
+    <!-- 失去焦点 -->
+    <item android:drawable="@drawable/hd_hse_phone_control_refresh" android:state_focused="false"/>
+
+</selector>

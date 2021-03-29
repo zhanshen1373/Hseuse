@@ -1,0 +1,129 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+    buildToolsVersion "28.0.3"
+    defaultConfig {
+        applicationId "petrochina.dlsh.zyxk"
+//        applicationId "com.hd.hse.main.phone"
+
+        //升级前请阅读README.md文件
+        minSdkVersion 17
+        targetSdkVersion 28
+        versionCode = 83
+        versionName = "2.8.9"
+        compileOptions {
+            sourceCompatibility JavaVersion.VERSION_1_7
+            targetCompatibility JavaVersion.VERSION_1_7
+        }
+        multiDexEnabled true
+        flavorDimensions "default"
+        ndk { abiFilters "armeabi-v7a" }
+    }
+
+    signingConfigs {
+        debug {
+            storeFile file("hdHSE.keystore")
+            storePassword 'hayden'
+            keyAlias 'hseAPP'
+            keyPassword 'hayden'
+        }
+
+        release {
+            storeFile file('hdHSE.keystore')
+            storePassword 'hayden'
+            keyAlias 'hseAPP'
+            keyPassword 'hayden'
+        }
+    }
+
+//    buildTypes {
+//        release {
+//            minifyEnabled false
+//            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+//        }
+//    }
+
+    buildTypes {
+        debug {
+            signingConfig signingConfigs.debug
+        }
+
+        release {
+            signingConfig signingConfigs.release
+        }
+    }
+
+
+
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+
+    applicationVariants.all { variant ->
+        variant.outputs.all { output ->
+            def oldFile = output.outputFile
+            def newName;
+            if (oldFile != null && oldFile.name.endsWith('.apk')) {
+                if (variant.buildType.name.equals('release')) {
+//                    newName = "hse-main-phone-${variant.productFlavors[0].name}-" + defaultConfig.versionName + '.apk'
+                    newName = '${applicationId}-apk-' + defaultConfig.versionName + '.apk'
+                }
+                if (variant.buildType.name.equals('debug')) {
+//                    newName = "hse-main-phone-${variant.productFlavors[0].name}-debug-" + defaultConfig.versionName + '.apk'
+                    newName = '${applicationId}-debug-' + defaultConfig.versionName + '.apk'
+                }
+                outputFileName = newName
+
+            }
+        }
+    }
+
+
+//    applicationVariants.all { variant ->
+//        variant.outputs.each { output ->
+//            def oldFile = output.outputFile
+//            def newName;
+//            if (oldFile != null && oldFile.name.endsWith('.apk')) {
+//                if (variant.buildType.name.equals('release')) {
+//                    newName = "hse-main-phone-${variant.productFlavors[0].name}-" + defaultConfig.versionName + '.apk'
+//                }
+//                if (variant.buildType.name.equals('debug')) {
+//                    newName = "hse-main-phone-${variant.productFlavors[0].name}-debug-" + defaultConfig.versionName + '.apk'
+//                }
+//                output.outputFile = new File(oldFile.parent, newName)
+//            }
+//        }
+//    }
+
+    productFlavors {
+        serverDate {
+
+        }
+        localDate {
+
+        }
+
+    }
+}
+
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile project(':hse-osc-phone-app')
+    compile project(':hse-cc-phone-app')
+    compile project(':hse-dly-phone-app')
+    compile project(':hse-osr-phone-app')
+    compile project(':hse-wov-phone-app')
+    compile project(':hse-scw-phone-app')
+    compile project(':hse-vp-phone-app')
+    compile project(':hse-pc-phone-app')
+    compile project(':hse-ss-phone-app')
+    compile project(':hse-main-phone-app')
+    compile project(':hse-nd-phone-app')
+    compile project(':hse-carxkz-phone-app')
+    compile project(':hse-carxkzscan-phone-app')
+    compile 'com.android.support:multidex:1.0.1'
+
+}

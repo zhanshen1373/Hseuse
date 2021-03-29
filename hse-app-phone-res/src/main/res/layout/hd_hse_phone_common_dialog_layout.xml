@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/hd_hse_config_bg_style"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/hd_hse_phone_message_title"
+        android:layout_width="match_parent"
+        android:gravity="left|center_vertical"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="@dimen/hd_hse_common_component_phone_message_title_margintop"
+        android:textColor="#69beff"
+        android:textSize="@dimen/hd_common_item_text_size"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="4dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:background="#69beff" />
+
+    <TextView
+        android:id="@+id/hd_hse_phone_message_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/hd_hse_common_component_phone_message_margin"
+        android:layout_marginTop="@dimen/hd_hse_common_component_phone_message_margin"
+        android:gravity="center_vertical"
+        android:text="提示信息"
+        android:textColor="#de5d46"
+        android:textSize="@dimen/hd_common_item_text_size" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/hd_hse_common_component_phone_message_button_height"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/hd_hse_phone_message_cancel_b"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/hd_hse_config_btn_no_style"
+            android:text="取消"
+            android:textColor="#333333"
+            android:textSize="@dimen/hd_common_item_text_size"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="fill_parent"
+            android:background="#CBCBCB" />
+
+        <Button
+            android:id="@+id/hd_hse_phone_message_sure_b"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/hd_hse_config_btn_yes_style"
+            android:text="确定"
+            android:textColor="@color/hd_hse_common_sure_yellow"
+            android:textSize="@dimen/hd_common_item_text_size"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

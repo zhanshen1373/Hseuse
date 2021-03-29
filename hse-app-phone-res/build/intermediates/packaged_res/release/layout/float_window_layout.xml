@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@android:color/transparent"
+    >
+    <FrameLayout 
+        android:id="@+id/float_window_layout_container"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:background="@android:color/transparent">
+        
+    </FrameLayout>
+    <ImageView 
+        android:id="@+id/float_window_layout_swich_camera"
+        android:layout_height="@dimen/hse_ss_phone_app_supervision_list_item_checkbox_height"
+        android:layout_width="@dimen/hse_ss_phone_app_supervision_list_item_checkbox_height"
+        android:padding="@dimen/padding_small"
+        android:src="@drawable/swich_camera"/>
+
+</RelativeLayout>

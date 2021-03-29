@@ -1,0 +1,14 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/hd_hse_common_position_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/hd_hse_common_position_item_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/hd_common_item_style"
+        android:padding="@dimen/padding_medium"
+        android:textSize="@dimen/text_size_large" />
+
+</LinearLayout>

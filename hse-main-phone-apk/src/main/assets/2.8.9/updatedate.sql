@@ -1,0 +1,1 @@
+update hse_sys_config set sysurl = '59.46.176.145:7001' where syscode = 'outurl';

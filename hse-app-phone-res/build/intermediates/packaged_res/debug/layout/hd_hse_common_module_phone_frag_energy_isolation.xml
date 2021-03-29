@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/hd_hse_common_white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/whsb_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/relativeLayout1"
+            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/relativeLayout1"
+            android:contentDescription="@null"
+            android:src="@drawable/add_whsb" />
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/hd_hse_common_energyIsolation_view_heigh" >
+
+            <TextView
+                android:id="@+id/glxtsb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="隔离系统/设备"
+                android:textColor="#999999"
+                android:textSize="@dimen/text_size_small" />
+
+            <EditText
+                android:id="@+id/gl_sys_edit"
+                android:layout_width="@dimen/hd_hse_common_energyIsolation_edit_width"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/glxtsb"
+                android:background="@drawable/hd_hse_common_edit_style"
+                android:inputType="text"
+                android:padding="10dp"
+                android:textColor="#333333"
+                android:textSize="@dimen/text_size_small" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/gl_sys_edit"
+                android:layout_marginTop="22dp"
+                android:padding="10dp"
+                android:text="危害识别"
+                android:textColor="#999999"
+                android:textSize="@dimen/text_size_small" />
+
+            <TextView
+                android:id="@+id/whsb_text"
+               android:layout_width="@dimen/hd_hse_common_energyIsolation_edit_width"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/gl_sys_edit"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="22dp"
+                android:layout_toRightOf="@id/glxtsb"
+                android:background="@drawable/hd_hse_common_edit_style"
+                android:inputType="text"
+                android:padding="10dp"
+                android:textColor="#333333"
+                android:textSize="@dimen/text_size_small" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="@dimen/hd_hse_common_energyIsolation_view_heigh"
+        android:background="#dbdbdb" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f3f7f3"
+        android:padding="10dp" >
+
+        <Button
+            android:id="@+id/add_glff_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/hd_hse_btn_nlgl_bg"
+            android:padding="@dimen/hd_hse_common_energyIsolation_button_pading"
+            android:text="新增序号"
+            android:textColor="@color/selector_nlgl_btn_text"
+            android:textSize="@dimen/text_size_small" />
+
+        <LinearLayout
+            android:id="@+id/circle_glff_linear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal" >
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/update_glff_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/hd_hse_btn_nlgl_bg"
+            android:padding="@dimen/hd_hse_common_energyIsolation_button_pading"
+            android:text="编辑当前"
+            android:textColor="@color/selector_nlgl_btn_text"
+            android:textSize="@dimen/text_size_small" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#dbdbdb" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <com.hd.hse.common.component.phone.custom.ScrollViewPager
+                android:id="@+id/viewpager"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/hd_hse_common_energyIsolation_viewpager_heigh" />
+
+            <com.hd.hse.common.module.phone.custom.ExamineListView
+                android:id="@+id/listview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

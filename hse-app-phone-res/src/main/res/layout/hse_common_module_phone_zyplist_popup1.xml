@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#00000000"
+    android:orientation="vertical" >
+
+    <!-- PopWindow 上方的指针 -->
+
+    <ImageView
+        android:id="@+id/hse_common_module_phone_zyplist_pop_header_pointer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:scaleType="matrix"
+        android:visibility="gone"
+        android:src="@drawable/hd_hse_common_module_popwindow_header_pointer" />
+    
+    <!-- 在容器上设置背景颜色，不用再每个Button都设置 -->
+    <LinearLayout
+        android:id="@+id/hd_hse_common_module_phone_zyplist_pop_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        android:background="@color/hd_hse_common_module_pop_bg"
+        android:orientation="horizontal" />
+
+    <!-- PopWindow 下方的指针 -->
+
+    <ImageView
+        android:id="@+id/hse_common_module_phone_zyplist_pop_footer_pointer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:scaleType="matrix"
+        android:src="@drawable/hd_hse_common_module_popwindow_footer_pointer" />
+
+</LinearLayout>

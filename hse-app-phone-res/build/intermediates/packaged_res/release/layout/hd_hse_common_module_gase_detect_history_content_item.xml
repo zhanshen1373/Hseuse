@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/hd_hse_common_module_text"
+        style="@style/hd_hse_common_module_gase_detect_history"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="@dimen/hd_hse_common_module_phone_gases_check_history_content_paddingLeft" />
+
+</LinearLayout>

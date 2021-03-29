@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/hd_hse_common_white"
+    android:orientation="horizontal" >
+
+    <!-- 图片1 -->
+    <!--
+         <ImageView
+        android:id="@+id/item_icon"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/ic_launcher" />
+    -->
+
+    <com.hd.hse.common.component.phone.custom.ProcessLine
+        android:id="@+id/processline"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="4" />
+
+    <TextView
+        android:id="@+id/item_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="12"
+        android:text="施工单位监护人："
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="@dimen/hd_common_item_text_size" />
+
+    <TextView
+        android:id="@+id/item_name"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="19"
+        android:padding="10dp"
+        android:background="@drawable/hd_hse_common_component_phone_bg_border_stroke"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#000000"
+        android:textSize="@dimen/hd_common_textsize" />
+
+    <!-- 图片2 -->
+    <ImageView
+        android:id="@+id/clickImageView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="6"
+        android:scaleType="fitCenter"
+         />
+
+</LinearLayout>

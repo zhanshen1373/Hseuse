@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hd.hse.main.phone.ui.activity.View.MainActivity_Linearlayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/weather_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/hd_hse_common_white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <!-- 刷卡人信息  weight 1 -->
+
+    <RelativeLayout
+        android:id="@+id/messageRelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/hd_hse_main_app_name_zero"
+        android:layout_weight="@dimen/hd_hse_main_app_name_weight1">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/hd_hse_main_app_photo_margin"
+            android:layout_marginRight="@dimen/hd_hse_main_app_photo_margin"
+            android:src="@drawable/hd_hse_main_phone_app_portrait" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/imageView1"
+            android:text="孙妖娆"
+            android:textColor="#010101"
+            android:textSize="@dimen/text_size_large"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/department"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/name"
+            android:layout_below="@id/name"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/vertical_line"
+            android:text=""
+            android:textSize="@dimen/text_size_xsmall" />
+
+        <TextView
+            android:id="@+id/error_reminder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/department"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toLeftOf="@+id/vertical_line"
+            android:layout_toRightOf="@id/name"
+            android:text="数据正常"
+            android:textColor="#cc0000"
+            android:textSize="@dimen/text_size_small"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/week"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/hd_hse_main_app_name_time_marginright"
+            android:text="2014年12月31日"
+            android:textSize="@dimen/text_size_xsmall" />
+
+        <TextView
+            android:id="@+id/week"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/hd_hse_main_app_name_time_marginright"
+            android:text="星期日"
+            android:textSize="@dimen/text_size_xsmall" />
+
+        <View
+            android:id="@+id/vertical_line"
+            android:layout_width="1dip"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/margin_xlarge"
+            android:layout_marginRight="@dimen/margin_large"
+            android:layout_marginTop="@dimen/margin_xlarge"
+            android:layout_toLeftOf="@id/time"
+            android:background="@color/hd_hse_common_btn_bg_gray" />
+    </RelativeLayout>
+
+    <!-- 消息通知  weight 1 -->
+
+    <LinearLayout
+        android:id="@+id/platRelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/hd_hse_main_app_name_zero"
+        android:layout_weight="@dimen/hd_hse_main_app_name_weight1"
+        android:background="@drawable/hd_hse_main_phone_app_shape"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/hd_hse_main_app_name_zero"
+            android:layout_weight="@dimen/hd_hse_main_app_name_weight3"
+            android:orientation="horizontal">
+
+            <!-- <ImageView -->
+            <!-- android:layout_width="wrap_content" -->
+            <!-- android:layout_height="wrap_content" -->
+            <!-- android:layout_gravity="center_vertical" -->
+            <!-- android:paddingLeft="@dimen/hd_hse_main_app_name_imageview_margin" -->
+            <!-- android:paddingRight="@dimen/hd_hse_main_app_name_imageview_margin" -->
+            <!-- android:src="@drawable/hd_hse_main_phone_app_warning" /> -->
+
+            <TextView
+                android:id="@+id/messagetextview"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:drawableLeft="@drawable/hd_hse_main_phone_app_warning"
+                android:drawablePadding="@dimen/margin_medium"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/margin_medium"
+                android:text="消息通知："
+                android:textColor="#000000"
+                android:textSize="@dimen/text_size_small" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/hd_hse_main_app_name_zero"
+            android:layout_weight="2.5"
+            android:orientation="horizontal">
+
+            <ListView
+                android:id="@+id/notification_listview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- 任务控制台  weight 2 -->
+
+    <LinearLayout
+        android:id="@+id/taskControllPanel"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/hd_hse_main_app_name_zero"
+        android:layout_weight="@dimen/hd_hse_main_app_name_weight2"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/hd_hse_main_app_name_zero"
+            android:layout_weight="@dimen/hd_hse_main_app_name_weight3"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/taskcontrol"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:drawableLeft="@drawable/hd_hse_main_phone_app_task_control"
+                android:drawablePadding="@dimen/margin_medium"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="@dimen/margin_medium"
+                android:text="待办工作："
+                android:textColor="#000000"
+                android:textSize="@dimen/text_size_small" />
+
+            <ImageView
+                android:id="@+id/refresh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/margin_medium"
+                android:clickable="true"
+                android:focusable="true"
+                android:src="@drawable/hd_hse_phone_control_pic_refresh" />
+
+            <TextView
+                android:id="@+id/hd_hse_main_phone_app_layout_main_tv_appr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/margin_medium"
+                android:layout_toLeftOf="@+id/refresh"
+                android:background="@drawable/hd_common_btn_white_to_gray_click_selector"
+                android:paddingBottom="@dimen/padding_xsmall"
+                android:paddingLeft="@dimen/padding_medium"
+                android:paddingRight="@dimen/padding_medium"
+                android:paddingTop="@dimen/padding_xsmall"
+                android:text="审批"
+                android:textSize="@dimen/text_size_medium"
+                android:visibility="invisible" />
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/waite_work_listview"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="5dp"
+            android:layout_weight="6"
+            android:divider="@color/hd_hse_common_grey"
+            android:dividerHeight="1dp"></ListView>
+    </LinearLayout>
+
+    <!-- App name -->
+    <LinearLayout
+        android:id="@+id/linearlayout_dot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/appName"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/hd_hse_main_app_name_zero"
+        android:layout_marginTop="9dp"
+        android:layout_weight="@dimen/hd_hse_main_app_name_weight3"
+        android:text="企业安全作业许可管理平台 V1.0版本"
+        android:textColor="#3e3e3e"
+        android:textSize="@dimen/text_size_xsmall" />
+
+</com.hd.hse.main.phone.ui.activity.View.MainActivity_Linearlayout>

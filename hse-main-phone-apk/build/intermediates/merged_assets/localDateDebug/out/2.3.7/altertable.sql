@@ -1,0 +1,1 @@
+alter table ud_zyxk_zysq add zyptypedesc varchar(100);

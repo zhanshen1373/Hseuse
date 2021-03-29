@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <FrameLayout
+        android:id="@+id/gl_renderer_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <FrameLayout
+        android:id="@+id/hud_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <com.hd.hse.common.module.phone.camera.FocusHudRing
+            android:id="@+id/hud_ring_focus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/shutter_button_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom" >
+
+        <com.hd.hse.common.module.phone.camera.ShutterButton
+            android:id="@+id/btn_shutter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginBottom="-24dp"
+            android:clickable="true"
+            android:src="@drawable/btn_shutter_photo" />
+    </FrameLayout>
+
+</FrameLayout>

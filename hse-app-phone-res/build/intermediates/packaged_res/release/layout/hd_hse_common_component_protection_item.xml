@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/hd_hse_common_component_phone_list_frame_padding"
+    android:paddingRight="@dimen/hd_hse_common_component_phone_list_frame_padding" >
+
+    <RelativeLayout
+        android:id="@+id/hd_hse_common_component_protection_itembg_rl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@+id/hd_hse_common_component_protection_rightImage_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp" />
+
+        <TextView
+            android:id="@+id/hd_hse_common_component_protection_text_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/hd_hse_common_component_protection_rightImage_iv"
+            android:ellipsize="end"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="10dp"
+            android:singleLine="true"
+            android:text="测试文字"
+            android:paddingTop="@dimen/hd_hse_common_component_phone_list_item_padingVertical"
+            android:paddingBottom="@dimen/hd_hse_common_component_phone_list_item_padingVertical"
+            android:textSize="@dimen/text_size_small" />
+        
+        <ImageView
+             android:id="@+id/hd_hse_common_component_protection_isPc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/hd_hse_common_component_step_check_icon_pc"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

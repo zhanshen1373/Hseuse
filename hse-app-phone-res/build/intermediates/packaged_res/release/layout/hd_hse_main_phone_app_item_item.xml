@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:onClick="LinearLayoutOnclick"
+    >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/hd_hse_main_phone_app_viewpager_item_p2"
+        android:background="#58c5c7"
+         />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hd.hse.main.phone.ui.activity.View.ManagerLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dl_linear"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <com.hd.hse.main.phone.ui.activity.View.MyViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></com.hd.hse.main.phone.ui.activity.View.MyViewPager>
+
+
+    <LinearLayout
+        android:id="@+id/linearlayout_dot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="22dp"
+        android:text="企业安全作业许可管理平台 V1.0版本"
+        android:textColor="#3e3e3e"
+        android:textSize="@dimen/text_size_xsmall" />
+
+</com.hd.hse.main.phone.ui.activity.View.ManagerLinearLayout>

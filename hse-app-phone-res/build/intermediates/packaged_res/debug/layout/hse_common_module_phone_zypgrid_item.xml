@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <!-- 图标为了在上方给标志提供空间，所以配置了 marginTop -->
+
+    <TextView
+        android:id="@+id/hse_common_module_phone_grid_item_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/hd_hse_phone_logo"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false" />
+
+    <!-- 文字描述 -->
+
+    <TextView
+        android:id="@+id/hse_common_module_phone_grid_item_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hse_common_module_phone_grid_item_icon"
+        android:layout_centerHorizontal="true"
+        android:clickable="false"
+        android:ellipsize="end"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:maxLines="3"
+        android:text="作业大票"
+        android:textSize="@dimen/text_size_small" />
+
+    <!--摄像头图标-->
+
+    <TextView
+        android:id="@+id/hse_common_module_phone_grid_item_sxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/hse_common_module_phone_grid_item_icon"
+        android:layout_alignTop="@id/hse_common_module_phone_grid_item_icon"
+        android:background="@drawable/hd_hse_common_module_zyplist_selected"
+        android:focusableInTouchMode="false"
+        android:visibility="invisible" />
+
+
+    <!-- 状态标示 -->
+
+    <TextView
+        android:id="@+id/hse_common_module_phone_grid_item_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/hse_common_module_phone_grid_item_icon"
+        android:layout_alignTop="@id/hse_common_module_phone_grid_item_icon"
+        android:background="@drawable/hd_hse_common_module_zyplist_selected"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:visibility="invisible" />
+
+    <!-- 作业票的状态标示 -->
+
+    <TextView
+        android:id="@+id/hse_common_module_phone_grid_item_workorder_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/hse_common_module_phone_grid_item_icon"
+        android:layout_alignLeft="@id/hse_common_module_phone_grid_item_icon"
+        android:background="@drawable/hd_hse_common_module_zyplist_selected"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false" />
+    <!-- 为了标识作业票id -->
+
+    <TextView
+        android:id="@+id/hse_common_module_phone_grid_item_workorder_zypid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/hse_common_module_phone_grid_item_icon"
+        android:layout_alignRight="@id/hse_common_module_phone_grid_item_icon"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:text="zypid"
+        android:visibility="invisible" />
+
+</RelativeLayout>

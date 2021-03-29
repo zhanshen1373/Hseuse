@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#286cb4"
+    android:paddingTop="15dp"
+    android:paddingBottom="15dp"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/hd_hse_common_component_upward"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/hd_hse_common_component_bottom_menu_upward" 
+        />
+
+    <RadioGroup
+        android:id="@+id/hd_hse_common_component_radiogroup"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1" 
+            />
+        
+        <RadioButton
+            android:id="@+id/hd_hse_common_component_selected"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:button="@drawable/hd_hse_common_component_bottom_menu_selected_selector"
+            />
+		
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1" 
+            />
+        
+        <RadioButton
+            android:id="@+id/hd_hse_common_component_unselected"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:gravity="center"
+            android:button="@drawable/hd_hse_common_component_bottom_menu_unselected_selector" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1" 
+            />
+        
+        <RadioButton
+            android:id="@+id/hd_hse_common_component_circle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:gravity="center"
+            android:button="@drawable/hd_hse_common_component_bottom_menu_circle_selector" />
+        
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1" 
+            />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/hd_hse_common_component_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="确定"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="@dimen/text_size_small"
+        android:textColor="@color/hd_hse_common_white"
+        
+        android:gravity="center"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/hd_hse_common_component_bottom_btn_bg"
+         />
+
+    <TextView
+        android:id="@+id/hd_hse_common_component_downward"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/hd_hse_common_component_bottom_menu_downward" />
+
+</LinearLayout>

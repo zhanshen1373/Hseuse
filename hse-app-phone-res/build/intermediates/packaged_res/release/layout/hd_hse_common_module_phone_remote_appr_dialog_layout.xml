@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_large"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/hd_hse_common_module_phone_remote_appr_dialog_layout_agree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="@dimen/margin_large"
+            android:text="同意" />
+
+
+        <RadioButton
+            android:id="@+id/hd_hse_common_module_phone_remote_appr_dialog_layout_disagree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="@dimen/margin_large"
+            android:text="不同意" />
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_large"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_large"
+            android:text="要求/原因"
+            android:textSize="@dimen/text_size_large" />
+
+        <EditText
+            android:id="@+id/hd_hse_common_module_phone_remote_appr_dialog_layout_reason"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_large"
+            android:layout_marginRight="@dimen/margin_large"
+            android:background="@drawable/hd_common_edittext_bg"
+            android:lines="3"
+            android:textSize="@dimen/text_size_large"
+            android:padding="@dimen/padding_medium" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_medium"
+        android:layout_marginLeft="@dimen/margin_large"
+        android:layout_marginRight="@dimen/margin_large"
+        android:layout_marginTop="@dimen/margin_xlarge"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/hd_hse_common_module_phone_remote_appr_dialog_layout_cancle"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/hd_common_component_phone__bottom_button_heigh"
+            android:layout_margin="@dimen/padding_large"
+            android:layout_weight="1"
+            android:background="@drawable/hd_common_btn_white_to_gray_click_selector"
+            android:text="取  消"
+            android:textSize="@dimen/text_size_large">
+
+        </Button>
+
+        <Button
+            android:id="@+id/hd_hse_common_module_phone_remote_appr_dialog_layout_ensure"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/hd_common_component_phone__bottom_button_heigh"
+            android:layout_margin="@dimen/padding_large"
+            android:layout_weight="1"
+            android:background="@drawable/hd_common_btn_white_to_gray_click_selector"
+            android:text="确  定"
+            android:textSize="@dimen/text_size_large">
+
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>

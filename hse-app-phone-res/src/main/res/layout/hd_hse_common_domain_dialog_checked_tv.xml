@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckedTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/hd_hse_common_title_dialog_checked_tv"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:layout_gravity="center_vertical"
+    android:checkMark="@drawable/hd_hse_common_component_checked_textview_selector"
+    android:gravity="center_vertical"
+    android:paddingTop="13dp"
+    android:paddingBottom="13dp"
+    android:paddingLeft="26dp"
+    android:paddingRight="26dp"
+    android:textColor="#000000"
+    android:textSize="24sp" />

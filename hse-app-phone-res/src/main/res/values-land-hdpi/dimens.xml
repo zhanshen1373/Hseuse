@@ -1,0 +1,207 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">11dp</dimen>
+    <dimen name="activity_vertical_margin">11dp</dimen>
+    <!-- 标题和字体大小 -->
+    <dimen name="hd_common_textsize">16sp</dimen>
+    <dimen name="hd_common_title_textsize">20sp</dimen>
+    <dimen name="hd_common_item_text_size">14sp</dimen>
+    <!-- 标题高度 -->
+    <dimen name="hd_hse_common_title_height">80dp</dimen>
+    <dimen name="hd_hse_main_login_parentleft">50dp</dimen>
+     <!-- 抽屉字体大小 -->
+	<dimen name="hd_hse_common_module_phone_drawer_textsize">11sp</dimen>
+    <!-- 照片管理尺寸 -->
+	<dimen name="hd_hse_common_module_phone_picturemanager_image_wh">123dp</dimen>
+    <!-- 导航栏菜单项字体大小 -->
+    <dimen name="hd_common_phone_textsize">10sp</dimen>
+    <!-- 导航栏标题点击弹出框列表单条信息的高度 -->
+    <dimen name="hd_common_component_phone_textheigh">50sp</dimen>
+    <!-- 左侧边菜单栏宽度 -->
+    <dimen name="hd_common_module_phone_leftmenu_width">160dp</dimen>
+    <!-- 导航栏控件标准宽度 -->
+    <dimen name="hd_common_component_phone_actionbar_control_width">40dp</dimen>
+    <!-- 导航栏控件标准左右间距 -->
+    <dimen name="hd_common_component_phone_actionbar_control_padding">10dp</dimen>
+    <!-- 导航栏textview控件间距 -->
+    <dimen name="hd_common_component_phone_actionbar_textview_padding">7dp</dimen>
+     <!-- 菜单栏下拉列表子父控件的间距 -->
+    <dimen name="hd_common_component_phone_menubar_textview_padding">3dp</dimen>
+    <!-- 导航栏左侧菜单栏宽 -->
+    <dimen name="hd_common_component_phone_menubar_listview_left_width">100dp</dimen>
+    <!-- 导航栏右侧菜单栏宽 -->
+    <dimen name="hd_common_component_phone_menubar_listview_width">160dp</dimen>
+    <!-- 导航栏右侧菜单栏textview高度 -->
+    <dimen name="hd_common_component_phone_menubar_textview_heigh">40dp</dimen>
+    <!-- 导航栏搜索内容控件的长度 -->
+    <dimen name="hd_common_component_phone_actionbar_editText_width">300dp</dimen>
+    <!-- 导航栏搜索内容控件的高度 -->
+    <dimen name="hd_common_component_phone_actionbar_editText_heigh">25dp</dimen>
+    <!-- 导航栏搜索文本距离父控件右侧的距离 -->
+    <dimen name="hd_common_component_phone_actionbar_editText_marginleft">40dp</dimen>
+    <!-- 下拉列表图标距离左侧距离 -->
+    <dimen name="hd_common_component_phone_menubar_imageview_marginleft">20dp</dimen>
+    <!-- 下拉列表文本区域距离左侧控件的距离 -->
+    <dimen name="hd_common_component_phone_menubar_textview_marginleft">10dp</dimen>
+     <!-- 下拉列表文本区域距离上面的距离 -->
+    <dimen name="hd_common_component_phone_menubar_textview_margintop">7dp</dimen>
+    <!-- 作废界面作废时间行高 -->
+    <dimen name="hd_osc_phone_app_workorderobsoleteoctivity_linearlayout_height">53dp</dimen>
+    <!-- 作废界面作废时间宽度 -->
+    <dimen name="hd_osc_phone_app_workorderobsoleteoctivity_textview_width">100dp</dimen>
+    <!-- 作废界面作废原因行高 -->
+    <dimen name="hd_osc_phone_app_workorderobsoleteoctivity_linearlayout_reason_height">72dp</dimen>
+     <!-- 作废界面作废原因edittext-->
+    <dimen name="hd_osc_phone_app_workorderobsoleteoctivity_edittext_reason_height">51dp</dimen>
+     <!-- 作废界面作废原因选择图标宽度-->
+    <dimen name="hd_osc_phone_app_workorderobsoleteoctivity_edittext_icon_width">20dp</dimen>
+     <dimen name="mm_up_arrow_margin">-16dp</dimen>
+    
+    <!-- 措施一级导航间距 -->
+    <dimen name="hd_common_component_nav_one_gap">18dp</dimen>
+     <!-- 措施二级导航间距 -->
+    <dimen name="hd_common_component_nav_two_gap">8dp</dimen>
+    
+     <!-- 字体 -->
+    <dimen name="text_size_xxlarge">22sp</dimen>
+    <dimen name="text_size_xlarge">20sp</dimen>
+    <dimen name="text_size_large">16sp</dimen>
+    <dimen name="text_size_medium">14sp</dimen>
+    <dimen name="text_size_small">13sp</dimen>
+    <dimen name="text_size_xsmall">12sp</dimen>
+    <dimen name="text_size_xxsmall">10sp</dimen>
+
+    <!-- 外边距 -->
+    <dimen name="margin_xxlarge">36dp</dimen>
+    <dimen name="margin_xlarge">20dp</dimen>
+    <dimen name="margin_large">16dp</dimen>
+    <dimen name="margin_medium">10dp</dimen>
+    <dimen name="margin_small">6dp</dimen>
+    <dimen name="margin_xsmall">4dp</dimen>
+
+    <!-- 内边距 -->
+    <dimen name="padding_xlarge">16dp</dimen>
+    <dimen name="padding_large">11dp</dimen>
+    <dimen name="padding_medium">6dp</dimen>
+    <dimen name="padding_small">3dp</dimen>
+    <dimen name="padding_xsmall">2dp</dimen>
+
+    <!-- 导航栏标题距离左侧位置距离 -->
+    <dimen name="hd_common_component_phone_title_rangeleft">90dp</dimen>
+    <!-- 登录界面 hd_hse_main_app_layout_login.xml -->
+    <dimen name="hd_hse_login_logo_top">80dp</dimen>
+    <dimen name="hd_hse_login_left">20dp</dimen>
+    <dimen name="hd_hse_login_edit_height">60dp</dimen>
+
+    <!-- 网络设置编辑框左偏移量 -->
+    <dimen name="hd_hse_config_margin">50dp</dimen>
+    
+    <!-- 关闭说明右偏移量 -->
+    <dimen name="hd_hse_close_exp">2dp</dimen>
+    
+    <!-- 主界面尺寸 -->
+    <dimen name="hd_hse_main_app_photo_margin">14dp</dimen>
+    <dimen name="hd_hse_main_app_textsize">16sp</dimen>
+    <dimen name="hd_hse_main_app_name_margintop">18dp</dimen>
+    <dimen name="hd_hse_main_app_name_welcome_margintop">10dp</dimen>
+    <dimen name="hd_hse_main_app_name_time_marginright">16dp</dimen>
+    <dimen name="hd_hse_main_app_name_imageview_margin">5dp</dimen>
+    <dimen name="hd_hse_main_app_name_bottom_textsize">14sp</dimen>
+    <dimen name="hd_hse_main_app_name_zero">0dp</dimen>
+
+    <item name="hd_hse_main_app_name_weight1" format="float" type="dimen">2.5</item>
+    <item name="hd_hse_main_app_name_weight2" format="integer" type="dimen">8</item>
+    <item name="hd_hse_main_app_name_weight3" format="integer" type="dimen">1</item>
+
+    <!-- PopupWindow相关字体 -->
+    <item name="hd_hse_common_module_pop_window_btn" type="dimen">24sp</item>
+    <!-- 读卡界面间距 -->
+    <dimen name="hd_hse_common_readcard_top">55dp</dimen>
+    <!-- 板块横向间距 -->
+	<dimen name="hd_common_plate_gap_horizontal">9dp</dimen>
+    <dimen name="hd_hse_common_component_dytable_default_textsize">10sp</dimen>
+    <!-- 板块纵向间距 -->
+	<dimen name="hd_common_plate_gap_vertical">9dp</dimen>
+	
+	<!-- 气体检测界面相关尺寸 -->
+	<!-- 气体检测界面，两列部分，第二列，宽度 -->
+	<dimen name="hd_hse_common_module_phone_gases_check_top_col1_width">150dp</dimen>
+	<!-- 气体检测界面，两列部分，第二列，高度 -->
+	<dimen name="hd_hse_common_module_phone_gases_check_top_col1_height">36dp</dimen>
+	<!-- 气体检测界面，三列部分，第二列，高度 -->
+	<dimen name="hd_hse_common_module_phone_gases_check_bottom_col1_height">36dp</dimen>
+	<!-- 气体检测界面，三列部分，第二列，宽度 -->
+	<dimen name="hd_hse_common_module_phone_gases_check_bottom_col1_width">100dp</dimen>
+	<!-- 气体检测界面，三列部分，第三列，高度 -->
+	<dimen name="hd_hse_common_module_phone_gases_check_bottom_col2_height">36dp</dimen>
+	<!-- 气体检测界面，三列部分，第三列，宽度 -->
+	<dimen name="hd_hse_common_module_phone_gases_check_bottom_col2_width">100dp</dimen>
+	<dimen name="hd_hse_common_module_phone_gases_topButton_paddingHorizontal">10dp</dimen>
+	<dimen name="hd_hse_common_module_phone_gases_topButton_paddingVertical">10dp</dimen>
+	<!-- 气体检测界面，历史记录部分，ListView 中item之间的间距 -->
+	<dimen name="hd_hse_common_module_phone_gases_check_history_list_dividerHeight">7dp</dimen>
+	
+	<!-- 气体检测界面，历史记录部分，内容部分 paddingLeft-->
+	<dimen name="hd_hse_common_module_phone_gases_check_history_content_paddingLeft">10dp</dimen>
+	
+	<!-- 气体检测界面，历史记录部分，标题部分宽度-->
+	<dimen name="hd_hse_common_module_phone_gases_check_history_title_width">80dp</dimen>
+	
+	<!-- 新增气体时下拉框的宽度 -->
+	<dimen name="hd_hse_common_module_phone_gases_dropdown_width">100dp</dimen>
+	
+	<!-- 气体检测界面相关尺寸 end -->
+	
+	<!-- 位置卡界面动画图片的尺寸 -->
+    <dimen name="hd_hse_common_module_phone_image_location_marginTop">17dp</dimen>
+    <dimen name="hd_hse_common_module_phone_image_location_marginLeft">13dp</dimen>
+    <dimen name="hd_hse_common_module_phone_image_phone_marginLeft">40dp</dimen>
+    <dimen name="hd_hse_common_module_phone_tv_messagetip_padding">10dp</dimen>
+	<!-- 左侧抽屉图标的宽高 -->
+	<dimen name="hd_hse_common_module_phone_textview_leftdrawer_heigh">70dp</dimen>
+	<dimen name="hd_hse_common_module_phone_textview_leftdrawer_width">97dp</dimen>
+	<!-- actionbar高度 -->
+	<dimen name="hd_common_component_phone_actionbar_heigh">50dp</dimen>
+	
+	<dimen name="hd_common_component_phone__bottom_button_heigh">30dp</dimen>
+	<dimen name="hd_common_component_phone_actionbar_drawer_icon_size">1dp</dimen>
+	
+	
+	<!-- BottomMenu相关尺寸  -->
+	<dimen name="hd_hse_common_component_phone_bottommenu_frame_paddingTop">5dp</dimen>
+	<dimen name="hd_hse_common_component_phone_bottommenu_frame_paddingBottom">5dp</dimen>
+	<dimen name="hd_hse_common_component_phone_bottommenu_directionView_marginLeft">10dp</dimen>
+	<dimen name="hd_hse_common_component_phone_bottommenu_directionView_marginRight">10dp</dimen>
+	
+	<dimen name="hd_hse_common_component_phone_bottommenu_centerButton_margin">5dp</dimen>
+	
+	<dimen name="hd_hse_common_component_phone_bottommenu_RightButton_paddingTop">5dp</dimen>
+	<dimen name="hd_hse_common_component_phone_bottommenu_RightButton_paddingBottom">5dp</dimen>
+	<dimen name="hd_hse_common_component_phone_bottommenu_RightButton_paddingLeft">15dp</dimen>
+	<dimen name="hd_hse_common_component_phone_bottommenu_RightButton_paddingRight">15dp</dimen>
+	<dimen name="hd_hse_common_component_phone_bottommenu_RightButton_marginLeft">10dp</dimen>
+	<!-- BottomMenu相关尺寸 end  -->
+	
+	<!-- 措施确认等列表  -->
+	<dimen name="hd_hse_common_component_phone_list_frame_padding">4dp</dimen>
+	<dimen name="hd_hse_common_component_phone_list_item_padingVertical">7dp</dimen>
+	<!-- 措施确认等列表 end  -->
+	
+	<!-- 提示框的外边距 -->
+	<dimen name="hd_hse_common_component_phone_message_margin">20dp</dimen>
+	<dimen name="hd_hse_common_component_phone_message_button_height">40dp</dimen>
+	<dimen name="hd_hse_common_component_phone_message_title_margintop">15dp</dimen>
+	<!-- end 提示框的外边距 -->
+	
+	<!-- 可编辑对话框 -->
+	<dimen name="hd_hse_common_component_phone_editable_dialog_text">18sp</dimen>
+	<dimen name="hd_hse_common_component_phone_editable_dialog_button">24sp</dimen>
+	<!-- 可编辑对话框 end -->
+	<!-- 关闭原因spinner的dropDownWidth -->
+	<dimen name="hd_hse_cc_phone_app_spinner_dropdownwidth">167dp</dimen>
+	<!-- 读卡界面高度 -->
+	<dimen name="hd_hse_common_readcard_height">214dp</dimen>
+	<!-- 能量隔离圆点大小 -->
+	<dimen name="hd_hse_common_module_circle_glff_size">8dp</dimen>
+</resources>

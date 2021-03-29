@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <GridLayout
+        android:id="@+id/gridlayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+        android:columnCount="3"
+        android:layout_marginTop="20dp"
+        android:columnOrderPreserved="true" >
+
+        <TextView
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="10dp"
+            android:text="位置名称"
+            android:textColor="#999999"
+            android:textSize="20sp" />
+
+        <com.hd.hse.common.component.phone.custom.MarqueeTextView
+            android:id="@+id/tv_position_desc"
+            android:layout_width="150dp"
+            android:text="一联合车间加热炉区"
+            android:textSize="20sp" />
+
+        <TextView />
+
+        <TextView
+            android:layout_marginBottom="20dp"
+            android:text="经    度"
+            android:textColor="#999999"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_position_longitude"
+            android:text="130.678242"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:id="@+id/tv_get_position"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowSpan="2"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@null"
+                android:src="@drawable/coordinate" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="获取经纬度"
+                android:textColor="#22c60b" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginBottom="20dp"
+            android:text="纬    度"
+            android:textColor="#999999"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_position_latitude"
+            android:text="36.83475"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_marginBottom="20dp"
+            android:text="半径(米)"
+            android:textColor="#999999"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/tv_position_radius"
+            android:layout_width="150dp"
+            android:background="@drawable/hd_hse_vp_edittext_bg"
+            android:padding="5dp"
+            android:text="50"
+            android:textSize="20sp" />
+
+        <TextView />
+
+        <!-- <TextView -->
+        <!-- android:layout_marginBottom="20dp" -->
+        <!-- android:text="登  记  人" -->
+        <!-- android:textColor="#999999" -->
+        <!-- android:textSize="20sp" /> -->
+
+
+        <!-- <TextView -->
+        <!-- android:text="系统管理人" -->
+        <!-- android:textSize="20sp" /> -->
+
+
+        <!-- <TextView /> -->
+
+
+        <!-- <TextView -->
+        <!-- android:layout_marginBottom="20dp" -->
+        <!-- android:text="所在单位：" -->
+        <!-- android:textColor="#999999" -->
+        <!-- android:textSize="20sp" /> -->
+
+
+        <!-- <TextView -->
+        <!-- android:text="兰州石化公司" -->
+        <!-- android:textSize="20sp" /> -->
+
+
+        <!-- <TextView /> -->
+
+        <Button
+            android:id="@+id/tv_position_save"
+            android:layout_columnSpan="3"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/query_btn_bg"
+            android:text="保  存"
+            android:textColor="#ffffff" />
+    </GridLayout>
+
+</RelativeLayout>

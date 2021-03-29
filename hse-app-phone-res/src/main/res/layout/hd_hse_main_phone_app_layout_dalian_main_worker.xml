@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hd.hse.main.phone.ui.activity.View.WorkLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/worker_messagenotify_textview"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/hd_hse_main_phone_app_warning"
+            android:drawablePadding="7dp"
+            android:gravity="bottom"
+            android:text="消息通知"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/refresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/margin_medium"
+            android:clickable="true"
+            android:focusable="true"
+            android:src="@drawable/hd_hse_phone_control_pic_refresh" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/worker_messagenotify_listview"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"></ListView>
+
+
+    <LinearLayout
+        android:id="@+id/platRelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/hd_hse_main_phone_app_shape"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/worker_pz_notice_textview"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/zdydrawable"
+                android:drawablePadding="7dp"
+                android:text="票证到期提醒"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/refresh2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/margin_medium"
+                android:clickable="true"
+                android:focusable="true"
+                android:src="@drawable/hd_hse_phone_control_pic_refresh" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/worker_pz_notice_listview"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scrollbars="none"></ListView>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/worker_gasdetect_notice_textview"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/zdydrawable"
+            android:drawablePadding="7dp"
+            android:text="气体检测提醒"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/refresh3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/margin_medium"
+            android:clickable="true"
+            android:focusable="true"
+            android:src="@drawable/hd_hse_phone_control_pic_refresh" />
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/worker_gasdetect_notice_listview"
+        android:layout_width="match_parent"
+        android:layout_height="154dp"></ListView>
+
+
+    <LinearLayout
+        android:id="@+id/linearlayout_dot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"></LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="23dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="企业安全作业许可管理平台 V1.0版本"
+        android:textColor="#3e3e3e"
+        android:textSize="@dimen/text_size_xsmall" />
+</com.hd.hse.main.phone.ui.activity.View.WorkLinearLayout>
+

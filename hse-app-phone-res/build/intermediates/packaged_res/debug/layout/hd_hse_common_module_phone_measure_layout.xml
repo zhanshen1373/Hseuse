@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerVertical="true" >
+    <com.hd.hse.common.component.phone.custom.BottomMenu
+        android:id="@+id/hd_hse_common_module_phone_measure_bottommeneid"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+    </com.hd.hse.common.component.phone.custom.BottomMenu>
+	
+    <com.hd.hse.common.component.phone.custom.PinnedSectionExpandableListView
+        android:id="@+id/hd_hse_common_module_phone_measure_expandablelistViewid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+ 		android:groupIndicator="@null"
+ 		android:childDivider="@android:color/transparent"
+        android:layout_above="@id/hd_hse_common_module_phone_measure_bottommeneid" >
+    </com.hd.hse.common.component.phone.custom.PinnedSectionExpandableListView>
+
+    <com.hd.hse.common.component.phone.custom.CustomListView
+        android:id="@+id/hd_hse_common_module_phone_measure_listViewid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/hd_hse_common_module_phone_measure_bottommeneid"
+        android:divider="@null" >
+    </com.hd.hse.common.component.phone.custom.CustomListView>
+
+</RelativeLayout>

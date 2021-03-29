@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hd_common_btn_click_selector"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/hd_hse_common_module_phone_swingcard_location_cache_item_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:paddingBottom="@dimen/padding_medium"
+        android:paddingLeft="@dimen/hd_hse_common_module_phone_tv_messagetip_padding"
+        android:paddingTop="@dimen/padding_medium"
+        android:singleLine="true"
+        android:text="公司的骄傲升级的"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/text_size_xsmall" />
+
+    <!-- <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/hse_pc_phone_app_layout_person_check_divider_height"
+        android:background="@color/gray" /> -->
+
+</LinearLayout>

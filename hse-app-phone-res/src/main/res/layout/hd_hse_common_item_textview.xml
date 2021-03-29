@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/hd_hse_common_item_textview_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+   
+    android:clickable="true"
+    android:focusable="true" >
+
+    <TextView
+        android:id="@+id/hd_hse_common_item_textview_tv"
+        android:layout_width="@dimen/hd_hse_common_module_phone_textview_leftdrawer_width"
+        android:layout_height="@dimen/hd_hse_common_module_phone_textview_leftdrawer_heigh"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:textSize="@dimen/hd_hse_common_module_phone_drawer_textsize"
+        android:layout_margin="@dimen/hd_common_component_phone_actionbar_textview_padding"
+        android:background="@drawable/hd_common_component_phone_actionbar_item_selected" 
+        android:textStyle="bold" />
+</RelativeLayout>

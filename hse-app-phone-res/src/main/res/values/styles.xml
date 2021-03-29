@@ -1,0 +1,246 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="@android:style/Theme.Holo.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:windowEnableSplitTouch">false</item>
+        <item name="android:splitMotionEvents">false</item>
+        <item name="android:actionBarSize">@dimen/hd_common_component_phone_actionbar_heigh</item>
+    </style>
+    <!-- 透明背景弹出 -->
+    <style name="TranslucentStyle" parent="AppTheme">
+        <item name="android:windowBackground">@color/hd_hse_common_translucent</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <!-- 完全透明背景弹出 -->
+    <style name="AllTranslucentStyle">
+        <item name="android:windowBackground">@color/hd_hse_common_component_phone_transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <!-- 耗时等待对话框 -->
+    <style name="ProgressDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/hd_hse_common_dilog_corner_back</item>
+        <item name="android:backgroundDimAmount">0</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="Dialog" parent="android:style/Theme.Dialog">
+        <item name="android:background">#00000000</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+    <style name="text_message_titleStyle">
+        <item name="android:textSize">@dimen/hd_common_title_textsize</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@color/hd_hse_common_title_back</item>
+        <item name="android:paddingLeft">20.0dip</item>
+    </style>
+
+    <style name="text_message_contentStyle">
+        <item name="android:textSize">@dimen/hd_common_textsize</item>
+        <item name="android:textColor">@color/hd_hse_common_alerttext_black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">15.0dip</item>
+        <item name="android:lineSpacingMultiplier">1.5</item>
+    </style>
+
+    <!-- sdw_white 设置文字效果,不能删掉 -->
+    <style name="sdw_white">
+        <item name="android:shadowColor">#7fffffff</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">0.65</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+
+    <style name="sdw_79351b">
+        <item name="android:shadowColor">#ff79351b</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+
+    <style name="text_message_negativeButtonStyle" parent="@style/sdw_79351b">
+        <item name="android:textSize">15.0dip</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+
+    <style name="text_message_positiveButtonStyle" parent="@style/sdw_white">
+        <item name="android:textSize">15.0dip</item>
+        <item name="android:textColor">#ff666666</item>
+    </style>
+
+    <style name="text_message_narrowtextsize_contentStyle" parent="@style/text_message_contentStyle">
+        <item name="android:textSize">@dimen/hd_common_textsize</item>
+    </style>
+    <!-- 读卡界面dialog -->
+    <style name="hd_hse_common_readcard_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:background">@color/hd_hse_common_formtitle_white</item>
+    </style>
+    <!-- 审批界面dialog -->
+    <style name="hd_hse_common_examine_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFrame">@null</item> <!-- 边框 -->
+        <item name="android:windowIsFloating">true</item> <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsTranslucent">true</item> <!-- 半透明 -->
+        <item name="android:background">@android:color/transparent</item> <!-- 背景透明 -->
+        <item name="android:windowBackground">@android:color/transparent</item> <!-- 背景透明 -->
+        <item name="android:backgroundDimEnabled">true</item> <!-- 蒙版- 模糊 -->
+    </style>
+    <!-- 审批界面dialog -->
+    <style name="dialogWindowAnim" mce_bogus="1" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/hd_hse_common_in_from_down</item>
+        <item name="android:windowExitAnimation">@anim/hd_hse_common_out_to_down</item>
+    </style>
+
+    <style name="workorder_dialog" parent="android:style/Theme.Dialog">
+        <item name="android:background">#00FFFFFF</item> <!-- 设置自定义布局的背景透明 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <!-- PopupWindow 相关 -->
+    <style name="hd_hse_common_module_pop_win_btn">
+        <item name="android:textSize">@dimen/hd_hse_common_module_pop_window_btn</item>
+        <item name="android:textColor">@color/hd_hse_common_white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="MyActivityDialogStyle" parent="android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <!-- 边框 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 背景透明 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 模糊 -->
+    </style>
+
+    <!-- 用于气体检测界面的样式 -->
+
+
+    <!-- 气体检测 表格中填表部分，每行的样式 -->
+    <style name="hd_hse_common_module_phone_gases_check_row">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+    </style>
+
+    <!-- 气体检测 两列部分 右侧内容样式 -->
+    <style name="hd_hse_common_module_phone_gases_check_right_content">
+        <item name="android:layout_height">@dimen/hd_hse_common_module_phone_gases_check_top_col1_height</item>
+        <item name="android:layout_width">@dimen/hd_hse_common_module_phone_gases_check_top_col1_width</item>
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <!-- <item name="android:textStyle">bold</item> -->
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:background">@drawable/hd_hse_common_edit_nocorners_style</item>
+        <item name="android:paddingLeft">10dp</item>
+    </style>
+
+    <!-- 气体检测左边标题样式 -->
+    <style name="hd_hse_common_module_phone_gases_check_left_title">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <!-- <item name="android:textStyle">bold</item> -->
+        <item name="android:layout_marginLeft">30dp</item>
+    </style>
+
+    <!-- 气体检测三列部分，第二列，实际应用于 Spinner -->
+    <style name="hd_hse_common_module_phone_gases_check_col1">
+        <item name="android:layout_height">@dimen/hd_hse_common_module_phone_gases_check_top_col1_height</item>
+        <item name="android:layout_width">@dimen/hd_hse_common_module_phone_gases_check_bottom_col1_width</item>
+        <!-- <item name="android:textStyle">bold</item> -->
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:background">@drawable/hd_hse_common_module_gases_check_spinner_bg</item>
+        <item name="android:dropDownWidth">@dimen/hd_hse_common_module_phone_gases_dropdown_width</item>
+    </style>
+
+    <!-- 气体检测三列部分，第三列，实际应用于 EditText -->
+    <style name="hd_hse_common_module_phone_gases_check_col2">
+        <item name="android:layout_height">@dimen/hd_hse_common_module_phone_gases_check_top_col1_height</item>
+        <item name="android:layout_width">@dimen/hd_hse_common_module_phone_gases_check_bottom_col2_width</item>
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <!-- <item name="android:textStyle">bold</item> -->
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:background">@drawable/hd_hse_common_edit_nocorners_style</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+    </style>
+
+    <!-- 历史记录部分 -->
+    <style name="hd_hse_common_module_gase_detect_history">
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+
+        <!-- <item name="android:textStyle">bold</item> -->
+    </style>
+
+    <style name="hd_hse_common_module_gase_detect_divider">
+        <item name="android:layout_height">10dp</item>
+        <!-- <item name="android:layerType">software</item> -->
+    </style>
+
+    <!-- 用于气体检测界面的样式 end -->
+
+    <style name="hd_hse_common_module_phone_gases_check_spinner" parent="hd_hse_common_module_phone_gases_check_right_content">
+        <item name="android:paddingLeft">0dp</item>
+    </style>
+
+    <declare-styleable name="MaterialMenuView">
+        <attr name="mm_color" format="color" />
+        <attr name="mm_scale" format="float" />
+        <attr name="mm_transformDuration" format="integer" />
+        <attr name="mm_pressedDuration" format="integer" />
+        <attr name="mm_strokeWidth" format="integer" />
+        <attr name="mm_rtlEnabled" format="boolean" />
+    </declare-styleable>
+
+    <style name="PaintSignatureDialog" parent="android:style/Theme.Dialog">
+        <item name="android:background">#00000000</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+    <style name="StatisticPopWindow">
+              <item name="android:windowEnterAnimation">@anim/hd_hse_statistic_pop_show</item>
+        <item name="android:windowExitAnimation">@anim/hd_hse_statistic_pop_dismiss</item>
+        
+    </style>
+</resources>

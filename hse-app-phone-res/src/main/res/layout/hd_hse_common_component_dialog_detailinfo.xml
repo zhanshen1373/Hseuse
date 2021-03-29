@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/hd_hse_common_component_dialog_tv01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left|center_vertical"
+        android:textStyle="normal"
+        android:paddingRight="@dimen/hd_common_component_phone_actionbar_textview_padding"
+        android:textColor="@color/hd_hse_common_component_phone_fontnum"
+        android:textSize="@dimen/hd_common_item_text_size" />
+
+    <TextView
+        android:id="@+id/hd_hse_common_component_dialog_tv02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left|center_vertical"
+        android:textStyle="normal"
+        android:paddingBottom="@dimen/hd_common_component_phone_actionbar_control_padding"
+        android:paddingTop="@dimen/hd_common_component_phone_actionbar_control_padding"
+        android:textColor="@color/hd_hse_common_component_phone_fontnum"
+        android:textSize="@dimen/hd_common_item_text_size" />
+
+</LinearLayout>

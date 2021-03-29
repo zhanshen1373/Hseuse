@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/task_tabulation"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.worktask.TaskTabulationActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="15dp"
+                    android:background="@drawable/cornerrectangle"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:drawableLeft="@drawable/icon_need_to_write"
+                    android:text="属地单位:" />
+
+                <Spinner
+                    android:id="@+id/spinner_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:spinnerMode="dropdown"
+                    android:layout_marginLeft="80dp"
+                    android:padding="10dp"
+                    />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_margin="5dp"
+                android:background="#E6E6FA"></View>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="15dp"
+                    android:background="@drawable/cornerrectangle"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:drawableLeft="@drawable/icon_need_to_write"
+                    android:text="执行安全措施:" />
+
+                <Spinner
+                    android:id="@+id/spinner_2"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:spinnerMode="dropdown"
+                    android:layout_marginLeft="35dp"
+                    android:padding="10dp"
+                    />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_margin="5dp"
+                android:background="#E6E6FA"></View>
+
+            <com.hd.hse.carxkz.phone.ui.zdylistview.ZdyListview
+                android:id="@+id/carxkz_listview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="#E6E6FA"
+                android:dividerHeight="2dp"
+                android:padding="5dp"
+                android:scrollbars="none"></com.hd.hse.carxkz.phone.ui.zdylistview.ZdyListview>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_margin="5dp"
+                android:background="#E6E6FA"></View>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="15dp"
+                    android:background="@drawable/cornerrectangle"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:drawableLeft="@drawable/icon_need_to_write"
+                    android:text="进入时间:" />
+
+                <TextView
+                    android:id="@+id/carxkz_entertime"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="13sp"
+                    android:layout_margin="10dp"
+                    android:gravity="center"
+                    android:background="@drawable/rectangle2"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_margin="5dp"
+                android:background="#E6E6FA"></View>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="15dp"
+                    android:background="@drawable/cornerrectangle"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="补充安全措施:" />
+
+                <EditText
+                    android:id="@+id/carxkz_bcaqcs"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="13sp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/rectangle2"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_margin="5dp"
+                android:background="#E6E6FA"></View>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/cornerrectangle"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:drawableLeft="@drawable/icon_need_to_write"
+                    android:text="行驶路线图:" />
+
+                <FrameLayout
+                    android:id="@+id/carxkz_camera"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/carxkz_camera_imageview"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:layout_marginLeft="25dp"
+                        android:background="@drawable/rectanglenormal" />
+
+                    <TextView
+                        android:id="@+id/carxkz_camera_textview"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="拍照后放置照片" />
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/hd_hse_common_component_phone_actionbar_background"
+            android:text="保存"
+            android:textColor="@color/hd_hse_common_white" />
+
+        <View
+            android:layout_width="1dp"
+            android:background="@color/hd_hse_common_white"
+            android:layout_height="match_parent"></View>
+
+        <Button
+            android:id="@+id/sp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/hd_hse_common_white"
+            android:background="@color/hd_hse_common_component_phone_actionbar_background"
+            android:text="审批" />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,1 @@
+insert into hse_sys_record_ts values(31,'ud_cbsgl_ryline','ud_cbsgl_rylineid','承包商人员在线',1,1,0,null,0,1,0);

@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="hd_hse_main_phone_app_item">
+        <item>作业票下载</item>
+        <item>作业票上传</item>
+        <item>权限更新</item>
+        <item>初始化</item>
+        <item>版本升级</item>
+        <item>安全退出</item>
+    </string-array>
+
+    <!-- woa 项目右侧菜单 -->
+    <string-array name="woa_main_app_item">
+        <item>版本升级</item>
+        <item>安全退出</item>
+    </string-array>
+
+    <string-array name="hd_hse_common_component_phone_app_item">
+        <item>照相机</item>
+        <item>照片管理</item>
+        <item>退回</item>
+        <item>作废</item>
+        <item>全部选取</item>
+        <item>全部取消</item>
+        <item>浏览</item>
+        <item>违章记录</item>
+        <item>上传</item>
+        <item>照片查看</item>
+        <item>作业符合</item>
+        <item>暂停</item>
+        <item>结束</item>
+        <item>远程审批</item>
+
+    </string-array>
+    <string-array name="hd_hse_common_component_phone_woe_app_item">
+        <item>照相机</item>
+        <item>照片查看</item>
+        <item>作业票退回</item>
+        <item>作业票作废</item>
+        <item>全部选取</item>
+        <item>全部取消</item>
+        <item>作业浏览</item>
+    </string-array>
+    <string-array name="hd_hse_common_component_dytable_worktask_desc">
+        <item>属地部门：</item>
+        <item>作业名称：</item>
+        <item>属地单位：</item>
+        <item>作业单位：</item>
+        <item>作业区域：</item>
+        <item>作业地点：</item>
+        <item>开始时间：</item>
+        <item>作业内容：</item>
+        <item>结束时间：</item>
+    </string-array>
+    <string-array name="hd_hse_common_component_dytable_worktask_num">
+        <item>zyarea_desc</item>
+        <item>zyname</item>
+        <item>sddept_desc</item>
+        <item>zydept_desc</item>
+        <item>zylocation_desc</item>
+        <item>zysite</item>
+        <item>zystarttime</item>
+        <item>zycontent</item>
+        <item>zyendtime</item>
+    </string-array>
+    <!-- 作业票基础信息 -->
+    <string-array name="hd_hse_common_component_phone_dytable_workorder_desc">
+        <item>作业类型：</item>
+        <item>作业等级：</item>
+        <item>属地部门：</item>
+        <item>作业名称：</item>
+        <item>属地单位：</item>
+        <item>作业单位：</item>
+        <item>作业区域：</item>
+        <item>作业地点：</item>
+        <item>计划开始时间：</item>
+        <item>计划结束时间：</item>
+        <!-- <item>实际开始时间：</item>
+        <item>实际结束时间：</item> -->
+        <item>作业内容：</item>
+    </string-array>
+    <string-array name="hd_hse_common_component_phone_dytable_workorder_num">
+        <item>zypclassname</item>
+        <item>zylevel_desc</item>
+        <item>zyarea_desc</item>
+        <item>zyname</item>
+        <item>sddept_desc</item>
+        <item>zydept_desc</item>
+        <item>zylocation_desc</item>
+        <item>zysite</item>
+        <item>zystarttime</item>
+        <item>zyendtime</item>
+        <!-- <item>sjstarttime</item>
+        <item>sjendtime</item> -->
+        <item>zycontent</item>
+    </string-array>
+    <!-- 作业票基础信息 -->
+    <string-array name="hd_hse_common_component_phone_dytable_workorder_desc_for_ypz">
+        <item>作业名称：</item>
+        <item>作业类型：</item>
+        <item>属地部门：</item>
+        <item>属地单位：</item>
+        <item>作业区域：</item>
+        <item>作业地点：</item>
+        <item>作业单位：</item>
+        <item>作业内容：</item>
+        <item>计划开始时间：</item>
+        <item>计划结束时间：</item>
+        <!-- <item>实际开始时间：</item>
+        <item>实际结束时间：</item> -->
+    </string-array>
+    <string-array name="hd_hse_common_component_phone_dytable_workorder_num_for_ypz">
+        <item>zyname</item>
+        <item>zyptypedesc</item>
+        <item>zyarea_desc</item>
+        <item>sddept_desc</item>
+        <item>zylocation_desc</item>
+        <item>zysite</item>
+        <item>zydept_desc</item>
+        <item>zycontent</item>
+        <item>zystarttime</item>
+        <item>zyendtime</item>
+        <!-- <item>sjstarttime</item>
+        <item>sjendtime</item> -->
+    </string-array>
+    <!-- 作业任务基础信息 -->
+    <string-array name="hd_hse_common_component_phone_dytable_worktask_desc">
+        <item>分        厂：</item>
+        <item>作业名称：</item>
+        <item>作业所在单位：</item>
+        <item>作业单位：</item>
+        <item>作业区域：</item>
+        <item>作业地点：</item>
+        <item>开始时间：</item>
+        <item>结束时间：</item>
+        <item>作业内容：</item>
+    </string-array>
+    <string-array name="hd_hse_common_component_phone_dytable_worktask_num">
+        <item>zyarea_desc</item>
+        <item>zyname</item>
+        <item>sddept_desc</item>
+        <item>zydept_desc</item>
+        <item>zylocation_desc</item>
+        <item>zysite</item>
+        <item>zystarttime</item>
+        <item>zyendtime</item>
+        <item>zycontent</item>
+    </string-array>
+    <!-- 作业任务基础信息 -->
+    <string-array name="hd_hse_common_component_phone_dytable_worktask_desc_for_ypz">
+        <item>作业名称：</item>
+        <item>作业类型：</item>
+        <item>分        厂：</item>
+        <item>作业所在单位：</item>
+        <item>作业区域：</item>
+        <item>作业地点：</item>
+        <item>作业单位：</item>
+        <item>作业内容：</item>
+        <item>开始时间：</item>
+        <item>结束时间：</item>
+    </string-array>
+    <string-array name="hd_hse_common_component_phone_dytable_worktask_num_for_ypz">
+        <item>zyname</item>
+        <item>zyptypedesc</item>
+        <item>zyarea_desc</item>
+        <item>sddept_desc</item>
+        <item>zylocation_desc</item>
+        <item>zysite</item>
+        <item>zydept_desc</item>
+        <item>zycontent</item>
+        <item>zystarttime</item>
+        <item>zyendtime</item>
+    </string-array>
+    <!-- 票的显示顺序 -->
+    <string-array name="hd_hse_main_app_workorder_order">
+
+        <!-- *作业大票 -->
+        <item>zylx99</item>
+        <!-- *动火作业 -->
+        <item>zylx01</item>
+        <!-- *进受限空间 -->
+        <item>zylx02</item>
+        <!-- *高处作业 -->
+        <item>zylx04</item>
+        <!-- *挖掘作业 -->
+        <item>zylx03</item>
+        <!-- *吊装作业 -->
+        <item>zylx05</item>
+        <!-- *管线/设备打开 -->
+        <item>zylx06</item>
+        <!-- *临时用电 -->
+        <item>zylx07</item>
+        <!-- *射线作业 -->
+        <item>zylx08</item>
+        <!-- *非计划性维修工作 -->
+        <item>zylx09</item>
+        <!-- 偏离规则/程序要求的工作 -->
+        <item>zylx10</item>
+        <!-- 没有安全程序可遵循的工作 -->
+        <item>zylx11</item>
+        <!-- 解除连锁和安全应急设备 -->
+        <item>zylx12</item>
+        <!-- 屏蔽报警 -->
+        <item>zylx13</item>
+        <!-- 其他 -->
+        <item>zylx14</item>
+    </string-array>
+    <!-- 作业票基础信息 -->
+    <string-array name="hd_hse_osc_app_dytable_workorder_desc">
+        <item>属地部门：</item>
+        <item>作业名称：</item>
+        <item>属地单位：</item>
+        <item>作业单位：</item>
+        <item>作业区域：</item>
+        <item>作业地点：</item>
+        <item>开始时间：</item>
+        <item>作业等级：</item>
+        <item>结束时间：</item>
+        <item>作业内容：</item>
+        <item>作业类型：</item>
+    </string-array>
+    <string-array name="hd_hse_osc_app_dytable_workorder_num">
+        <item>zyarea_desc</item>
+        <item>zyname</item>
+        <item>sddept_desc</item>
+        <item>zydept_desc</item>
+        <item>zylocation_desc</item>
+        <item>zysite</item>
+        <item>zystarttime</item>
+        <item>zylevel_desc</item>
+        <item>zyendtime</item>
+        <item>zycontent</item>
+        <item>zypclassname</item>
+    </string-array>
+    <string-array name="hd_hse_version_list">
+        <item>1.0.1</item>
+        <item>1.0.2</item>
+        <item>1.0.3</item>
+        <item>1.0.4</item>
+        <item>1.0.5</item>
+        <item>1.0.6</item>
+        <item>1.0.7</item>
+        <item>1.0.8</item>
+        <item>2.1.0</item>
+        <item>2.2.0</item>
+        <item>2.2.1</item>
+        <item>2.3.0</item>
+        <item>2.3.1</item>
+        <item>2.3.2</item>
+        <item>2.3.3</item>
+        <item>2.3.4</item>
+        <item>2.3.5</item>
+        <item>2.3.6</item>
+        <item>2.3.7</item>
+        <item>2.3.8</item>
+        <item>2.3.9</item>
+        <item>2.3.10</item>
+        <item>2.3.11</item>
+        <item>2.3.12</item>
+        <item>2.3.13</item>
+        <item>2.3.14</item>
+        <item>2.3.15</item>
+        <item>2.3.16</item>
+        <item>2.3.17</item>
+        <item>2.5.0</item>
+        <item>2.5.1</item>
+        <item>2.5.2</item>
+        <item>2.5.3</item>
+        <item>2.5.4</item>
+        <item>2.5.5</item>
+        <item>2.5.6</item>
+        <item>2.5.7</item>
+        <item>2.5.8</item>
+        <item>2.5.9</item>
+        <item>2.5.10</item>
+        <item>2.5.11</item>
+        <item>2.5.12</item>
+        <item>2.5.13</item>
+        <item>2.5.14</item>
+        <item>2.5.15</item>
+        <item>2.5.16</item>
+        <item>2.5.17</item>
+        <item>2.5.18</item>
+        <item>2.5.19</item>
+        <item>2.5.20</item>
+        <item>2.5.21</item>
+        <item>2.5.22</item>
+        <item>2.5.23</item>
+        <item>2.5.24</item>
+        <item>2.5.25</item>
+        <item>2.5.26</item>
+        <item>2.5.27</item>
+        <item>2.5.28</item>
+        <item>2.5.29</item>
+        <item>2.6.1</item>
+        <item>2.6.2</item>
+        <item>2.6.3</item>
+        <item>2.6.4</item>
+        <item>2.6.5</item>
+        <item>2.6.6</item>
+        <item>2.6.7</item>
+        <item>2.6.8</item>
+        <item>2.6.9</item>
+        <item>2.7.1</item>
+        <item>2.7.2</item>
+        <item>2.7.3</item>
+        <item>2.7.4</item>
+        <item>2.7.5</item>
+        <item>2.7.6</item>
+        <item>2.7.7</item>
+        <item>2.7.8</item>
+        <item>2.7.9</item>
+        <item>2.8.0</item>
+        <item>2.8.1</item>
+        <item>2.8.2</item>
+        <item>2.8.3</item>
+        <item>2.8.4</item>
+        <item>2.8.5</item>
+        <item>2.8.6</item>
+        <item>2.8.7</item>
+        <item>2.8.8</item>
+        <item>2.8.9</item>
+
+    </string-array>
+
+</resources>

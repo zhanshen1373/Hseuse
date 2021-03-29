@@ -1,0 +1,1 @@
+CREATE TABLE ud_cbsgl_khbz(ud_cbsgl_khbzid varchar (50), fxjb varchar (50), wzfxz int, wzlb varchar (50), wztk varchar (50), changedate varchar(50), tag int, dr int);

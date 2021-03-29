@@ -1,0 +1,7 @@
+<resources>
+
+  
+    <!-- 导航栏右侧菜单栏textview高度 -->
+    <dimen name="hd_common_component_phone_menubar_textview_heigh">40dp</dimen>
+
+</resources>

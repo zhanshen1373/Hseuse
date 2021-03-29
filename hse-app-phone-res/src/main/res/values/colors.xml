@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="hd_hse_common_white">#ffffff</color>
+    <color name="hd_hse_main_app_login_div_back">#93f7f3</color>
+    <!-- 表示80% 透明 -->
+    <color name="hd_hse_common_translucent">#80000000</color>
+    <color name="hd_hse_common_grey">#eaeceb</color>
+    <!-- 提醒文字(黑色) -->
+    <color name="hd_hse_common_alerttext_black">#000000</color>
+    <!-- 任务栏 标题栏 -->
+    <color name="hd_hse_common_title_back">#005FA8</color>
+    <!-- 点击文字 -->
+    <color name="hd_hse_common_clicktext_azury">#9dd4ff</color>
+    <!-- 蒙板 -->
+    <color name="hd_hse_common_masking_black">#90000000</color>
+    <!-- 窗体标题 -->
+    <color name="hd_hse_common_formtitle_white">#ffffff</color>
+    <!-- 描述文字 -->
+    <color name="hd_hse_common_describetext_gray">#999999</color>
+    <!-- 登录按钮背景色 -->
+    <color name="hd_hse_common_btn_bg">#2164ab</color>
+    <!-- 登录按钮点击色 -->
+    <color name="hd_hse_common_btn_bg_down">#2470c1</color>
+    <!-- 按钮颜色（灰色） -->
+    <color name="hd_hse_common_btn_bg_gray">#eaeaea</color>
+    <color name="hd_hse_common_divider_bg_gray">#dddddd</color>
+    <!-- 按钮点击颜色（灰色） -->
+    <color name="hd_hse_common_btn_down_bg_gray">#69beff</color>
+    <!-- 淡蓝色（标题，按钮字体等） -->
+    <color name="hd_hse_common_bule">#69beff</color>
+    <color name="hd_hse_common_bule_title_text_color">#286cb4</color>
+    <!-- 测试连接按钮点击 -->
+    <color name="hd_hse_common_test_down_bg_gray">#eaeaea</color>
+    <!-- 取消按钮字体颜色 -->
+    <color name="hd_hse_common_cancel_gray">#666666</color>
+    <!-- 确认按钮字体颜色 -->
+    <color name="hd_hse_common_sure_yellow">#ffae00</color>
+    <!-- 内容区 -->
+    <color name="hd_hse_common_component_phone_content_back">#F4F4F4</color>
+    <color name="hd_hse_common_component_phone_actionbar_font_white">#FFFFFF</color>
+    <!-- 任务栏 标题栏 -->
+    <color name="hd_hse_common_component_phone_actionbar_background">#286cd4</color>
+    <!-- 导航栏 菜单项分割线 -->
+    <color name="hd_hse_common_component_phone_actionbar_item_divider_line">#6697CC</color>
+    <!-- 导航栏菜单点击 -->
+    <color name="hd_hse_common_component_phone_actionbar_item_touch">#ff8822</color>
+    <color name="hd_hse_common_component_phone_transparent">#00000000</color>
+	<!-- 不可编辑输入框（虚线） -->
+	<color name="hd_hse_common_notedit_roundcolor">#bebebe</color>
+	<!-- 可编辑输入框 -->
+	<color name="hd_hse_common_edit_roundcolor">#e1e1e1</color>
+    <!-- 审核列表文字颜色(普通) -->
+    <color name="step_check_text_color_normal">#393939</color>
+    <!-- 审核列表文字颜色(被选) -->
+    <color name="step_check_text_color_selected">#FFFFFF</color>
+    <!-- 字段描述字体 -->
+    <color name="hd_hse_common_compeonent_phone_fontdesc">#C9C9C9</color>
+    <!-- 导航栏搜索框内提示文字的颜色 -->
+    <color name="hd_hse_common_component_phone_search_hint_font">#a9a9a9</color>
+
+    <!-- 字段值字体 -->
+    <color name="hd_hse_common_component_phone_fontnum">#000000</color>
+    <!-- 警告红色字体 -->
+    <color name="hd_hse_common_red">#de5d46</color>
+    <!-- 成功绿色字体 -->
+    <color name="hd_hse_common_green">#96bd54</color>
+
+    <!-- 作业票列表操作弹出的 popupWindow 中Button之间的分隔线 -->
+    <color name="hd_hse_common_module_pop_divider">#b2afb3</color>
+
+    <!-- 作业票列表操作弹出的 popupWindow 背景 -->
+    <color name="hd_hse_common_module_pop_bg">#a29ca3</color>
+    
+    <!-- item蓝色背景 -->
+    <color name="hd_hse_common_item_bg">#a8dcfa</color>
+    <!-- item选中蓝色背景 -->
+    <color name="hd_hse_common_item_down_bg">#4ab6f4</color>
+    
+    <color name="hd_hse_common_title_blue_bg">#79cdfe</color>
+	<!-- 照片管理选中图片时背景色 -->
+	<color name="hd_hse_common_module_phone_picturemanager_selected_backgroup">#33000000</color>
+    <!-- 会签界面进度条颜色 -->
+    <color name="hd_hse_common_module_phone_countersign_green">#82b224</color>
+   	<color name="hd_hse_common_module_phone_countersign_gray">#d4dee0</color>
+   	<!-- 登陆界面编辑框的局部背景色 -->
+	<color name="hd_hse_login_edite_back_color">#e7e8e9</color>
+	
+    <color name="hd_hse_common_title_blue_underline">#286cb4</color>
+    <!-- 在线审核使用  -->
+    <color name="hd_hse_oea_check_bg">#0495e1</color>
+    <color name="hd_hse_oea_check_bg_down">#046da4</color>
+   <!-- 能量隔离新增项勾选框  -->
+    <color name="hd_common_module_glff_listview">#cccccc</color>
+    <!-- 数据统计中“统计图”与“图表”按钮的颜色 -->
+   <color name="hd_common_module_static_blue">#5CBDE7</color>
+   <color name="hd_common_module_static_black">#000000</color>
+   <color name="hd_hse_common_gray">#aaaaaa</color>
+   <!-- 浅蓝 -->
+   <color name="light_blue">#73a2e8</color>
+   <!-- 蓝 -->
+   <color name="blue">#296cd5</color>
+   <!-- 灰色 -->
+   <color name="gray">#D3D6DC</color>
+    <!-- 橙色 -->
+    <color name="orange">#F6C564</color>
+</resources>

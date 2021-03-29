@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <compositeConfiguration>
+          <compositeBuild compositeDefinitionSource="SCRIPT" />
+        </compositeConfiguration>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/hse-app-phone-res" />
+            <option value="$PROJECT_DIR$/hse-business" />
+            <option value="$PROJECT_DIR$/hse-carxkz-phone-app" />
+            <option value="$PROJECT_DIR$/hse-carxkzscan-phone-app" />
+            <option value="$PROJECT_DIR$/hse-cc-business" />
+            <option value="$PROJECT_DIR$/hse-cc-phone-app" />
+            <option value="$PROJECT_DIR$/hse-common" />
+            <option value="$PROJECT_DIR$/hse-common-component-phone" />
+            <option value="$PROJECT_DIR$/hse-common-module-phone" />
+            <option value="$PROJECT_DIR$/hse-dao" />
+            <option value="$PROJECT_DIR$/hse-dc-business" />
+            <option value="$PROJECT_DIR$/hse-dc-phone-app" />
+            <option value="$PROJECT_DIR$/hse-dly-business" />
+            <option value="$PROJECT_DIR$/hse-dly-phone-app" />
+            <option value="$PROJECT_DIR$/hse-entity-service" />
+            <option value="$PROJECT_DIR$/hse-interface" />
+            <option value="$PROJECT_DIR$/hse-main-business" />
+            <option value="$PROJECT_DIR$/hse-main-phone-apk" />
+            <option value="$PROJECT_DIR$/hse-main-phone-app" />
+            <option value="$PROJECT_DIR$/hse-nd-phone-app" />
+            <option value="$PROJECT_DIR$/hse-osc-business" />
+            <option value="$PROJECT_DIR$/hse-osc-phone-app" />
+            <option value="$PROJECT_DIR$/hse-osr-business" />
+            <option value="$PROJECT_DIR$/hse-osr-phone-app" />
+            <option value="$PROJECT_DIR$/hse-pc-business" />
+            <option value="$PROJECT_DIR$/hse-pc-phone-app" />
+            <option value="$PROJECT_DIR$/hse-scw-business" />
+            <option value="$PROJECT_DIR$/hse-scw-phone-app" />
+            <option value="$PROJECT_DIR$/hse-ss-business" />
+            <option value="$PROJECT_DIR$/hse-ss-phone-app" />
+            <option value="$PROJECT_DIR$/hse-vp-business" />
+            <option value="$PROJECT_DIR$/hse-vp-phone-app" />
+            <option value="$PROJECT_DIR$/hse-wov-business" />
+            <option value="$PROJECT_DIR$/hse-wov-phone-app" />
+            <option value="$PROJECT_DIR$/qr_code" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

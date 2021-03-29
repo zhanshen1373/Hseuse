@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- 连框颜色值 -->
+    <item>
+        <!-- #000000 黑色 -->
+         <shape>
+             <!--指定边框，border，dashWidth和dashGap有一个为0dp则为-->
+             <!-- dashGap虚线间隔宽度 -->
+             <!-- dashWidth虚线宽度 -->
+             <!-- color虚线颜色 -->
+            <stroke
+                android:dashGap="10dp"  
+                android:dashWidth="10dp" 
+                android:width="3dp"
+                android:color="#EAEAEA" /> 
+            <solid android:color="#ffffff" />
+        </shape>
+    </item>
+    
+    <!-- 主组件背景颜色值 -->
+    <!-- 修改如下item，设置上下左右边框 -->
+    <item
+        android:top="1dp"
+        android:bottom="1dp"
+        >
+         <!--#ffffff纯白色  -->
+         <!-- 主组件颜色值 -->
+        <shape>
+            <!-- - 填充颜色，可是是十六进制颜色。
+            （比如想设置半透明效果，直接使用十六就只就OK）
+            -->
+            <solid android:color="#ffffff" />
+        </shape>
+    </item>
+</layer-list>

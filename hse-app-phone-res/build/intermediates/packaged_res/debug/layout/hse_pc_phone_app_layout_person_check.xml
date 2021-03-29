@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/hse_pc_phone_app_layout_person_check_paddingbottom"
+        android:paddingTop="@dimen/hse_pc_phone_app_layout_person_check_paddingtop">
+
+        <RelativeLayout
+            android:layout_width="@dimen/hse_pc_phone_app_layout_person_check_icon_width"
+            android:layout_height="@dimen/hse_pc_phone_app_layout_person_check_icon_width"
+            android:layout_marginLeft="@dimen/hse_pc_phone_app_layout_person_check_icon_marginleft">
+
+            <ImageView
+                android:id="@+id/hse_pc_phone_app_layout_person_check_img_icon"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/hd_hse_main_phone_app_portrait" />
+
+            <ImageView
+                android:id="@+id/hd_cbs_person_info_img"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/hse_pc_phone_app_mask" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/hse_pc_phone_app_layout_person_check_icon_marginleft"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/hse_pc_phone_app_layout_person_check_tv_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/hd_hse_common_component_phone_fontnum"
+                    android:textSize="@dimen/hd_common_textsize" />
+
+                <TextView
+                    android:id="@+id/hse_pc_phone_app_layout_person_check_tv_sex"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/hse_pc_phone_app_layout_person_check_img_sex_marginleft"
+                    android:textColor="@color/hd_hse_common_component_phone_fontnum"
+                    android:textSize="@dimen/hd_common_textsize" />
+
+                <TextView
+                    android:id="@+id/hse_pc_phone_app_layout_person_check_tv_age"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/hse_pc_phone_app_layout_person_check_img_sex_marginleft"
+                    android:textColor="@color/hd_hse_common_component_phone_fontnum"
+                    android:textSize="@dimen/hd_common_textsize" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/hse_pc_phone_app_layout_person_check_tv_company_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/hd_hse_common_gray"
+                android:textSize="@dimen/hd_common_textsize" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="身份证号:  "
+                    android:textColor="@color/hd_hse_common_gray"
+                    android:textSize="@dimen/hd_common_textsize" />
+
+                <TextView
+                    android:id="@+id/hse_pc_phone_app_layout_person_check_tv_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/hd_hse_common_gray"
+                    android:textSize="@dimen/hd_common_textsize" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/hse_pc_phone_app_layout_person_check_divider_height"
+        android:background="@color/hd_hse_common_btn_bg_gray" />
+    <!-- 出入记录，违章查询，工种 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/hse_pc_phone_app_layout_person_check_out_record_parent_height"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/hse_pc_phone_app_layout_person_check_rl_out_record"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/hd_common_btn_click_selector"
+            android:clickable="true">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="@dimen/hse_pc_phone_app_layout_person_check_img_out_record_height"
+                    android:layout_height="@dimen/hse_pc_phone_app_layout_person_check_img_out_record_height"
+                    android:src="@drawable/hse_pc_phone_app_out_record" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="培训记录"
+                    android:textColor="@color/hd_hse_common_component_phone_fontnum"
+                    android:textSize="@dimen/text_size_small" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="@dimen/hse_pc_phone_app_layout_person_check_divider_height"
+            android:layout_height="match_parent"
+            android:background="@color/hd_hse_common_btn_bg_gray" />
+
+        <RelativeLayout
+            android:id="@+id/hse_pc_phone_app_layout_person_check_rl_illegal_inquiry"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/hd_common_btn_click_selector"
+            android:clickable="true">
+
+            <RelativeLayout
+                android:layout_width="@dimen/hse_pc_phone_app_layout_person_check_right_top_height"
+                android:layout_height="@dimen/hse_pc_phone_app_layout_person_check_right_top_height"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/margin_small"
+                android:layout_marginTop="@dimen/margin_small"
+                android:background="@drawable/hd_common_ciecle">
+
+                <TextView
+                    android:id="@+id/hse_pc_phone_app_layout_person_check_rv_wz_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="0"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/text_size_xxsmall" />
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="@dimen/hse_pc_phone_app_layout_person_check_img_out_record_height"
+                    android:layout_height="@dimen/hse_pc_phone_app_layout_person_check_img_out_record_height"
+                    android:src="@drawable/hse_pc_phone_app_illegal_inquiry" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="违章查询"
+                    android:textColor="@color/hd_hse_common_component_phone_fontnum"
+                    android:textSize="@dimen/text_size_small" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="@dimen/hse_pc_phone_app_layout_person_check_divider_height"
+            android:layout_height="match_parent"
+            android:background="@color/hd_hse_common_btn_bg_gray" />
+
+        <RelativeLayout
+            android:id="@+id/hse_pc_phone_app_layout_person_check_rl_profession"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/hd_common_btn_click_selector"
+            android:clickable="true">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="28dp"
+                    android:layout_height="33dp"
+                    android:src="@drawable/hse_pc_phone_app_trades" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="操作资质"
+                    android:textColor="@color/hd_hse_common_component_phone_fontnum"
+                    android:textSize="@dimen/text_size_small" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="@dimen/hse_pc_phone_app_layout_person_check_divider_height"
+            android:layout_height="match_parent"
+            android:background="@color/hd_hse_common_btn_bg_gray" />
+
+        //监护人考试成绩
+
+        <RelativeLayout
+            android:id="@+id/hse_pc_phone_app_layout_person_check_rl_jhrScore"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/hd_common_btn_click_selector"
+            android:clickable="true">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="28dp"
+                    android:layout_height="33dp"
+                    android:src="@drawable/hse_pc_phone_app_score" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="监护人成绩"
+                    android:textColor="@color/hd_hse_common_component_phone_fontnum"
+                    android:textSize="@dimen/text_size_small" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <!-- 出入记录，违章查询，工种    end -->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/hse_pc_phone_app_layout_person_check_bold_divider_height"
+        android:background="@color/hd_hse_common_divider_bg_gray" />
+
+    <ListView
+        android:id="@+id/hse_pc_phone_app_layout_person_check_lv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ListView>
+
+</LinearLayout>

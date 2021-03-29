@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/hd_hse_common_component_phone_actionbar_background" >
+
+        <TextView
+            android:id="@+id/hd_hse_common_pager_title_tab_dialog_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_medium"
+            android:text="标题"
+            android:padding="@dimen/padding_large"
+            android:textColor="@color/hd_hse_common_white"
+            android:textSize="@dimen/text_size_large"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/hd_hse_common_domain_sure_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/hd_hse_common_pager_title_tab_dialog_title"
+            android:layout_alignBottom="@+id/hd_hse_common_pager_title_tab_dialog_title"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/margin_large"
+            android:text="确定"
+            android:padding="@dimen/padding_large"
+            android:textColor="@drawable/hd_hse_common_component_actionbar_tv_touch_style"
+            android:textSize="@dimen/text_size_large"
+            android:textStyle="bold"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/hd_hse_common_pager_title_tab_dialog_lv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:choiceMode="none"
+        android:divider="@drawable/divider_line"
+        android:dividerHeight="@dimen/padding_medium"/>
+
+</LinearLayout>

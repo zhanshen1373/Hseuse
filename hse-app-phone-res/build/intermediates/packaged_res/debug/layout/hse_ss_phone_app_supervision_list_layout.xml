@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <!-- 底部删除，上传按钮 -->
+
+        <LinearLayout
+            android:id="@+id/hse_ss_phone_app_supervision_list_li_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/hse_ss_phone_app_supervision_list_li_bottom_height"
+            android:layout_alignParentBottom="true"
+            android:background="@color/hd_hse_common_btn_bg_gray"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/hse_ss_phone_app_supervision_list_bt_dele"
+                    android:layout_width="@dimen/hse_ss_phone_app_supervision_list_bt_width"
+                    android:layout_height="@dimen/hse_ss_phone_app_supervision_list_bt_height"
+                    android:background="@drawable/hd_common_btn_white_to_gray_click_selector"
+                    android:text="删    除"
+                    android:textSize="@dimen/hd_common_item_text_size" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/hse_ss_phone_app_supervision_list_bt_upload"
+                    android:layout_width="@dimen/hse_ss_phone_app_supervision_list_bt_width"
+                    android:layout_height="@dimen/hse_ss_phone_app_supervision_list_bt_height"
+                    android:background="@drawable/hd_common_btn_blue_to_deongaree_click_selector"
+                    android:text="上    传"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/hd_common_item_text_size" />
+            </LinearLayout>
+        </LinearLayout>
+        <!-- 内容 -->
+
+
+        <!--
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/hse_ss_phone_app_supervision_list_li_bottom" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/hse_ss_phone_app_supervision_tv_local"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/hd_hse_common_btn_bg_gray"
+                    android:paddingBottom="@dimen/hse_pc_phone_app_item_person_check_tv_type_marginright"
+                    android:paddingLeft="@dimen/hse_pc_phone_app_item_person_check_parent_paddingleft"
+                    android:paddingTop="@dimen/hse_pc_phone_app_item_person_check_tv_type_marginright"
+                    android:text="未上传"
+                    android:textSize="@dimen/text_size_medium"
+                    android:visibility="gone" />
+
+                <com.hd.hse.common.component.phone.custom.ExpandListView
+                    android:id="@+id/hse_ss_phone_app_supervision_list_lv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:divider="@null" />
+
+                <TextView
+                    android:id="@+id/hse_ss_phone_app_supervision_tv_local_net"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/hd_hse_common_btn_bg_gray"
+                    android:paddingBottom="@dimen/hse_pc_phone_app_item_person_check_tv_type_marginright"
+                    android:paddingLeft="@dimen/hse_pc_phone_app_item_person_check_parent_paddingleft"
+                    android:paddingTop="@dimen/hse_pc_phone_app_item_person_check_tv_type_marginright"
+                    android:text="已上传"
+                    android:textSize="@dimen/text_size_medium"
+                    android:visibility="gone" />
+
+                <com.hd.hse.common.component.phone.custom.ExpandListView
+                    android:id="@+id/hse_ss_phone_app_supervision_net_lv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:divider="@null" />
+            </LinearLayout>
+        </ScrollView>
+        -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/hse_ss_phone_app_supervision_list_li_bottom"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+                <Button 
+                    android:id="@+id/hse_ss_phone_app_supervision_list_bt_wait_up"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="未上传"
+                    android:background="@color/gray"
+                    android:gravity="center"/>
+                <Button 
+                    android:id="@+id/hse_ss_phone_app_supervision_list_bt_up_loaded"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="已上传"
+                    android:background="@color/gray"
+                    android:gravity="center"/>
+            </LinearLayout>
+            <FrameLayout 
+                android:id="@+id/hse_ss_phone_app_supervision_list_frame"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent">
+                
+            </FrameLayout>
+        </LinearLayout>
+
+        <!-- 内容end -->
+    </RelativeLayout>
+    <!-- 添加新问题 -->
+
+    <ImageView
+        android:id="@+id/hse_ss_phone_app_supervision_list_img_add"
+        android:layout_width="@dimen/hse_ss_phone_app_supervision_list_img_add_height"
+        android:layout_height="@dimen/hse_ss_phone_app_supervision_list_img_add_height"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="@dimen/hse_ss_phone_app_supervision_list_img_add_margin"
+        android:layout_marginRight="@dimen/hse_ss_phone_app_supervision_list_img_add_margin"
+        android:src="@drawable/hse_ss_phone_app_supervision_list_add" />
+
+</RelativeLayout>

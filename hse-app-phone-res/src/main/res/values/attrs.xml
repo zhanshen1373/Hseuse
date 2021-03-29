@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="hse">
+        <attr name="lineColor" format="color" />
+        <attr name="lineWidth" format="dimension" />
+        <attr name="lineOnLength" format="dimension" />
+        <attr name="lineOffLength" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="DyTable">
+        <attr name="rowCout" format="integer"></attr>
+        <attr name="arrayNum" format="reference"></attr>
+        <attr name="arrayDesc" format="reference"></attr>
+        <attr name="textDescSize" format="reference"></attr>
+        <attr name="textValueSize" format="reference"></attr>
+        <attr name="textDescColor" format="reference|color"></attr>
+        <attr name="textValueColor" format="reference|color"></attr>
+        <attr name="itemHeight" format="integer"></attr>
+        <attr name="isLines" format="boolean"></attr>
+        <attr name="childInfoNum" format="reference"></attr>
+        <attr name="childInfoDesc" format="reference"></attr>
+    </declare-styleable>
+    <declare-styleable name="HorizontalListView">
+        <attr name="dividerWidth" format="dimension" />
+        <attr name="android:divider" />
+        <attr name="android:requiresFadingEdge" />
+        <attr name="android:fadingEdgeLength" />
+    </declare-styleable>
+
+</resources>

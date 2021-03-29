@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="@dimen/hd_hse_common_component_phone_list_frame_padding"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout 
+        android:id="@+id/hse_common_component_phone_whfhzb_list_item_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        >
+
+        <!-- 文字部分 -->
+
+        <TextView
+            android:id="@+id/hse_common_component_phone_whfhzb_list_item_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:text="危害测试"
+            android:textSize="@dimen/text_size_small"
+            android:textStyle="bold" />
+
+        <!-- 勾部分 -->
+
+        <CheckBox
+            android:id="@+id/hse_common_component_phone_whfhzb_list_item_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:focusableInTouchMode="false"
+            android:focusable="false"
+            android:button="@drawable/hse_common_component_phone_whfhzb_list_icon_selector"
+            android:clickable="false" />
+    </RelativeLayout>
+
+</FrameLayout>

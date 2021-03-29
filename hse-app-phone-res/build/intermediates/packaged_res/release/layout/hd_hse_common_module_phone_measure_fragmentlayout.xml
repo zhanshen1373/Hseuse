@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/hd_hse_osc_app_examine_ll"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+      <LinearLayout
+            android:id="@+id/hd_hse_common_module_phone_measure_tag_id"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+            <com.hd.hse.common.module.phone.custom.StepCheckTabView
+                android:id="@+id/hd_hse_common_component_phone_pageindicator_id"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" 
+                android:layout_marginTop="4dp">
+            </com.hd.hse.common.module.phone.custom.StepCheckTabView>
+        </LinearLayout>
+        <FrameLayout
+            android:id="@+id/hd_hse_common_component_phone_content_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="4dp"/>
+    </LinearLayout>

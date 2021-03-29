@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:table="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/hd_hse_common_component_phone_gray_circle_bg"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/img_btn_route"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="路线图"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/hd_hse_common_component_dialog_lv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:dividerHeight="0.5dp"
+            android:padding="10dp"
+            android:scrollbarStyle="outsideOverlay" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/hd_hse_common_component_phone_actionbar_ib_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="#00FFFFFF"
+        android:clickable="true"
+        android:contentDescription="@null"
+        android:padding="@dimen/hd_hse_common_module_phone_tv_messagetip_padding"
+        android:src="@drawable/hd_hse_common_module_phone_locationswingcard_ibclose_style" />
+
+</RelativeLayout>

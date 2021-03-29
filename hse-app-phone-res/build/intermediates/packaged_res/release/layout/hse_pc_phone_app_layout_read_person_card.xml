@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:gravity="center_horizontal">
+    
+    <RelativeLayout
+        android:id="@+id/hse_pc_phone_app_rl_credit_card"
+        android:layout_width="@dimen/hse_pc_phone_app_credit_card_width"
+        android:layout_height="@dimen/hse_pc_phone_app_credit_card_height"
+        android:layout_marginTop="@dimen/hse_pc_phone_app_credit_card_margintop"
+        android:background="@drawable/hse_pc_phone_app_credit_card" >
+
+        <ImageView
+            android:layout_width="@dimen/hse_pc_phone_app_round_width"
+            android:layout_height="@dimen/hse_pc_phone_app_round_width"
+            android:layout_centerInParent="true"
+            android:src="@drawable/hse_pc_phone_app_round_1" />
+         <ImageView
+            android:layout_width="@dimen/hse_pc_phone_app_round_width"
+            android:layout_height="@dimen/hse_pc_phone_app_round_width"
+            android:layout_centerInParent="true"
+            android:src="@drawable/hse_pc_phone_app_round_1" />
+          <ImageView
+            android:layout_width="@dimen/hse_pc_phone_app_round_width"
+            android:layout_height="@dimen/hse_pc_phone_app_round_width"
+            android:layout_centerInParent="true"
+            android:src="@drawable/hse_pc_phone_app_round_1" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/hse_pc_phone_app_textview_margintop"
+        android:text="@string/hse_pc_phone_app_textview_hint" 
+        android:textSize="@dimen/hse_pc_phone_app_textview_size"/>
+    
+
+</LinearLayout>

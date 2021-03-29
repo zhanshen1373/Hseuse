@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/hd_hse_common_readcardrl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="horizontal" 
+    >
+
+    <LinearLayout
+        android:id="@+id/hd_hse_common_readcard_rl"
+        android:layout_width="@dimen/hd_common_component_readcard_bg_width"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/hd_hse_common_corner_back"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/hd_hse_readcard_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_large"
+            android:gravity="center_horizontal"
+            android:text="请完成以下操作"
+            android:textColor="#333333"
+            android:textSize="@dimen/text_size_large" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_xlarge"
+            android:layout_marginRight="@dimen/margin_xlarge" >
+
+            <RelativeLayout
+                android:layout_width="@dimen/hd_common_component_readcard_skk"
+                android:layout_height="@dimen/hd_common_component_readcard_skk"
+                android:background="@drawable/hd_hse_common_rec" >
+
+                <ImageView
+                    android:layout_width="@dimen/hd_common_component_readcard_sk_height"
+                    android:layout_height="@dimen/hd_common_component_readcard_sk_height"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/hd_common_component_readcard_swipe" />
+
+                <ImageView
+                    android:id="@+id/hd_common_component_readcard_img_sk_complete"
+                    android:layout_width="@dimen/hd_common_component_readcard_complete_height"
+                    android:layout_height="@dimen/hd_common_component_readcard_complete_height"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="@dimen/margin_small"
+                    android:src="@drawable/hd_common_component_readcard_completed"
+                    android:visibility="invisible" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/hd_hse_readcard_bt_take_picture"
+                android:layout_width="@dimen/hd_common_component_readcard_skk"
+                android:layout_height="@dimen/hd_common_component_readcard_skk"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/hd_hse_common_rec" >
+
+                <ImageView
+                    android:layout_width="@dimen/hd_common_component_readcard_sk_height"
+                    android:layout_height="@dimen/hd_common_component_readcard_sk_height"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/hd_common_component_readcard_photography" />
+                <ImageView
+                    android:id="@+id/hd_hse_readcard_img_head_photo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/hd_common_component_readcard_img_camrea_complete"
+                    android:layout_width="@dimen/hd_common_component_readcard_complete_height"
+                    android:layout_height="@dimen/hd_common_component_readcard_complete_height"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="@dimen/margin_small"
+                    android:src="@drawable/hd_common_component_readcard_completed"
+                    android:visibility="invisible" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_large"
+            android:layout_marginLeft="@dimen/margin_xlarge"
+            android:layout_marginRight="@dimen/margin_xlarge"
+            android:layout_marginTop="@dimen/margin_medium" >
+
+            <TextView
+                android:layout_width="@dimen/hd_common_component_readcard_skk"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="刷   卡"
+                android:textColor="@color/hd_hse_common_describetext_gray"
+                android:textSize="@dimen/text_size_medium" />
+
+            <TextView
+                android:layout_width="@dimen/hd_common_component_readcard_skk"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:gravity="center"
+                android:text="拍    照"
+                android:textColor="@color/hd_hse_common_describetext_gray"
+                android:textSize="@dimen/text_size_medium" />
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/hd_hse_common_readcard_et_person_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_xlarge"
+            android:layout_marginRight="@dimen/margin_xlarge"
+            android:background="@drawable/hd_hse_common_edittext_bg"
+            android:ems="10"
+            android:focusable="false"
+            android:gravity="center"
+            android:hint="刷 卡 人"
+            android:padding="@dimen/padding_large"
+            android:singleLine="true"
+            android:textSize="@dimen/text_size_medium" />
+
+        <EditText
+            android:id="@+id/hd_hse_common_readcard_et_job"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_xlarge"
+            android:layout_marginRight="@dimen/margin_xlarge"
+            android:layout_marginTop="@dimen/margin_large"
+            android:background="@drawable/hd_hse_common_edittext_bg"
+            android:focusable="false"
+            android:gravity="center"
+            android:hint="特 种 证"
+            android:padding="@dimen/padding_large"
+            android:singleLine="true"
+            android:textSize="@dimen/text_size_xlarge"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/hd_hse_common_readcard_et_job_num"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_xlarge"
+            android:layout_marginRight="@dimen/margin_xlarge"
+            android:layout_marginTop="@dimen/margin_large"
+            android:background="@drawable/hd_hse_common_edittext_bg"
+            android:focusable="false"
+            android:gravity="center"
+            android:hint="证 号"
+            android:padding="@dimen/padding_large"
+            android:textSize="@dimen/text_size_xlarge"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/hd_hse_common_readcard_et_worktype"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_xlarge"
+            android:layout_marginRight="@dimen/margin_xlarge"
+            android:layout_marginTop="@dimen/margin_large"
+            android:background="@drawable/hd_hse_common_edittext_bg"
+            android:focusable="false"
+            android:gravity="center"
+            android:hint="工 种"
+            android:padding="@dimen/padding_large"
+            android:singleLine="true"
+            android:textSize="@dimen/text_size_xlarge"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/hd_hse_common_readcard_et_worktype_num"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_xlarge"
+            android:layout_marginRight="@dimen/margin_xlarge"
+            android:layout_marginTop="@dimen/margin_large"
+            android:background="@drawable/hd_hse_common_edittext_bg"
+            android:focusable="false"
+            android:gravity="center"
+            android:hint="编 号"
+            android:padding="@dimen/padding_large"
+            android:singleLine="true"
+            android:textSize="@dimen/text_size_xlarge"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/hd_hse_common_readcard_et_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_xlarge"
+            android:layout_marginRight="@dimen/margin_xlarge"
+            android:layout_marginTop="@dimen/margin_large"
+            android:background="@drawable/hd_hse_common_edittext_bg"
+            android:focusable="false"
+            android:gravity="center"
+            android:hint="电 话"
+            android:padding="@dimen/padding_large"
+            android:singleLine="true"
+            android:textSize="@dimen/text_size_xlarge"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/hd_hse_common_bt_ensure"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/hd_common_component_readcard_ensure_height"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/margin_large"
+            android:layout_marginLeft="@dimen/margin_medium"
+            android:layout_marginRight="@dimen/margin_medium"
+            android:layout_marginTop="@dimen/margin_xlarge"
+            android:background="@drawable/hd_hse_common_button_bg_disable_click"
+            android:gravity="center"
+            android:text="完    成"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_large" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/hd_hse_config_bg_style"
+    android:gravity="center|center_vertical"
+    android:orientation="vertical">
+
+    <!-- 标题 -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/hd_sys_progress_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="10dp"
+            android:text="提示"
+            android:textColor="#69beff"
+            android:textSize="@dimen/hd_common_item_text_size"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/hd_hse_progress_cancel_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="@null"
+            android:padding="5dp"
+            android:src="@drawable/hd_hse_phone_message_error" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="4dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:background="#69beff" />
+
+    <!-- 显示错误信息 -->
+
+    <TextView
+        android:id="@+id/hse_sys_dialog_image_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20.0dip"
+        android:layout_marginLeft="@dimen/margin_small"
+        android:drawableLeft="@drawable/hd_hse_phone_message_error"
+        android:gravity="center"
+        android:textColor="#de5d46"
+        android:textSize="@dimen/hd_common_item_text_size"
+        android:visibility="gone" />
+    <!-- android:drawableLeft="@drawable/hd_hse_phone_message_error" -->
+    <!--
+             android:text="连接设置"
+ 
+        android:visibility="gone"
+    -->
+    <!-- 显示进度条 -->
+
+    <ProgressBar
+        android:id="@+id/hse_sys_progress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:layout_marginTop="40dp"
+        android:progressDrawable="@drawable/hd_hse_common_progressdialog_background" />
+    <!-- android:progressDrawable="@drawable/hd_cbs_progressdialog_progressbar_background" -->
+
+    <TextView
+        android:id="@+id/hse_sys_progress_percent"
+        style="@style/text_message_contentStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dip"
+        android:gravity="center_horizontal"
+        android:text="连接设置" />
+    <!-- 显示按钮 -->
+
+    <TextView
+        android:id="@+id/hse_sys_progress_percent_netspeed"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginBottom="8dip"
+        android:gravity="center_horizontal"
+        android:lineSpacingMultiplier="1.5"
+        android:paddingTop="8dp"
+        android:text="网速"
+        android:textColor="@color/hd_hse_common_alerttext_black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/hse_sys_progress_percent_totalnet"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginBottom="8dip"
+        android:gravity="center_horizontal"
+        android:lineSpacingMultiplier="1.5"
+        android:paddingTop="8dp"
+        android:text="流量"
+        android:textColor="@color/hd_hse_common_alerttext_black"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/hd_hse_phone_message_sure_positiveButton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="1dip"
+        android:background="@drawable/hd_hse_progress_button_back"
+        android:text="确定"
+        android:textColor="@color/hd_hse_common_sure_yellow"
+        android:textSize="@dimen/hd_common_item_text_size"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+
+</LinearLayout>

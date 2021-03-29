@@ -1,0 +1,1 @@
+insert into hse_sys_record_ts values(32,'ud_zyxk_hchjdpz','ud_zyxk_hchjdpzid','互斥环节点配置',1,1,0,null,0,1,0);

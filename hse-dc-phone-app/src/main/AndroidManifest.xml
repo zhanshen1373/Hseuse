@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hd.hse.dc.phone"
+    android:versionCode="1"
+    android:versionName="1.0.0-SNAPSHOT" >
+
+    <uses-sdk android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.hd.hse.dc.phone.ui.activity.download.DownLoadActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden"
+            >
+        </activity>
+        <!-- com.hd.hse.dc.phone.ui.activity.list.upload.UpLoadActivity -->
+        <activity android:name="com.hd.hse.dc.phone.ui.activity.upload.UpLoadActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden"
+            >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,1 @@
+alter table ud_zyxk_zysq add topzypclass varchar(50);

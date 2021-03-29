@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cornerrectangle"
+            android:text="起止时间"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_margin="10dp"/>
+
+
+        <TextView
+            android:id="@+id/carxkzscan_starttime"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:textSize="13sp"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:background="@drawable/rectanglenormal"
+             ></TextView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cornerrectangle"
+            android:text="至"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:id="@+id/carxkzscan_endtime"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:textSize="13sp"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:background="@drawable/rectanglenormal"
+            ></TextView>
+
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cornerrectangle"
+            android:text="车牌号码"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_margin="10dp"/>
+
+        <EditText
+            android:id="@+id/carxkz_edittext"
+            android:layout_width="160dp"
+            android:layout_height="match_parent"
+            android:textSize="13sp"
+            android:layout_margin="10dp"
+            android:background="@drawable/rectangle2"
+            />
+
+        <Button
+            android:id="@+id/carxkz_cha"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="查询"/>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/carxkz_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"></ListView>
+
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 弹出菜单项 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/hd_hse_common_phone_popmenu_listview_item_tb"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/hd_common_component_phone_menubar_imageview_marginleft"
+        android:layout_weight="5"
+        android:background="@color/hd_hse_common_component_phone_transparent"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:scaleType="centerInside" />
+
+    <TextView
+        android:id="@+id/hd_hse_common_phone_popmenu_listview_item_tv"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/hd_common_component_phone_menubar_textview_heigh"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/hd_common_component_phone_menubar_textview_marginleft"
+        android:layout_weight="23"
+        android:gravity="center_vertical"
+        android:textColor="@color/hd_hse_common_component_phone_actionbar_font_white"
+        android:textSize="@dimen/hd_common_item_text_size" />
+
+    <ImageView
+        android:id="@+id/hd_hse_common_phone_popmenu_listview_item_img"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="5"
+        android:src="@drawable/hd_hse_common_remind" />
+</LinearLayout>

@@ -1,0 +1,1 @@
+alter table ud_zyxk_ryk add column ygdeptnum_desc varchar(200);

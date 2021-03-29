@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hd.hse.carxkz.phone">
+
+    <application>
+        <activity android:name=".ui.worktask.DialogActivity"
+            android:theme="@style/dialog_style"></activity>
+        <activity android:name=".ui.worktask.TaskTabulationActivity" />
+    </application>
+
+</manifest>

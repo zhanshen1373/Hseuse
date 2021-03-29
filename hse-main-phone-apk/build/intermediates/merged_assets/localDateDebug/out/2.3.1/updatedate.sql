@@ -1,0 +1,1 @@
+update hse_sys_appmodule set type = 'TJFX_CY', layoutorder = 2 where code = 'dhyyfx';

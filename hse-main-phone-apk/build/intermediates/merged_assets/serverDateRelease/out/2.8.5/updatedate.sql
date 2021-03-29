@@ -1,0 +1,1 @@
+update hse_sys_record_ts set sys_init = 1,sys_base=1,sys_logindateupdate=1 where sys_tableid = 'ud_zyxk_hchjdpzid';

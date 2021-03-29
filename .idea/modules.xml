@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Hseuse.iml" filepath="$PROJECT_DIR$/Hseuse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hse-app-phone-res/hse-app-phone-res.iml" filepath="$PROJECT_DIR$/hse-app-phone-res/hse-app-phone-res.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hse-business/hse-business.iml" filepath="$PROJECT_DIR$/hse-business/hse-business.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hse-carxkz-phone-app/hse-carxkz-phone-app.iml" filepath="$PROJECT_DIR$/hse-carxkz-phone-app/hse-carxkz-phone-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hse-carxkzscan-phone-app/hse-carxkzscan-phone-app.iml" filepath="$PROJECT_DIR$/hse-carxkzscan-phone-app/hse-carxkzscan-phone-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hse-cc-business/hse-cc-business.iml" filepath="$PROJECT_DIR$/hse-cc-business/hse-cc-business.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hse-cc-phone-app/hse-cc-phone-app.iml" filepath="$PROJECT_DIR$/hse-cc-phone-app/hse-cc-phone-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hse-common/hse-common.iml" filepath="$PROJECT_DIR$/hse-common/hse-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hse-common-component-phone/hse-common-component-phone.iml" filepath="$PROJECT_DIR$/hse-common-component-phone/hse-common-component-phone.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hse-common-module-phone/hse-common-module-phone.iml" filepath="$PROJECT_DIR$/hse-common-module-phone/hse-common-module-phone.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hse-dao/hse-dao.iml" filepath="$PROJECT_DIR$/hse-dao/hse-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hse-dc-business/hse-dc-business.iml" filepath="$PROJECT_DIR$/hse-dc-business/hse-dc-business.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hse-dc-phone-app/hse-dc-phone-app.iml" filepath="$PROJECT_DIR$/hse-dc-phone-app/hse-dc-phone-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hse-dly-business/hse-dly-business.iml" filepath="$PROJECT_DIR$/hse-dly-business/hse-dly-business.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hse-dly-phone-app/hse-dly-phone-app.iml" filepath="$PROJECT_DIR$/hse-dly-phone-app/hse-dly-phone-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hse-entity-service/hse-entity-service.iml" filepath="$PROJECT_DIR$/hse-entity-service/hse-entity-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hse-interface/hse-interface.iml" filepath="$PROJECT_DIR$/hse-interface/hse-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hse-main-business/hse-main-business.iml" filepath="$PROJECT_DIR$/hse-main-business/hse-main-business.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hse-main-phone-apk/hse-main-phone-apk.iml" filepath="$PROJECT_DIR$/hse-main-phone-apk/hse-main-phone-apk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hse-main-phone-app/hse-main-phone-app.iml" filepath="$PROJECT_DIR$/hse-main-phone-app/hse-main-phone-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hse-nd-phone-app/hse-nd-phone-app.iml" filepath="$PROJECT_DIR$/hse-nd-phone-app/hse-nd-phone-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hse-osc-business/hse-osc-business.iml" filepath="$PROJECT_DIR$/hse-osc-business/hse-osc-business.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hse-osc-phone-app/hse-osc-phone-app.iml" filepath="$PROJECT_DIR$/hse-osc-phone-app/hse-osc-phone-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hse-osr-business/hse-osr-business.iml" filepath="$PROJECT_DIR$/hse-osr-business/hse-osr-business.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hse-osr-phone-app/hse-osr-phone-app.iml" filepath="$PROJECT_DIR$/hse-osr-phone-app/hse-osr-phone-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hse-pc-business/hse-pc-business.iml" filepath="$PROJECT_DIR$/hse-pc-business/hse-pc-business.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hse-pc-phone-app/hse-pc-phone-app.iml" filepath="$PROJECT_DIR$/hse-pc-phone-app/hse-pc-phone-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hse-scw-business/hse-scw-business.iml" filepath="$PROJECT_DIR$/hse-scw-business/hse-scw-business.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hse-scw-phone-app/hse-scw-phone-app.iml" filepath="$PROJECT_DIR$/hse-scw-phone-app/hse-scw-phone-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hse-ss-business/hse-ss-business.iml" filepath="$PROJECT_DIR$/hse-ss-business/hse-ss-business.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hse-ss-phone-app/hse-ss-phone-app.iml" filepath="$PROJECT_DIR$/hse-ss-phone-app/hse-ss-phone-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hse-vp-business/hse-vp-business.iml" filepath="$PROJECT_DIR$/hse-vp-business/hse-vp-business.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hse-vp-phone-app/hse-vp-phone-app.iml" filepath="$PROJECT_DIR$/hse-vp-phone-app/hse-vp-phone-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hse-wov-business/hse-wov-business.iml" filepath="$PROJECT_DIR$/hse-wov-business/hse-wov-business.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hse-wov-phone-app/hse-wov-phone-app.iml" filepath="$PROJECT_DIR$/hse-wov-phone-app/hse-wov-phone-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qr_code/qr_code.iml" filepath="$PROJECT_DIR$/qr_code/qr_code.iml" />
+    </modules>
+  </component>
+</project>

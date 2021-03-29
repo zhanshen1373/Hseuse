@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/hse_pc_phone_app_layout_surveillance_re"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+        
+        <ImageView
+            android:id="@+id/hse_pc_phone_app_layout_surveillance_img_item_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/hd_hse_photo_add" />
+        <ImageView 
+            android:id="@+id/hse_pc_phone_app_layout_surveillance_img_item_img_dele"
+            android:layout_height="@dimen/hse_pc_phone_app_layout_surveillance_img_item_img_dele_size"
+            android:layout_width="@dimen/hse_pc_phone_app_layout_surveillance_img_item_img_dele_size"
+            android:layout_alignRight="@+id/hse_pc_phone_app_layout_surveillance_img_item_img"
+            android:src="@drawable/hd_common_message_error"
+            android:visibility="gone"/>
+        
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,1 @@
+[{"outputType":{"type":"BUNDLE_MANIFEST"},"apkData":{"type":"MAIN","splits":[],"versionCode":83,"versionName":"2.8.9","enabled":true,"outputFile":"${applicationId}-debug-2.8.9.apk","fullName":"localDateDebug","baseName":"localDate-debug"},"path":"AndroidManifest.xml","properties":{"packageId":"petrochina.dlsh.zyxk","split":"","minSdkVersion":"17"}}]

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">作业许可</string>
+    <string name="hd_app_name">作业许可</string>
+    <!-- <string name="hd_app_name">安全受控</string> -->
+    <string name="hello">Hello hse-app-phone-res!</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hd_hse_main_app_main_title">企业安全作业许可管理平台</string>
+    <string name="hd_hse_main_app_Multipleclicks_title">正在执行，请勿多次点击</string>
+    <!-- 登录 -->
+    <string name="hd_hse_main_app_login_username_et">请输入用户名或刷卡</string>
+    <string name="hd_hse_main_app_login_password_et">请输入密码</string>
+    <string name="hd_hse_main_app_login_title_tv">企业安全作业许可管理平台</string>
+    <!-- <string name="hd_hse_main_app_login_title_tv">乌石化公司安全受控管理平台</string> -->
+    <string name="hd_hse_main_app_login_title_tvTJ">中国石化天津分公司\n企业安全作业许可管理平台</string>
+    <!-- <string name="hd_hse_main_app_login_explain_tv">©2014-2018 北京海顿新科技术股份有限公司</string> -->
+    <string name="hd_hse_main_app_login_explain_tv">©2014-2018 北京海顿中科技术有限公司</string>
+    <!-- <string name="hd_hse_main_app_login_explain_tv">©2014-2018 北京海顿新科技术股份有限公司</string> -->
+
+    <string name="hd_hse_component_list_item_holder">holder</string>
+    <string name="hd_hse_component_list_item_attribute_order">order</string>
+    <string name="hd_hse_component_list_item_attribute_groud_position">groupPosition</string>
+    <string name="hd_hse_component_list_item_attribute_child_position">childPosition</string>
+    <!-- 搜索文本内容提示 -->
+    <string name="hd_hse_common_phone_button_search_tip">类型/名称</string>
+
+    <!-- 人员检查的读卡界面里面的提示文字 -->
+    <string name="hse_pc_phone_app_textview_hint">请把卡片贴近手机背面</string>
+    <!-- 证书 -->
+    <string name="hse_pc_phone_app_layout_certificate_type">证书类别</string>
+    <string name="hse_pc_phone_app_layout_certificate_num">证书编号</string>
+    <!-- 出入场记录 -->
+    <string name="hse_pc_phone_app_person_access_record_layout_time">出入时间</string>
+    <string name="hse_pc_phone_app_person_access_record_layout_location">出入地点</string>
+
+</resources>

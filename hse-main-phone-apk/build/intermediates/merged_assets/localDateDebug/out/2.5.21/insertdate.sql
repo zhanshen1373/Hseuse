@@ -1,0 +1,1 @@
+insert into hse_sys_record_ts values(30,'calendar','calendarid','日历',1,1,0,null,0,1,0);

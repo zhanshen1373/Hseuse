@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/rlyt_top"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/hd_common_component_phone_actionbar_heigh"
+        android:background="@color/hd_hse_common_component_phone_actionbar_background" >
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="8dp"
+            android:src="@drawable/hd_hse_common_component_phone_actionbar_icon_back" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center_vertical"
+            android:text="照片查看"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/hd_common_textsize" />
+    </RelativeLayout>
+
+    <GridView
+        android:id="@+id/gv_img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/rlyt_top"
+        android:gravity="center"
+        android:horizontalSpacing="4dp"
+        android:numColumns="3"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="4dp" />
+
+</RelativeLayout>

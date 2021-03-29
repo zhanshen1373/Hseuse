@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="10dp" >
+
+    <!-- <CheckBox -->
+    <!-- android:id="@+id/checkbox" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_centerVertical="true" -->
+    <!-- android:background="@drawable/hd_common_module_glff_add_checkboxbg" -->
+    <!-- android:focusable="false" -->
+    <!-- android:button="@null" /> -->
+
+
+    <!-- <TextView -->
+    <!-- android:id="@+id/textview" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_marginLeft="20dp" -->
+    <!-- android:text="测试数据" -->
+    <!-- android:textColor="#555555" -->
+    <!-- android:textSize="@dimen/text_size_small" /> -->
+
+
+    <!-- <EditText -->
+    <!-- android:id="@+id/edittext" -->
+    <!-- android:layout_width="0dp" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_weight="1" -->
+    <!-- android:hint="备注" -->
+    <!-- android:layout_marginLeft="20dp" -->
+    <!-- android:background="@drawable/hd_hse_common_edit_style" -->
+    <!-- android:textColor="#555555" -->
+    <!-- android:textSize="@dimen/text_size_small" -->
+    <!-- android:singleLine="true" -->
+    <!-- android:visibility="gone" /> -->
+
+    <ImageView
+        android:id="@+id/checkboxbg"
+        android:layout_width="23dp"
+        android:layout_height="23dp"
+        android:layout_centerVertical="true"
+        android:contentDescription="@null"
+        android:src="@drawable/hd_common_module_glff_add_checkbox" />
+
+    <ImageView
+        android:id="@+id/checkbox"
+        android:layout_width="23dp"
+        android:layout_height="23dp"
+        android:layout_centerVertical="true"
+        android:contentDescription="@null"
+        android:src="@drawable/glff_add_checkbox_checked"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/checkboxbg"
+        android:padding="10dp"
+        android:text="测试数据"
+        android:textColor="#555555"
+        android:textSize="@dimen/text_size_small" />
+
+    <!-- <EditText -->
+    <!-- android:id="@+id/edittext" -->
+    <!-- android:layout_width="match_parent" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_toRightOf="@id/textview" -->
+    <!-- android:background="@drawable/hd_hse_common_edit_style" -->
+    <!-- android:inputType="text" -->
+    <!-- android:padding="10dp" -->
+    <!-- android:singleLine="true" -->
+    <!-- android:textColor="#555555" -->
+    <!-- android:textSize="@dimen/text_size_small" -->
+    <!-- android:visibility="gone" /> -->
+
+</RelativeLayout>

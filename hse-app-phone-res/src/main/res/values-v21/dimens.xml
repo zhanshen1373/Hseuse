@@ -1,0 +1,5 @@
+<resources>
+    <!-- 违章查询 -->
+    
+    <dimen name="hse_pc_phone_app_person_rules_record_item_tv_paddingbottom">10dp</dimen>
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center|center_vertical"
+    android:background="@drawable/hd_hse_config_bg_style"
+    android:orientation="vertical">
+
+    <!-- 标题 -->
+
+    <TextView
+        android:id="@+id/hd_sys_progress_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="10dp"
+        android:text="提示"
+        android:textColor="#69beff"
+        android:textSize="@dimen/hd_common_item_text_size"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="4dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:background="#69beff" />
+
+    <!-- 显示错误信息 -->
+
+    <TextView
+        android:id="@+id/hse_sys_dialog_image_message"
+        android:gravity="center"
+        android:textColor="#de5d46"
+        android:textSize="@dimen/hd_common_item_text_size" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20.0dip"
+        android:drawableLeft="@drawable/hd_hse_phone_message_error"
+        android:visibility="gone"
+        />
+
+    <TextView
+        android:id="@+id/hse_sys_progress_percent"
+        style="@style/text_message_contentStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dip"
+        android:gravity="center_horizontal"/>
+    <!-- 显示按钮 -->
+
+    <Button
+        android:id="@+id/hd_hse_phone_message_sure_positiveButton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="1dip"
+        android:background="@drawable/hd_hse_progress_button_back"
+        android:text="确定"
+        android:textColor="#69beff"
+        android:textSize="@dimen/hd_common_item_text_size"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+</LinearLayout>

@@ -1,0 +1,1 @@
+update hse_sys_record_ts set sys_logindateupdate = 1 where sys_id in(4,5,7,8,9,10,11,12,15,16,17,18,19,21,24);

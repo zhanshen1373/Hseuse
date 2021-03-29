@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="800dp"
+    android:layout_height="match_parent"
+    android:background="@drawable/hd_hse_common_component_dialog_bg_cicle_round" >
+
+    <RelativeLayout
+        android:id="@+id/hd_hse_common_component_step_check_text_dialog_rl_container"
+        android:layout_width="800dp"
+        android:layout_height="200dp" >
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hd_hse_common_component_step_check_text_dialog_rl_container"
+        android:gravity="right"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/hd_hse_common_component_step_check_text_dialog_tv_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:padding="13dp"
+            android:text="取消"
+            android:textColor="#999999"
+            android:textSize="@dimen/hd_hse_common_component_phone_editable_dialog_button" />
+
+        <TextView
+            android:id="@+id/hd_hse_common_component_step_check_text_dialog_tv_confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="13dp"
+            android:padding="13dp"
+            android:text="确定"
+            android:textColor="#005fa8"
+            android:textSize="@dimen/hd_hse_common_component_phone_editable_dialog_button" />
+    </LinearLayout>
+
+</RelativeLayout>

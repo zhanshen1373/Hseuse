@@ -1,0 +1,47 @@
+-- Merging decision tree log ---
+manifest
+ADDED from G:\Hseuse\hse-app-phone-res\src\main\AndroidManifest.xml:2:1-16:12
+INJECTED from G:\Hseuse\hse-app-phone-res\src\main\AndroidManifest.xml:2:1-16:12
+INJECTED from G:\Hseuse\hse-app-phone-res\src\main\AndroidManifest.xml:2:1-16:12
+INJECTED from G:\Hseuse\hse-app-phone-res\src\main\AndroidManifest.xml:2:1-16:12
+INJECTED from G:\Hseuse\hse-app-phone-res\src\main\AndroidManifest.xml:2:1-16:12
+INJECTED from G:\Hseuse\hse-app-phone-res\src\main\AndroidManifest.xml:2:1-16:12
+INJECTED from G:\Hseuse\hse-app-phone-res\src\main\AndroidManifest.xml:2:1-16:12
+	package
+		ADDED from G:\Hseuse\hse-app-phone-res\src\main\AndroidManifest.xml:3:5-39
+		INJECTED from G:\Hseuse\hse-app-phone-res\src\main\AndroidManifest.xml
+		INJECTED from G:\Hseuse\hse-app-phone-res\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from G:\Hseuse\hse-app-phone-res\src\main\AndroidManifest.xml:5:5-32
+		INJECTED from G:\Hseuse\hse-app-phone-res\src\main\AndroidManifest.xml
+		INJECTED from G:\Hseuse\hse-app-phone-res\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from G:\Hseuse\hse-app-phone-res\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from G:\Hseuse\hse-app-phone-res\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from G:\Hseuse\hse-app-phone-res\src\main\AndroidManifest.xml
+		INJECTED from G:\Hseuse\hse-app-phone-res\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from G:\Hseuse\hse-app-phone-res\src\main\AndroidManifest.xml:7:5-47
+INJECTED from G:\Hseuse\hse-app-phone-res\src\main\AndroidManifest.xml:7:5-47
+INJECTED from G:\Hseuse\hse-app-phone-res\src\main\AndroidManifest.xml:7:5-47
+INJECTED from G:\Hseuse\hse-app-phone-res\src\main\AndroidManifest.xml:7:5-47
+INJECTED from G:\Hseuse\hse-app-phone-res\src\main\AndroidManifest.xml:7:5-47
+	android:targetSdkVersion
+		ADDED from G:\Hseuse\hse-app-phone-res\src\main\AndroidManifest.xml:7:15-44
+		INJECTED from G:\Hseuse\hse-app-phone-res\src\main\AndroidManifest.xml
+		INJECTED from G:\Hseuse\hse-app-phone-res\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from G:\Hseuse\hse-app-phone-res\src\main\AndroidManifest.xml
+		ADDED from G:\Hseuse\hse-app-phone-res\src\main\AndroidManifest.xml:7:5-47
+		INJECTED from G:\Hseuse\hse-app-phone-res\src\main\AndroidManifest.xml
+application
+ADDED from G:\Hseuse\hse-app-phone-res\src\main\AndroidManifest.xml:9:5-14:19
+	android:label
+		ADDED from G:\Hseuse\hse-app-phone-res\src\main\AndroidManifest.xml:12:9-41
+	android:icon
+		ADDED from G:\Hseuse\hse-app-phone-res\src\main\AndroidManifest.xml:11:9-51
+	android:allowBackup
+		ADDED from G:\Hseuse\hse-app-phone-res\src\main\AndroidManifest.xml:10:9-35
+	android:theme
+		ADDED from G:\Hseuse\hse-app-phone-res\src\main\AndroidManifest.xml:13:9-40

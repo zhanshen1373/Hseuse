@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/hd_common_btn_click_selector"
+        
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/hse_pc_phone_app_item_person_check_parent_paddingleft"
+            android:paddingRight="@dimen/hse_pc_phone_app_item_person_check_parent_paddingleft" >
+
+            <CheckBox
+                android:id="@+id/hse_ss_phone_app_supervision_list_item_checkbox"
+                android:layout_width="@dimen/hse_ss_phone_app_supervision_list_item_checkbox_height"
+                android:layout_height="@dimen/hse_ss_phone_app_supervision_list_item_checkbox_height"
+                android:background="@drawable/hd_hse_common_component_checkbox_selector"
+                android:button="@null"
+                android:visibility="gone" 
+                android:layout_marginRight="@dimen/hse_pc_phone_app_person_rules_record_item_padding"
+                android:layout_marginTop="@dimen/hse_ss_phone_app_supervision_list_item_checkbox_margintop"
+                android:clickable="false"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="@dimen/hse_pc_phone_app_person_rules_record_item_padding" >
+
+                <TextView
+                    android:id="@+id/hse_ss_phone_app_supervision_list_item_tv_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="@dimen/hse_pc_phone_app_person_rules_record_item_padding"
+                    android:paddingBottom="@dimen/hse_pc_phone_app_person_rules_record_item_tv_paddingbottom"
+                    android:text="哈达口水库萨克的路上了法律方面从女你说的从你那快打开电视卡密码密码"
+                    android:textColor="@color/hd_hse_common_component_phone_fontnum"
+                    android:textSize="@dimen/hd_common_textsize" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/hse_pc_phone_app_person_rules_record_item_divider_height"
+                    android:background="@drawable/hse_dot_gray_line"
+                    android:layerType="software" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:paddingBottom="@dimen/hse_pc_phone_app_person_rules_record_item_padding"
+                    android:paddingTop="@dimen/hse_pc_phone_app_person_rules_record_item_padding" >
+
+                    <TextView
+                        android:id="@+id/hse_ss_phone_app_supervision_list_item_tv_location"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/hd_hse_common_component_phone_fontnum"
+                        android:textSize="@dimen/hd_common_item_text_size" />
+
+                    <TextView
+                        android:id="@+id/hse_ss_phone_app_supervision_list_item_tv_name"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:textColor="@color/hd_hse_common_component_phone_fontnum"
+                        android:textSize="@dimen/hd_common_item_text_size" />
+
+                    <TextView
+                        android:id="@+id/hse_ss_phone_app_supervision_list_item_tv_time"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:textColor="@color/hd_hse_common_component_phone_fontnum"
+                        android:textSize="@dimen/hd_common_item_text_size" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/hse_ss_phone_app_supervision_list_item_divider"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/hse_pc_phone_app_layout_person_check_bold_divider_height"
+            android:background="@color/hd_hse_common_btn_bg_gray" />
+    </LinearLayout>
+
+</LinearLayout>
